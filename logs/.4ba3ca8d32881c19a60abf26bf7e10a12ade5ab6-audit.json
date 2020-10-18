@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "/home/node/Desktop/NodeJS/node-js-2/logs/.4ba3ca8d32881c19a60abf26bf7e10a12ade5ab6-audit.json",
+    "files": [
+        {
+            "date": 1602985203061,
+            "name": "/home/node/Desktop/NodeJS/node-js-2/logs/application-18-10-2020.log",
+            "hash": "b962fa52559ae89e1fe36862e33160b6"
+        }
+    ]
+}

@@ -1,0 +1,1195 @@
+[10/18/2020, 7:10:30 AM] info: 
+    method= GET,
+    url= http:///,req.protocol + '://' + req.hostname  + req.app.settings.port + req.path;
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:10:31 AM] info: 
+    method= GET,
+    url= http:///favicon.ico,req.protocol + '://' + req.hostname  + req.app.settings.port + req.path;
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:11:28 AM] info: 
+    method= GET,
+    url= /,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:11:28 AM] info: 
+    method= GET,
+    url= /favicon.ico,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:12:15 AM] info: 
+    method= GET,
+    url= /,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:12:45 AM] info: 
+    method= GET,
+    url= /doc,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:12:45 AM] info: 
+    method= GET,
+    url= /doc/,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:12:45 AM] info: 
+    method= GET,
+    url= /doc/swagger-ui.css,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:12:45 AM] info: 
+    method= GET,
+    url= /doc/swagger-ui-bundle.js,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:12:46 AM] info: 
+    method= GET,
+    url= /doc/swagger-ui-standalone-preset.js,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:12:46 AM] info: 
+    method= GET,
+    url= /doc/swagger-ui-init.js,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:12:46 AM] info: 
+    method= GET,
+    url= /doc/favicon-16x16.png,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:14:39 AM] info: 
+    method= GET,
+    url= /users,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:15:08 AM] info: 
+    method= POST,
+    url= /users,
+    query parameters ={},
+    body= {"name":"wwwwww","login":"eeeeeeeeeeeee","password":"rrrrrrrrrr"}
+   
+[10/18/2020, 7:19:11 AM] info: 
+    method= GET,
+    url= [object Object],
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:22:11 AM] info: 
+    method= GET,
+    url= class URL {
+  constructor(input, base) {
+    // toUSVString is not needed.
+    input = `${input}`;
+    let base_context;
+    if (base !== undefined) {
+      base_context = new URL(base)[context];
+    }
+    this[context] = new URLContext();
+    parse(input, -1, base_context, undefined, onParseComplete.bind(this),
+          onParseError);
+  }
+
+  get [special]() {
+    return (this[context].flags & URL_FLAGS_SPECIAL) !== 0;
+  }
+
+  get [cannotBeBase]() {
+    return (this[context].flags & URL_FLAGS_CANNOT_BE_BASE) !== 0;
+  }
+
+  // https://url.spec.whatwg.org/#cannot-have-a-username-password-port
+  get [cannotHaveUsernamePasswordPort]() {
+    const { host, scheme } = this[context];
+    return ((host == null || host === '') ||
+            this[cannotBeBase] ||
+            scheme === 'file:');
+  }
+
+  [inspect.custom](depth, opts) {
+    if (this == null ||
+        ObjectGetPrototypeOf(this[context]) !== URLContext.prototype) {
+      throw new ERR_INVALID_THIS('URL');
+    }
+
+    if (typeof depth === 'number' && depth < 0)
+      return this;
+
+    const ctor = getConstructorOf(this);
+
+    const obj = ObjectCreate({
+      constructor: ctor === null ? URL : ctor
+    });
+
+    obj.href = this.href;
+    obj.origin = this.origin;
+    obj.protocol = this.protocol;
+    obj.username = this.username;
+    obj.password = this.password;
+    obj.host = this.host;
+    obj.hostname = this.hostname;
+    obj.port = this.port;
+    obj.pathname = this.pathname;
+    obj.search = this.search;
+    obj.searchParams = this.searchParams;
+    obj.hash = this.hash;
+
+    if (opts.showHidden) {
+      obj.cannotBeBase = this[cannotBeBase];
+      obj.special = this[special];
+      obj[context] = this[context];
+    }
+
+    return inspect(obj, opts);
+  }
+},
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:22:53 AM] info: 
+    method= GET,
+    url= function urlFormat(urlObject, options) {
+  // Ensure it's an object, and not a string url.
+  // If it's an object, this is a no-op.
+  // this way, you can call urlParse() on strings
+  // to clean up potentially wonky urls.
+  if (typeof urlObject === 'string') {
+    urlObject = urlParse(urlObject);
+  } else if (typeof urlObject !== 'object' || urlObject === null) {
+    throw new ERR_INVALID_ARG_TYPE('urlObject',
+                                   ['Object', 'string'], urlObject);
+  } else if (!(urlObject instanceof Url)) {
+    const format = urlObject[formatSymbol];
+    return format ?
+      format.call(urlObject, options) :
+      Url.prototype.format.call(urlObject);
+  }
+  return urlObject.format();
+},
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:23:41 AM] info: 
+    method= GET,
+    url= {},
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:23:58 AM] info: 
+    method= GET,
+    url= {},
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:24:45 AM] info: 
+    method= GET,
+    url= undefined,
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:25:18 AM] info: 
+    method= GET,
+    url= undefined,    
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:25:46 AM] info: 
+    method= GET,
+    url= undefined,    
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:25:58 AM] info: 
+    method= GET,
+    url= function fileURLToPath(path) {
+  if (typeof path === 'string')
+    path = new URL(path);
+  else if (!isURLInstance(path))
+    throw new ERR_INVALID_ARG_TYPE('path', ['string', 'URL'], path);
+  if (path.protocol !== 'file:')
+    throw new ERR_INVALID_URL_SCHEME('file');
+  return isWindows ? getPathFromURLWin32(path) : getPathFromURLPosix(path);
+},    
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:32:41 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users/%3Fage=22&name=jim,    
+    url= function fileURLToPath(path) {
+  if (typeof path === 'string')
+    path = new URL(path);
+  else if (!isURLInstance(path))
+    throw new ERR_INVALID_ARG_TYPE('path', ['string', 'URL'], path);
+  if (path.protocol !== 'file:')
+    throw new ERR_INVALID_URL_SCHEME('file');
+  return isWindows ? getPathFromURLWin32(path) : getPathFromURLPosix(path);
+},    
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:33:25 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users/%3Fage=22&name=jim, 
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:33:59 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users/%3Fage=22&name=jim, 
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:34:17 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users%3Fage=22&name=jim, 
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:35:06 AM] info: 
+    method= GET,
+    url= http://localhost:4000, 
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:35:27 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users%3Fage=22&name=jim, 
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:36:58 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users?age=22&name=jim, 
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:39:45 AM] info: 
+    method= GET,
+    url= localhost:4000//users?age=22&name=jim, 
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:40:08 AM] info: 
+    method= GET,
+    url= localhost:4000/users?age=22&name=jim, 
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:40:36 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users?age=22&name=jim, 
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:40:57 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users/?age=22&name=jim, 
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:44:53 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users/?age=22&name=jim, 
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:45:17 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:45:17 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui-bundle.js, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:45:17 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui-standalone-preset.js, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:45:17 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui-init.js, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:45:17 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui.css, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:45:18 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/favicon-16x16.png, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:45:38 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:45:38 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui-bundle.js, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:45:38 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui-standalone-preset.js, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:45:38 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui-init.js, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:45:38 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui.css, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:45:53 AM] info: 
+    method= POST,
+    url= http://localhost:4000/users, 
+    query parameters ={},
+    body= {"name":"ffffff","login":"gggggggg","password":"hhhhhhhhhhhhh"}
+   
+[10/18/2020, 7:46:36 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:46:36 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui.css, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:46:36 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui-bundle.js, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:46:36 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui-standalone-preset.js, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:46:36 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui-init.js, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:46:37 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/favicon-16x16.png, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:46:38 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:46:38 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui-bundle.js, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:46:38 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui-standalone-preset.js, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:46:38 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui-init.js, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:46:38 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui.css, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:46:50 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users/?age=22&name=jim, 
+    query parameters ={"age":"22","name":"jim"},
+    body= {}
+   
+[10/18/2020, 7:50:34 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users/rrrrrrrrrrrrrrr, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:52:43 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:52:44 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui-bundle.js, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:52:44 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui.css, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:52:44 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui-init.js, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:52:44 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui-standalone-preset.js, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 7:52:44 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/favicon-16x16.png, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 8:00:09 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 8:01:25 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users, 
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 9:04:37 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 9:11:00 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 9:12:42 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 9:12:42 AM] error: Internal Server Error
+[10/18/2020, 9:13:21 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 9:23:29 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 9:42:30 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 9:43:12 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 9:43:12 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui.css,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 9:43:12 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui-bundle.js,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 9:43:12 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 9:43:12 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/swagger-ui-init.js,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 9:43:13 AM] info: 
+    method= GET,
+    url= http://localhost:4000/doc/favicon-16x16.png,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 9:43:19 AM] info: 
+    method= GET,
+    url= http://localhost:4000/error,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 9:43:19 AM] error: Internal Server Error
+[10/18/2020, 10:02:10 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 10:03:29 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users/sdfw4r43,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 10:08:13 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users/sdfw4r43,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 10:08:48 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users/sdfw4r43,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 10:09:10 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users/sdfw4r43,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 10:44:58 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 10:44:58 AM] error: Internal Server Error
+[10/18/2020, 10:46:25 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 10:46:25 AM] error: Internal Server Error
+[10/18/2020, 10:46:54 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users/sdfw4r43,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 10:46:54 AM] error: Internal Server Error
+[10/18/2020, 11:28:28 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users/sdfw4r43,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 11:28:28 AM] error: Internal Server Error
+[10/18/2020, 11:29:11 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 11:29:11 AM] error: Internal Server Error
+[10/18/2020, 11:29:44 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 11:29:44 AM] error: Internal Server Error
+[10/18/2020, 11:31:04 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 11:31:04 AM] error: Internal Server Error
+[10/18/2020, 11:31:32 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 11:31:32 AM] error: Internal Server Error
+[10/18/2020, 11:32:20 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 11:32:20 AM] error: Internal Server Error
+[10/18/2020, 11:40:06 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 11:40:06 AM] error: Internal Server Error
+[10/18/2020, 11:41:19 AM] info: 
+    method= GET,
+    url= http://localhost:4000/users/sdfw4r43,
+    query parameters ={},
+    body= {}
+   
+[10/18/2020, 11:41:19 AM] error: Internal Server Error
+[10/18/2020, 12:05:48 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/sdfw4r43,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 12:22:07 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/sdf43t43,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 12:22:07 PM] error: Internal Server Error
+[10/18/2020, 12:28:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/sdf43t43,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 12:28:14 PM] error: Internal Server Error
+[10/18/2020, 12:31:46 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/sdf43t43,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 12:39:06 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 12:39:31 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 12:42:32 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 12:42:46 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 12:42:46 PM] error: Internal Server Error
+[10/18/2020, 12:43:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 12:43:51 PM] error: Internal Server Error
+[10/18/2020, 12:45:33 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 12:45:33 PM] error: Internal Server Error
+[10/18/2020, 12:47:13 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 12:47:13 PM] error: Internal Server Error
+[10/18/2020, 12:53:53 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/sdf43t43,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 12:54:24 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/er2453sdf43t43,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 12:57:57 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/er2453sdf43t43,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 12:57:57 PM] error: Internal Server Error
+[10/18/2020, 12:59:52 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 12:59:52 PM] error: Internal Server Error
+[10/18/2020, 1:11:26 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] error: Internal Server Error
+[10/18/2020, 1:11:27 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/a8a59745-a75a-448d-9e45-cdd51b59c0c4,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/a8a59745-a75a-448d-9e45-cdd51b59c0c4,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/f1f0c278-98bf-4169-a223-5396f8ed1735,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/users/e23f3161-8887-4824-8cda-a0c91a51d5b6,
+      query parameters ={},
+      body= {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"e23f3161-8887-4824-8cda-a0c91a51d5b6"}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/e23f3161-8887-4824-8cda-a0c91a51d5b6,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/e23f3161-8887-4824-8cda-a0c91a51d5b6,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/75b11b17-b962-4ea6-b0a0-fd737af6b75e,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/255308dc-3c1c-4eb0-9c73-44b2f8ec2834/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"446c28d8-e74c-4363-aa24-65080b305fea","boardId":"255308dc-3c1c-4eb0-9c73-44b2f8ec2834"}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/255308dc-3c1c-4eb0-9c73-44b2f8ec2834/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"446c28d8-e74c-4363-aa24-65080b305fea","boardId":"255308dc-3c1c-4eb0-9c73-44b2f8ec2834"}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/446c28d8-e74c-4363-aa24-65080b305fea,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/255308dc-3c1c-4eb0-9c73-44b2f8ec2834/tasks/0b5180b8-653c-490d-8d5d-477058357438,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/255308dc-3c1c-4eb0-9c73-44b2f8ec2834/tasks/b9c5809b-0cc5-4cbb-ae5e-acaa1cc0616f,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/255308dc-3c1c-4eb0-9c73-44b2f8ec2834/tasks/0b5180b8-653c-490d-8d5d-477058357438,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/255308dc-3c1c-4eb0-9c73-44b2f8ec2834/tasks/b9c5809b-0cc5-4cbb-ae5e-acaa1cc0616f,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/255308dc-3c1c-4eb0-9c73-44b2f8ec2834,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/e2b29bd0-b396-473b-a97d-cae05731efcf,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/3ab1e6ef-3c00-43be-a289-55cdfa89e6ad,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/70fb70a9-b322-4445-89e5-4c9b2ee2dc19,
+      query parameters ={},
+      body= {"id":"70fb70a9-b322-4445-89e5-4c9b2ee2dc19","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/70fb70a9-b322-4445-89e5-4c9b2ee2dc19,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/70fb70a9-b322-4445-89e5-4c9b2ee2dc19,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/56d07f45-e031-44e6-a436-4fa98b877f2c,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/56d07f45-e031-44e6-a436-4fa98b877f2c,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d","userId":null,"columnId":null}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d","userId":null,"columnId":null}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d/tasks,
+      query parameters ={},
+      body= {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d","userId":null,"columnId":null}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d/tasks,
+      query parameters ={},
+      body= {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d","userId":null,"columnId":null}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d/tasks,
+      query parameters ={},
+      body= {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d","userId":null,"columnId":null}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d/tasks/4de469ae-4192-4340-8160-1e4c4984d343,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d/tasks/09b9d189-612a-4233-9ac0-146ce5f4b8db,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d/tasks/5b5d6fad-4447-439e-95d2-bbf376c705d8,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d/tasks/80942b28-e9c8-405d-970a-46f0867e44f9,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d/tasks/a8b2d260-d6b7-4501-ae5e-a1ab9f8886e5,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d/tasks/4de469ae-4192-4340-8160-1e4c4984d343,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d/tasks/09b9d189-612a-4233-9ac0-146ce5f4b8db,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d/tasks/5b5d6fad-4447-439e-95d2-bbf376c705d8,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d/tasks/80942b28-e9c8-405d-970a-46f0867e44f9,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/1dd4f2f3-863d-4569-ab9d-cfd30e2fd20d/tasks/a8b2d260-d6b7-4501-ae5e-a1ab9f8886e5,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:27 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/d6bc1547-9f2a-46ec-8d86-1561f11a94af,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:28 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/18/2020, 1:11:28 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/4d5d2930-50d3-4205-85dd-bce004df3cbd/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/18/2020, 1:11:28 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4d5d2930-50d3-4205-85dd-bce004df3cbd/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:28 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4d5d2930-50d3-4205-85dd-bce004df3cbd/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:28 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4d5d2930-50d3-4205-85dd-bce004df3cbd/tasks/6bcae15e-2e37-4eb9-8fb1-8c01ad39073d,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:28 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/4d5d2930-50d3-4205-85dd-bce004df3cbd/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/18/2020, 1:11:28 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/4d5d2930-50d3-4205-85dd-bce004df3cbd/tasks/4f39d998-5694-40ea-9a6a-e9a96373ce1e,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:28 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/4d5d2930-50d3-4205-85dd-bce004df3cbd/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/18/2020, 1:11:28 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/4d5d2930-50d3-4205-85dd-bce004df3cbd/tasks/3f8b1667-f2ff-4e93-9e82-90bfd41f7039,
+      query parameters ={},
+      body= {"id":"3f8b1667-f2ff-4e93-9e82-90bfd41f7039","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"4d5d2930-50d3-4205-85dd-bce004df3cbd","columnId":null}
+     
+[10/18/2020, 1:11:28 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4d5d2930-50d3-4205-85dd-bce004df3cbd/tasks/3f8b1667-f2ff-4e93-9e82-90bfd41f7039,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:28 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4d5d2930-50d3-4205-85dd-bce004df3cbd/tasks/6bcae15e-2e37-4eb9-8fb1-8c01ad39073d,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:28 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/4d5d2930-50d3-4205-85dd-bce004df3cbd/tasks/6bcae15e-2e37-4eb9-8fb1-8c01ad39073d,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:28 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4d5d2930-50d3-4205-85dd-bce004df3cbd/tasks/6bcae15e-2e37-4eb9-8fb1-8c01ad39073d,
+      query parameters ={},
+      body= {}
+     
+[10/18/2020, 1:11:28 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/4d5d2930-50d3-4205-85dd-bce004df3cbd,
+      query parameters ={},
+      body= {}
+     

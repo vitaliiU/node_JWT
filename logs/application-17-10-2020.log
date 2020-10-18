@@ -1,0 +1,36 @@
+[10/17/2020, 4:54:51 PM] info: 
+    method= GET,
+    url= http /doc/,req.protocol + '://' + req.hostname  + req.app.settings.port + req.path;
+    query parameters ={},
+    body= {}
+   
+[10/17/2020, 4:54:51 PM] info: 
+    method= GET,
+    url= http /doc/swagger-ui.css,req.protocol + '://' + req.hostname  + req.app.settings.port + req.path;
+    query parameters ={},
+    body= {}
+   
+[10/17/2020, 4:54:51 PM] info: 
+    method= GET,
+    url= http /doc/swagger-ui-bundle.js,req.protocol + '://' + req.hostname  + req.app.settings.port + req.path;
+    query parameters ={},
+    body= {}
+   
+[10/17/2020, 4:54:51 PM] info: 
+    method= GET,
+    url= http /doc/swagger-ui-standalone-preset.js,req.protocol + '://' + req.hostname  + req.app.settings.port + req.path;
+    query parameters ={},
+    body= {}
+   
+[10/17/2020, 4:54:51 PM] info: 
+    method= GET,
+    url= http /doc/swagger-ui-init.js,req.protocol + '://' + req.hostname  + req.app.settings.port + req.path;
+    query parameters ={},
+    body= {}
+   
+[10/17/2020, 4:54:52 PM] info: 
+    method= GET,
+    url= http /doc/favicon-16x16.png,req.protocol + '://' + req.hostname  + req.app.settings.port + req.path;
+    query parameters ={},
+    body= {}
+   

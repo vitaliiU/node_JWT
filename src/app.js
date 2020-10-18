@@ -1,0 +1,58 @@
+const express = require('express');
+const swaggerUI = require('swagger-ui-express');
+const path = require('path');
+const YAML = require('yamljs');
+const userRouter = require('./resources/users/user.router');
+const boardRouter = require('./resources/boards/board.router');
+const taskRouter = require('./resources/tasks/task.router');
+const log = require('./common/log');
+
+const app = express();
+
+const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
+
+app.use(express.json());
+
+// localhost:4000/users/?age=22&name=jim
+app.use((req, res, next) => {
+  log.logging(req);
+  next();
+});
+
+app.use('/doc', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
+
+app.use('/', (req, res, next) => {
+  if (req.originalUrl === '/') {
+    res.send('Service is running!');
+    return;
+  }
+  next();
+});
+
+app.use('/users', userRouter);
+app.use('/boards', boardRouter);
+boardRouter.use('/:boardId/tasks', taskRouter);
+
+app.get('/error', () => {
+  throw new Error();
+});
+
+// process.on('uncaughtException', (error, origin) => {
+//   console.error(`captured error: ${error.message}`);
+//   // fs.writeFileSync...
+//   // process.exit(1);
+// });
+
+// process.on('unhandledRejection', (reason, promise) => {
+//   console.log(44444444444445555555555566666666);
+//   console.error(`Unhandled rejection detected: ${reason.message}`);
+// });
+
+// Your Default Error Handler
+app.use((err, req, res, next) => {
+  log.errHand(err, res);
+  next();
+});
+
+//--
+module.exports = app;

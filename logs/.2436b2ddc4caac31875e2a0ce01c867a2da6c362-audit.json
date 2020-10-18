@@ -1,0 +1,19 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "/home/node/Desktop/RestApi/node-js-2/logs/.2436b2ddc4caac31875e2a0ce01c867a2da6c362-audit.json",
+    "files": [
+        {
+            "date": 1602837592684,
+            "name": "/home/node/Desktop/RestApi/node-js-2/logs/application-16-10-2020.log",
+            "hash": "1826a99f6e2dc2b6cb7d0fcb99fdaf09"
+        },
+        {
+            "date": 1602933880329,
+            "name": "/home/node/Desktop/RestApi/node-js-2/logs/application-17-10-2020.log",
+            "hash": "4a676e0453a24c40de7ac1aec2a33308"
+        }
+    ]
+}
