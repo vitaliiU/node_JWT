@@ -16,12 +16,10 @@ module.exports.logging = req => {
      `);
 };
 
-module.exports.errHand = (err, res) => {
-  console.log(888888888888888);
-  winston.error('Internal Server Error');
-  // console.error(err.stack);
-  console.error(err.message);
-
-  res.status(INTERNAL_SERVER_ERROR).send(getStatusText(INTERNAL_SERVER_ERROR));
-  // res.status(500).send('500. Internal Server Error');
+module.exports.errHand = err => {
+  if (err.status === 404) {
+    winston.error(`Client Error. StatusCode ${err.status}. ${err.message}`);
+  } else if(err.status === 404){
+    winston.error(`Server Error. StatusCode ${err.status}. ${err.message}`);
+  }
 };

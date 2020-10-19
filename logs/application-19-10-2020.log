@@ -1,0 +1,990 @@
+[10/19/2020, 12:09:45 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:09:46 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:09:46 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:09:47 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:09:47 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:10:00 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:10:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/444/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:10:53 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4445/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:10:53 PM] error: Client Error. StatusCode 404. The tasks with boardId: 4445 was not found
+[10/19/2020, 12:11:08 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/444/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:11:30 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/444/tasks,
+      query parameters ={},
+      body= {"title":"string","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 12:11:43 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/4445/tasks,
+      query parameters ={},
+      body= {"title":"string","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 12:24:50 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/4445/tasks,
+      query parameters ={},
+      body= {"title":"string","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 12:32:47 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/4445/tasks,
+      query parameters ={},
+      body= {"title":"string","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 12:32:47 PM] error: Client Error. StatusCode 404. The board with id: 4445 was not found
+[10/19/2020, 12:33:19 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:33:19 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:33:19 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:33:19 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:33:19 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:33:20 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/favicon-16x16.png,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:33:35 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/444/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:33:50 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/4445/tasks,
+      query parameters ={},
+      body= {"title":"string","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 12:33:50 PM] error: Client Error. StatusCode 404. The board with id: 4445 was not found
+[10/19/2020, 12:34:04 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/444/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:34:21 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/444/tasks,
+      query parameters ={},
+      body= {"title":"string","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 12:34:21 PM] error: Client Error. StatusCode 404. The board with id: 444 was not found
+[10/19/2020, 12:34:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/444/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:37:50 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:37:50 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:37:50 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:37:50 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:37:50 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:37:56 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:38:25 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/4c9952e2-f061-4eb1-9633-1c76cfb7dcd6/tasks,
+      query parameters ={},
+      body= {"title":"string","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 12:38:36 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4c9952e2-f061-4eb1-9633-1c76cfb7dcd6/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:38:52 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/4c9952e2-f061-4eb1-9633-1c76cfb7dcd65/tasks,
+      query parameters ={},
+      body= {"title":"string","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 12:38:52 PM] error: Client Error. StatusCode 404. The board with id: 4c9952e2-f061-4eb1-9633-1c76cfb7dcd65 was not found
+[10/19/2020, 12:40:42 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/4c9952e2-f061-4eb1-9633-1c76cfb7dcd6/tasks,
+      query parameters ={},
+      body= {"title":"string","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 12:40:49 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4c9952e2-f061-4eb1-9633-1c76cfb7dcd6/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:41:35 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4c9952e2-f061-4eb1-9633-1c76cfb7dcd6/tasks/73279e2e-8385-4bd6-b437-fc5734adb21d,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:47:44 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:47:44 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:47:44 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:47:44 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:47:44 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:47:54 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4445/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:47:54 PM] error: Client Error. StatusCode 404. The board with id: 4445 was not found
+[10/19/2020, 12:48:36 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/444/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:48:36 PM] error: Client Error. StatusCode 404. The board with id: 444 was not found
+[10/19/2020, 12:50:49 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:51:01 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/6421ca27-8b66-49d7-96c3-597d112e1a46/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:51:01 PM] error: Client Error. StatusCode 404. The tasks with boardId: 6421ca27-8b66-49d7-96c3-597d112e1a46 was not found
+[10/19/2020, 12:51:24 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/6421ca27-8b66-49d7-96c3-597d112e1a46/tasks,
+      query parameters ={},
+      body= {"title":"string","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 12:51:34 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/6421ca27-8b66-49d7-96c3-597d112e1a46/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:52:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/6421ca27-8b66-49d7-96c3-597d112e1a46/tasks,
+      query parameters ={},
+      body= {"title":"rrrrrrrrrrrrrrrrrr","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 12:52:19 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/6421ca27-8b66-49d7-96c3-597d112e1a46/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:52:54 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/6421ca27-8b66-49d7-96c3-597d112e1a46/tasks/e17eac40-4675-4484-ae52-b70ed3be0bb1,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:52:54 PM] error: Client Error. StatusCode 404. Cannot access 'task' before initialization
+[10/19/2020, 12:53:42 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/6421ca27-8b66-49d7-96c3-597d112e1a46/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:54:22 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/6421ca27-8b66-49d7-96c3-597d112e1a46/tasks/e17eac40-4675-4484-ae52-b70ed3be0bb1,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:54:22 PM] error: Client Error. StatusCode 404. Cannot access 'task' before initialization
+[10/19/2020, 12:58:38 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/6421ca27-8b66-49d7-96c3-597d112e1a46/tasks/e17eac40-4675-4484-ae52-b70ed3be0bb1,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:58:38 PM] error: Client Error. StatusCode 404. The tasks with boardId: 6421ca27-8b66-49d7-96c3-597d112e1a46 was not found
+[10/19/2020, 12:58:59 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:59:16 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/0b9b618b-9375-42f2-9490-18ff99a4d5aa/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 12:59:16 PM] error: Client Error. StatusCode 404. The tasks with boardId: 0b9b618b-9375-42f2-9490-18ff99a4d5aa was not found
+[10/19/2020, 12:59:28 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/0b9b618b-9375-42f2-9490-18ff99a4d5aa/tasks,
+      query parameters ={},
+      body= {"title":"rrrrrrrrrrrrrrrrrr","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 12:59:43 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/0b9b618b-9375-42f2-9490-18ff99a4d5aa/tasks,
+      query parameters ={},
+      body= {"title":"dddddddddddddd","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 12:59:47 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/0b9b618b-9375-42f2-9490-18ff99a4d5aa/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:00:31 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/0b9b618b-9375-42f2-9490-18ff99a4d5aa/tasks/5aa594bd-0f2d-40a6-8bed-bf2d837feeea,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:00:43 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/0b9b618b-9375-42f2-9490-18ff99a4d5aa5/tasks/5aa594bd-0f2d-40a6-8bed-bf2d837feeea,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:00:43 PM] error: Client Error. StatusCode 404. The tasks with boardId: 0b9b618b-9375-42f2-9490-18ff99a4d5aa5 was not found
+[10/19/2020, 1:04:19 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:04:33 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/9c067816-b594-4ed1-b02f-946e20685d59/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:04:33 PM] error: Client Error. StatusCode 404. The tasks with boardId: 9c067816-b594-4ed1-b02f-946e20685d59 was not found
+[10/19/2020, 1:04:42 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/9c067816-b594-4ed1-b02f-946e20685d59/tasks,
+      query parameters ={},
+      body= {"title":"dddddddddddddd","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 1:04:50 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/9c067816-b594-4ed1-b02f-946e20685d59/tasks,
+      query parameters ={},
+      body= {"title":"xzxxxxxxxxxxxx","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 1:04:54 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/9c067816-b594-4ed1-b02f-946e20685d59/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:05:37 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/9c067816-b594-4ed1-b02f-946e20685d59/tasks/d3089392-a869-4d2e-9961-73a3db79c3f5,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:05:38 PM] error: Client Error. StatusCode 404. Cannot access 'task' before initialization
+[10/19/2020, 1:16:29 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:16:43 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/51c7305e-31e5-48e1-8b80-cd4169d0a342/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:16:43 PM] error: Client Error. StatusCode 404. The tasks with boardId: 51c7305e-31e5-48e1-8b80-cd4169d0a342 was not found
+[10/19/2020, 1:16:52 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/51c7305e-31e5-48e1-8b80-cd4169d0a342/tasks,
+      query parameters ={},
+      body= {"title":"xzxxxxxxxxxxxx","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 1:16:59 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/51c7305e-31e5-48e1-8b80-cd4169d0a342/tasks,
+      query parameters ={},
+      body= {"title":"ffffffffffff","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 1:17:05 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/51c7305e-31e5-48e1-8b80-cd4169d0a342/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:17:32 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/51c7305e-31e5-48e1-8b80-cd4169d0a342/tasks/ce72195c-e4ae-4ba8-955c-e752f0659d31,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:17:50 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/51c7305e-31e5-48e1-8b80-cd4169d0a3425/tasks/ce72195c-e4ae-4ba8-955c-e752f0659d31,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:17:50 PM] error: Client Error. StatusCode 404. The tasks with boardId: 51c7305e-31e5-48e1-8b80-cd4169d0a3425 was not found
+[10/19/2020, 1:18:02 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/51c7305e-31e5-48e1-8b80-cd4169d0a342/tasks/ce72195c-e4ae-4ba8-955c-e752f0659d315,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:18:02 PM] error: Client Error. StatusCode 404. The tasks with taskId: ce72195c-e4ae-4ba8-955c-e752f0659d315 was not found
+[10/19/2020, 1:19:09 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/51c7305e-31e5-48e1-8b80-cd4169d0a342/tasks/ce72195c-e4ae-4ba8-955c-e752f0659d315,
+      query parameters ={},
+      body= {"title":"vvvvvvvvvvvvvvvv","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 1:19:09 PM] error: Client Error. StatusCode 404. The tasks with taskId: ce72195c-e4ae-4ba8-955c-e752f0659d315 was not found
+[10/19/2020, 1:19:23 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/51c7305e-31e5-48e1-8b80-cd4169d0a342/tasks/ce72195c-e4ae-4ba8-955c-e752f0659d31,
+      query parameters ={},
+      body= {"title":"vvvvvvvvvvvvvvvv","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 1:19:41 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/51c7305e-31e5-48e1-8b80-cd4169d0a342/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:20:32 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/51c7305e-31e5-48e1-8b80-cd4169d0a3425/tasks/ce72195c-e4ae-4ba8-955c-e752f0659d31,
+      query parameters ={},
+      body= {"title":"vvvvvvvvvvvvvvvv","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 1:20:32 PM] error: Client Error. StatusCode 404. The tasks with boardId: 51c7305e-31e5-48e1-8b80-cd4169d0a3425 was not found
+[10/19/2020, 1:20:53 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/51c7305e-31e5-48e1-8b80-cd4169d0a342/tasks/ce72195c-e4ae-4ba8-955c-e752f0659d315,
+      query parameters ={},
+      body= {"title":"vvvvvvvvvvvvvvvv","order":0,"description":"string","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/19/2020, 1:20:53 PM] error: Client Error. StatusCode 404. The tasks with taskId: ce72195c-e4ae-4ba8-955c-e752f0659d315 was not found
+[10/19/2020, 1:21:40 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/51c7305e-31e5-48e1-8b80-cd4169d0a3425/tasks/ce72195c-e4ae-4ba8-955c-e752f0659d31,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:21:40 PM] error: Client Error. StatusCode 404. The tasks with boardId: 51c7305e-31e5-48e1-8b80-cd4169d0a3425 was not found
+[10/19/2020, 1:21:57 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/51c7305e-31e5-48e1-8b80-cd4169d0a342/tasks/ce72195c-e4ae-4ba8-955c-e752f0659d315,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:21:57 PM] error: Client Error. StatusCode 404. The tasks with taskId: ce72195c-e4ae-4ba8-955c-e752f0659d315 was not found
+[10/19/2020, 1:22:09 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/51c7305e-31e5-48e1-8b80-cd4169d0a342/tasks/ce72195c-e4ae-4ba8-955c-e752f0659d31,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:34:11 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:34:22 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d530dda8-b201-40a1-89f2-9bcad36a0af3/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:36:22 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d530dda8-b201-40a1-89f2-9bcad36a0af3/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:38:22 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d530dda8-b201-40a1-89f2-9bcad36a0af3/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:40:22 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d530dda8-b201-40a1-89f2-9bcad36a0af3/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:42:23 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d530dda8-b201-40a1-89f2-9bcad36a0af3/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:44:23 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d530dda8-b201-40a1-89f2-9bcad36a0af3/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:46:23 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d530dda8-b201-40a1-89f2-9bcad36a0af3/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:48:23 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d530dda8-b201-40a1-89f2-9bcad36a0af3/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:50:23 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d530dda8-b201-40a1-89f2-9bcad36a0af3/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:52:23 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d530dda8-b201-40a1-89f2-9bcad36a0af3/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/72811474-cfa0-4c9d-83a3-4e596d5ac1a2,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/72811474-cfa0-4c9d-83a3-4e596d5ac1a2,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/18921521-99c0-4b44-a6c9-4f5f0766844b,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/users/84d6e1eb-7270-4b78-9a24-43f0eed0786d,
+      query parameters ={},
+      body= {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"84d6e1eb-7270-4b78-9a24-43f0eed0786d"}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/84d6e1eb-7270-4b78-9a24-43f0eed0786d,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/84d6e1eb-7270-4b78-9a24-43f0eed0786d,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/e5942698-558c-4989-bbcc-b8f135689b6d,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/7d03fb63-26a5-4e36-a3e4-f20afdcdae58/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"27a3e941-4e90-410a-9ae3-a7aa5356f556","boardId":"7d03fb63-26a5-4e36-a3e4-f20afdcdae58"}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/7d03fb63-26a5-4e36-a3e4-f20afdcdae58/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"27a3e941-4e90-410a-9ae3-a7aa5356f556","boardId":"7d03fb63-26a5-4e36-a3e4-f20afdcdae58"}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/27a3e941-4e90-410a-9ae3-a7aa5356f556,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/7d03fb63-26a5-4e36-a3e4-f20afdcdae58/tasks/8fe74fe1-29de-49c0-9cad-e43ca0c57c1b,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/7d03fb63-26a5-4e36-a3e4-f20afdcdae58/tasks/1bc01f93-b8bf-43a6-bc25-dda853a9e90a,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/7d03fb63-26a5-4e36-a3e4-f20afdcdae58/tasks/8fe74fe1-29de-49c0-9cad-e43ca0c57c1b,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/7d03fb63-26a5-4e36-a3e4-f20afdcdae58/tasks/1bc01f93-b8bf-43a6-bc25-dda853a9e90a,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:13 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/7d03fb63-26a5-4e36-a3e4-f20afdcdae58,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/967e6c9a-6a77-4978-8564-130994658b58,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/022a070a-3387-4eb0-be1a-9a4baa66675a,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/29ab5eb9-f9f5-46dc-9525-da2aa6dcc102,
+      query parameters ={},
+      body= {"id":"29ab5eb9-f9f5-46dc-9525-da2aa6dcc102","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/29ab5eb9-f9f5-46dc-9525-da2aa6dcc102,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/29ab5eb9-f9f5-46dc-9525-da2aa6dcc102,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/7c7648bc-14e1-44d8-a19d-d58ef900fb6a,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/7c7648bc-14e1-44d8-a19d-d58ef900fb6a,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] error: Client Error. StatusCode 404. The board with id: 7c7648bc-14e1-44d8-a19d-d58ef900fb6a was not found
+[10/19/2020, 1:53:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc","userId":null,"columnId":null}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc","userId":null,"columnId":null}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc/tasks,
+      query parameters ={},
+      body= {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc","userId":null,"columnId":null}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc/tasks,
+      query parameters ={},
+      body= {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc","userId":null,"columnId":null}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc/tasks,
+      query parameters ={},
+      body= {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc","userId":null,"columnId":null}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc/tasks/5001897d-a56e-4106-982c-a7d916dc25a3,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc/tasks/2812c248-1bf7-4162-bf39-5e90a2e8e8c5,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc/tasks/4c9192bb-e492-4e7b-83bc-2b7199f19926,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc/tasks/a8d33492-f720-442e-98f4-78cc12dbdec7,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc/tasks/acf37e14-0358-4311-b54f-ba91a2376624,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc/tasks/5001897d-a56e-4106-982c-a7d916dc25a3,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc/tasks/2812c248-1bf7-4162-bf39-5e90a2e8e8c5,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc/tasks/4c9192bb-e492-4e7b-83bc-2b7199f19926,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc/tasks/a8d33492-f720-442e-98f4-78cc12dbdec7,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc/tasks/acf37e14-0358-4311-b54f-ba91a2376624,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] error: Client Error. StatusCode 404. The tasks with boardId: c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc was not found
+[10/19/2020, 1:53:14 PM] error: Client Error. StatusCode 404. The tasks with boardId: c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc was not found
+[10/19/2020, 1:53:14 PM] error: Client Error. StatusCode 404. The tasks with boardId: c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc was not found
+[10/19/2020, 1:53:14 PM] error: Client Error. StatusCode 404. The tasks with boardId: c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc was not found
+[10/19/2020, 1:53:14 PM] error: Client Error. StatusCode 404. The tasks with boardId: c65b6ebc-6d1d-4d8e-9537-4c91a67d0dcc was not found
+[10/19/2020, 1:53:14 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/a2656417-d485-468f-b74a-39902c005c43,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/342a1d00-c18d-4456-a7a5-114b5903425e/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/342a1d00-c18d-4456-a7a5-114b5903425e/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/342a1d00-c18d-4456-a7a5-114b5903425e/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/342a1d00-c18d-4456-a7a5-114b5903425e/tasks/9a275c47-9867-44fb-a5a0-574a52c62186,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/342a1d00-c18d-4456-a7a5-114b5903425e/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/342a1d00-c18d-4456-a7a5-114b5903425e/tasks/1405d020-126f-42ab-ada7-574b96274146,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/342a1d00-c18d-4456-a7a5-114b5903425e/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/342a1d00-c18d-4456-a7a5-114b5903425e/tasks/b01eb03a-4583-49c6-a738-dd734881a418,
+      query parameters ={},
+      body= {"id":"b01eb03a-4583-49c6-a738-dd734881a418","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"342a1d00-c18d-4456-a7a5-114b5903425e","columnId":null}
+     
+[10/19/2020, 1:53:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/342a1d00-c18d-4456-a7a5-114b5903425e/tasks/b01eb03a-4583-49c6-a738-dd734881a418,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:15 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/342a1d00-c18d-4456-a7a5-114b5903425e/tasks/9a275c47-9867-44fb-a5a0-574a52c62186,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:15 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/342a1d00-c18d-4456-a7a5-114b5903425e/tasks/9a275c47-9867-44fb-a5a0-574a52c62186,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:15 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/342a1d00-c18d-4456-a7a5-114b5903425e/tasks/9a275c47-9867-44fb-a5a0-574a52c62186,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:53:15 PM] error: Client Error. StatusCode 404. The tasks with taskId: 9a275c47-9867-44fb-a5a0-574a52c62186 was not found
+[10/19/2020, 1:53:15 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/342a1d00-c18d-4456-a7a5-114b5903425e,
+      query parameters ={},
+      body= {}
+     

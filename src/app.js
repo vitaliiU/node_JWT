@@ -37,20 +37,20 @@ app.get('/error', () => {
   throw new Error();
 });
 
-// process.on('uncaughtException', (error, origin) => {
-//   console.error(`captured error: ${error.message}`);
-//   // fs.writeFileSync...
-//   // process.exit(1);
-// });
+process.on('uncaughtException', (error, origin) => {
+  console.error(`captured error: ${error.message}`);
+  // fs.writeFileSync...
+  // process.exit(1);
+});
 
-// process.on('unhandledRejection', (reason, promise) => {
-//   console.log(44444444444445555555555566666666);
-//   console.error(`Unhandled rejection detected: ${reason.message}`);
-// });
+process.on('unhandledRejection', (reason, promise) => {
+  console.log(44444444444445555555555566666666);
+  console.error(`Unhandled rejection detected: ${reason.message}`);
+});
 
 // Your Default Error Handler
 app.use((err, req, res, next) => {
-  log.errHand(err, res);
+  log.errHand(err);
   next();
 });
 

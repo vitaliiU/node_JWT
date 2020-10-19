@@ -58,6 +58,7 @@
     "morgan": "^1.9.1",
     "winston": "^3.2.1",
     "winston-daily-rotate-file": "^4.1.0",
+    "http-errors": "^1.8.0",
     "http-status-codes": "^2.1.4"
   },
   "devDependencies": {

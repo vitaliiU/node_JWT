@@ -15,10 +15,18 @@ const create = async user => {
 };
 
 const update = async (id, body) => {
+  const user = await DB.getUser(id);
+  if (!user) {
+    throw new Error(`The user with id: ${id} was not found`);
+  }
   return DB.updateUser(id, body);
 };
 
 const removeUser = async id => {
+  const user = await DB.getUser(id);
+  if (!user) {
+    throw new Error(`The user with id: ${id} was not found`);
+  }
   return DB.removeUser(id);
 };
 
