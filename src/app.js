@@ -49,7 +49,7 @@ process.on('unhandledRejection', reason => {
   console.error(`Unhandled rejection detected: ${reason.message}`);
 });
 
-// Your Default Error Handler
+// Default Error Handler
 app.use((err, req, res, next) => {
   log.errHand(err);
   next();

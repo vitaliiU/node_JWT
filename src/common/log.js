@@ -1,9 +1,4 @@
 const winston = require('../../config/winston');
-// const {
-//   INTERNAL_SERVER_ERROR,
-//   BAD_REQUEST,
-//   getStatusText
-// } = require('http-status-codes');
 
 module.exports.logging = req => {
   const { query, method, body } = req;
