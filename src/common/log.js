@@ -11,12 +11,11 @@ module.exports.logging = req => {
      `);
 };
 
-module.exports.errHand = err => {
+module.exports.errHand = async (err, res) => {
   if (err.status === 404) {
     winston.error(`Client Error. StatusCode ${err.status}. ${err.message}`);
-  } else if (err.status === 555) {
-    winston.error(`Uncaught Exception. Captured error: ${err.message}`);
   } else {
-    winston.error('Internal Server Error. StatusCode 500 .');
+    res.status(500).send(err.message);
+    winston.error('Internal Server Error. StatusCode 500.');
   }
 };

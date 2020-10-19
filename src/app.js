@@ -2,7 +2,7 @@ const express = require('express');
 const swaggerUI = require('swagger-ui-express');
 const path = require('path');
 const YAML = require('yamljs');
-const createError = require('http-errors');
+const winston = require('../config/winston');
 
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
@@ -41,17 +41,17 @@ app.get('/error', () => {
 });
 
 process.on('uncaughtException', error => {
-  createError(555, error.message);
+  throw new Error(`Uncaught Exception. Captured error: ${error.message}`);
   // process.exit(1);
 });
 
 process.on('unhandledRejection', reason => {
-  console.error(`Unhandled rejection detected: ${reason.message}`);
+  winston.error(`Unhandled rejection detected: ${reason.message}`);
 });
 
 // Default Error Handler
 app.use((err, req, res, next) => {
-  log.errHand(err);
+  log.errHand(err, res);
   next();
 });
 
