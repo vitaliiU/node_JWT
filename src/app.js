@@ -2,6 +2,8 @@ const express = require('express');
 const swaggerUI = require('swagger-ui-express');
 const path = require('path');
 const YAML = require('yamljs');
+const createError = require('http-errors');
+
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
@@ -22,6 +24,7 @@ app.use((req, res, next) => {
 app.use('/doc', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 
 app.use('/', (req, res, next) => {
+  // throw new Error();
   if (req.originalUrl === '/') {
     res.send('Service is running!');
     return;
@@ -37,14 +40,12 @@ app.get('/error', () => {
   throw new Error();
 });
 
-process.on('uncaughtException', (error, origin) => {
-  console.error(`captured error: ${error.message}`);
-  // fs.writeFileSync...
+process.on('uncaughtException', error => {
+  createError(555, error.message);
   // process.exit(1);
 });
 
-process.on('unhandledRejection', (reason, promise) => {
-  console.log(44444444444445555555555566666666);
+process.on('unhandledRejection', reason => {
   console.error(`Unhandled rejection detected: ${reason.message}`);
 });
 
@@ -53,6 +54,9 @@ app.use((err, req, res, next) => {
   log.errHand(err);
   next();
 });
+
+// throw Error('GopStop!!!!!');
+// Promise.reject(Error('GopStop!!!!!'));
 
 //--
 module.exports = app;

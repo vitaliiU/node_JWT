@@ -1,9 +1,9 @@
 const winston = require('../../config/winston');
-const {
-  INTERNAL_SERVER_ERROR,
-  BAD_REQUEST,
-  getStatusText
-} = require('http-status-codes');
+// const {
+//   INTERNAL_SERVER_ERROR,
+//   BAD_REQUEST,
+//   getStatusText
+// } = require('http-status-codes');
 
 module.exports.logging = req => {
   const { query, method, body } = req;
@@ -19,7 +19,9 @@ module.exports.logging = req => {
 module.exports.errHand = err => {
   if (err.status === 404) {
     winston.error(`Client Error. StatusCode ${err.status}. ${err.message}`);
-  } else if(err.status === 404){
-    winston.error(`Server Error. StatusCode ${err.status}. ${err.message}`);
+  } else if (err.status === 555) {
+    winston.error(`Uncaught Exception. Captured error: ${err.message}`);
+  } else {
+    winston.error('Internal Server Error. StatusCode 500 .');
   }
 };

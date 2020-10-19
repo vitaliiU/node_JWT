@@ -988,3 +988,84 @@
       query parameters ={},
       body= {}
      
+[10/19/2020, 1:57:41 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d530dda8-b201-40a1-89f2-9bcad36a0af3/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:57:41 PM] error: Server Error. StatusCode undefined. 
+[10/19/2020, 1:59:10 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d530dda8-b201-40a1-89f2-9bcad36a0af3/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 1:59:10 PM] error: Internal Server Error. StatusCode 500 .
+[10/19/2020, 2:29:21 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 2:30:13 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 2:51:12 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 2:51:12 PM] error: Internal Server Error. StatusCode 500 .
+[10/19/2020, 3:07:43 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/?age=22&name=jim,
+      query parameters ={"age":"22","name":"jim"},
+      body= {}
+     
+[10/19/2020, 3:11:49 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 3:11:49 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 3:11:49 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 3:11:49 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 3:11:49 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 3:11:50 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/favicon-16x16.png,
+      query parameters ={},
+      body= {}
+     
+[10/19/2020, 3:12:10 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     

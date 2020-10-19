@@ -3,7 +3,7 @@ const createError = require('http-errors');
 const User = require('./user.model');
 const usersService = require('./user.service');
 
-router.route('/').get(async (req, res, next) => {
+router.route('/').get(async (req, res) => {
   const users = await usersService.getAll();
   await res.status(200).send(users.map(User.toResponse));
 });
