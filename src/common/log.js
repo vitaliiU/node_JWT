@@ -12,7 +12,11 @@ module.exports.logging = req => {
 };
 
 module.exports.errHand = async (err, res) => {
-  if (err.status === 404) {
+  if (err.message === '470') {
+    winston.error(
+      'Client Error. Status Code 470. Error was generated on client side via URL.'
+    );
+  } else if (err.status === 404) {
     winston.error(`Client Error. StatusCode ${err.status}. ${err.message}`);
   } else {
     res.status(500).send(err.message);

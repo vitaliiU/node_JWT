@@ -37,7 +37,7 @@ app.use('/boards', boardRouter);
 boardRouter.use('/:boardId/tasks', taskRouter);
 
 app.get('/error', () => {
-  throw new Error();
+  throw new Error(470);
 });
 
 process.on('uncaughtException', error => {
