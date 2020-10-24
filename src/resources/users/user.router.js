@@ -72,9 +72,9 @@ router.route('/:id').delete(async (req, res, next) => {
   try {
     const userModel = await usersService.removeUser(req.params.id);
     if (userModel === 1) {
-      res.json(User.toResponse({'Deleted successfully'}));
+      res.json(User.toResponse({ status: 'Deleted successfully' }));
     } else {
-      res.json(User.toResponse('Not Deleted'));
+      res.json(User.toResponse({ status: 'Not Deleted' }));
     }
     // await res.json(userModel.map(User.toResponse));
   } catch (e) {
