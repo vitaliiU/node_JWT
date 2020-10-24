@@ -1807,3 +1807,1877 @@
       query parameters ={},
       body= {}
      
+[10/24/2020, 10:05:16 PM] error: uncaughtException: userSchema is not defined
+ReferenceError: userSchema is not defined
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/boards/board.model.js:38:1)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/common/inMemoryDBBoard.js:1:15)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.memory.repository.js:2:17)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/24/2020, 10:25:33 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:25:36 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:25:36 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:25:36 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:25:36 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:25:36 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:31:40 PM] error: uncaughtException: User is not defined
+ReferenceError: User is not defined
+    at NativeConnection.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/DB/db.client.js:20:5)
+    at Object.onceWrapper (events.js:421:28)
+    at NativeConnection.emit (events.js:315:20)
+    at _setClient (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:947:8)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:794:7
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/utils.js:674:5
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/mongo_client.js:225:7
+    at connectCallback (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:366:5)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:602:5
+    at connectHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:297:43)
+    at cb (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:681:26)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/connection_pool.js:350:13
+    at handleOperationResult (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/server.js:558:5)
+    at MessageStream.messageHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/connection.js:277:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+[10/24/2020, 10:33:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:33:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/18183283-40e2-44bb-9c85-baf748de4718,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:14 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/18183283-40e2-44bb-9c85-baf748de4718,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:33:14 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/a12db973-7865-4449-8f88-ae08e84c98d8,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:15 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:33:15 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/users/53b2b794-d02a-41b6-aeac-860fdd44f708,
+      query parameters ={},
+      body= {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"53b2b794-d02a-41b6-aeac-860fdd44f708"}
+     
+[10/24/2020, 10:33:15 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/53b2b794-d02a-41b6-aeac-860fdd44f708,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:15 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/53b2b794-d02a-41b6-aeac-860fdd44f708,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:15 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:33:15 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/f7202c59-8293-425f-86b6-c7e727009281,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:15 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:33:15 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:33:15 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/5f8e345b-3c11-4c08-8a49-9beb78b01412/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"2195a485-069b-4e39-96dc-c5ac7778fffd","boardId":"5f8e345b-3c11-4c08-8a49-9beb78b01412"}
+     
+[10/24/2020, 10:33:15 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/5f8e345b-3c11-4c08-8a49-9beb78b01412/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"2195a485-069b-4e39-96dc-c5ac7778fffd","boardId":"5f8e345b-3c11-4c08-8a49-9beb78b01412"}
+     
+[10/24/2020, 10:33:15 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/2195a485-069b-4e39-96dc-c5ac7778fffd,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:15 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/5f8e345b-3c11-4c08-8a49-9beb78b01412/tasks/58e14c0e-19b3-4b90-84ec-41efe6f41759,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:15 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/5f8e345b-3c11-4c08-8a49-9beb78b01412/tasks/4bf2fda6-09fa-4ac6-8072-e0483e590843,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:15 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/5f8e345b-3c11-4c08-8a49-9beb78b01412/tasks/58e14c0e-19b3-4b90-84ec-41efe6f41759,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:15 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/5f8e345b-3c11-4c08-8a49-9beb78b01412/tasks/4bf2fda6-09fa-4ac6-8072-e0483e590843,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:15 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/5f8e345b-3c11-4c08-8a49-9beb78b01412,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:15 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:33:16 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/5ef40d0d-7f69-402f-a472-6c46318abef5/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/5ef40d0d-7f69-402f-a472-6c46318abef5/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/5ef40d0d-7f69-402f-a472-6c46318abef5/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/5ef40d0d-7f69-402f-a472-6c46318abef5/tasks/013e98be-abb1-4557-bd13-22a8298c589c,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/5ef40d0d-7f69-402f-a472-6c46318abef5/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/5ef40d0d-7f69-402f-a472-6c46318abef5/tasks/a12f01e5-ca43-42e6-bb4b-af87cc751eab,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/5ef40d0d-7f69-402f-a472-6c46318abef5/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/5ef40d0d-7f69-402f-a472-6c46318abef5/tasks/49124557-0288-4c09-92a7-9205f29cbd00,
+      query parameters ={},
+      body= {"id":"49124557-0288-4c09-92a7-9205f29cbd00","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"5ef40d0d-7f69-402f-a472-6c46318abef5","columnId":null}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/5ef40d0d-7f69-402f-a472-6c46318abef5/tasks/49124557-0288-4c09-92a7-9205f29cbd00,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/5ef40d0d-7f69-402f-a472-6c46318abef5/tasks/013e98be-abb1-4557-bd13-22a8298c589c,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/5ef40d0d-7f69-402f-a472-6c46318abef5/tasks/013e98be-abb1-4557-bd13-22a8298c589c,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/5ef40d0d-7f69-402f-a472-6c46318abef5/tasks/013e98be-abb1-4557-bd13-22a8298c589c,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:16 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:33:16 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/5ef40d0d-7f69-402f-a472-6c46318abef5,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:16 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:33:16 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/aa1924ea-0b71-4ede-b6d4-ada90b6604a6,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/f0ccf440-a961-4d7a-ac26-e1d3fae34d0a,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:16 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:33:16 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/9e2cd3cf-3990-484a-925b-114614d4f1f9,
+      query parameters ={},
+      body= {"id":"9e2cd3cf-3990-484a-925b-114614d4f1f9","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/9e2cd3cf-3990-484a-925b-114614d4f1f9,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/9e2cd3cf-3990-484a-925b-114614d4f1f9,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:16 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:33:16 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:33:16 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/b33581d5-4247-409d-945b-2331f0ad8a55,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:16 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:33:16 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:33:17 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/95156c49-cc3f-4ea8-95cf-70ccbae978fa/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"95156c49-cc3f-4ea8-95cf-70ccbae978fa","userId":null,"columnId":null}
+     
+[10/24/2020, 10:33:17 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/95156c49-cc3f-4ea8-95cf-70ccbae978fa/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"95156c49-cc3f-4ea8-95cf-70ccbae978fa","userId":null,"columnId":null}
+     
+[10/24/2020, 10:33:17 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/95156c49-cc3f-4ea8-95cf-70ccbae978fa/tasks,
+      query parameters ={},
+      body= {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"95156c49-cc3f-4ea8-95cf-70ccbae978fa","userId":null,"columnId":null}
+     
+[10/24/2020, 10:33:17 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/95156c49-cc3f-4ea8-95cf-70ccbae978fa/tasks,
+      query parameters ={},
+      body= {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"95156c49-cc3f-4ea8-95cf-70ccbae978fa","userId":null,"columnId":null}
+     
+[10/24/2020, 10:33:17 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/95156c49-cc3f-4ea8-95cf-70ccbae978fa/tasks,
+      query parameters ={},
+      body= {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"95156c49-cc3f-4ea8-95cf-70ccbae978fa","userId":null,"columnId":null}
+     
+[10/24/2020, 10:33:17 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/95156c49-cc3f-4ea8-95cf-70ccbae978fa/tasks/8f3d52b2-eb2b-4668-b7e1-6f200f2108d6,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:17 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/95156c49-cc3f-4ea8-95cf-70ccbae978fa/tasks/e7a44c31-fe67-4fe3-995a-e8ae3d1d7787,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:17 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/95156c49-cc3f-4ea8-95cf-70ccbae978fa/tasks/eb88cdc1-57b7-4cd2-92a2-c39ae6c69896,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:17 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/95156c49-cc3f-4ea8-95cf-70ccbae978fa/tasks/c5ceef09-899f-4655-bab6-c22b95cbb4a7,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:17 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/95156c49-cc3f-4ea8-95cf-70ccbae978fa/tasks/defdca60-6bb5-4420-8a6f-1dcc7d095d45,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:17 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/95156c49-cc3f-4ea8-95cf-70ccbae978fa,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:17 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:33:17 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/1110f3df-180a-4d66-89dd-f4e61cfcadfb,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:33:17 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:36:28 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:28 PM] error: Internal Server Error. StatusCode 500.
+[10/24/2020, 10:36:28 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:36:28 PM] error: Internal Server Error. StatusCode 500.
+[10/24/2020, 10:36:28 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:36:28 PM] error: Internal Server Error. StatusCode 500.
+[10/24/2020, 10:36:28 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:36:28 PM] error: Internal Server Error. StatusCode 500.
+[10/24/2020, 10:36:28 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/users/undefined,
+      query parameters ={},
+      body= {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:36:28 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:36:28 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:36:28 PM] error: Internal Server Error. StatusCode 500.
+[10/24/2020, 10:36:28 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/undefined,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:28 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:36:28 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:36:28 PM] error: Internal Server Error. StatusCode 500.
+[10/24/2020, 10:36:28 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:36:28 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:28 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:28 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/b730ca4b-cb6d-46d9-a3a6-abf1adfe2efb,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/7b1ac3da-a48a-4fa3-aa3a-6587861853d5,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:36:29 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/aeb7ebcd-fa7f-4129-9d2a-87e4f5b30785,
+      query parameters ={},
+      body= {"id":"aeb7ebcd-fa7f-4129-9d2a-87e4f5b30785","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/aeb7ebcd-fa7f-4129-9d2a-87e4f5b30785,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/aeb7ebcd-fa7f-4129-9d2a-87e4f5b30785,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:36:29 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/d30a5e9b-5a7f-4e7a-b2f3-c695b6d3c0ed,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:36:29 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/2150fad5-19aa-455b-a40e-1d1d914ec4cf/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"2150fad5-19aa-455b-a40e-1d1d914ec4cf","userId":null,"columnId":null}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/2150fad5-19aa-455b-a40e-1d1d914ec4cf/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"2150fad5-19aa-455b-a40e-1d1d914ec4cf","userId":null,"columnId":null}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/2150fad5-19aa-455b-a40e-1d1d914ec4cf/tasks,
+      query parameters ={},
+      body= {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"2150fad5-19aa-455b-a40e-1d1d914ec4cf","userId":null,"columnId":null}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/2150fad5-19aa-455b-a40e-1d1d914ec4cf/tasks,
+      query parameters ={},
+      body= {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"2150fad5-19aa-455b-a40e-1d1d914ec4cf","userId":null,"columnId":null}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/2150fad5-19aa-455b-a40e-1d1d914ec4cf/tasks,
+      query parameters ={},
+      body= {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"2150fad5-19aa-455b-a40e-1d1d914ec4cf","userId":null,"columnId":null}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/2150fad5-19aa-455b-a40e-1d1d914ec4cf/tasks/68c68efe-f183-49c9-9582-6193c839c2b5,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/2150fad5-19aa-455b-a40e-1d1d914ec4cf/tasks/ef98bcb9-bf12-44d4-b78a-af7124449396,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/2150fad5-19aa-455b-a40e-1d1d914ec4cf/tasks/97a8f2b3-2a8f-4504-8c3a-79c8c40f0201,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/2150fad5-19aa-455b-a40e-1d1d914ec4cf/tasks/dcb70214-70cd-4920-a114-af9e259ad0d1,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/2150fad5-19aa-455b-a40e-1d1d914ec4cf/tasks/f153d59d-a627-4367-80e8-4c313c43b14d,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/2150fad5-19aa-455b-a40e-1d1d914ec4cf,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:36:29 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/b421b931-067a-4b69-aa56-9fa0dc69a6cc,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:36:29 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/3721ff61-ff3c-4a30-ac0d-08421eed8979/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/3721ff61-ff3c-4a30-ac0d-08421eed8979/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/3721ff61-ff3c-4a30-ac0d-08421eed8979/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/3721ff61-ff3c-4a30-ac0d-08421eed8979/tasks/eca7c4b0-66b3-4a30-ab6a-b7a924bb5c42,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/3721ff61-ff3c-4a30-ac0d-08421eed8979/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/3721ff61-ff3c-4a30-ac0d-08421eed8979/tasks/be1e1464-7698-4245-be6b-ce3bb96d0a35,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/3721ff61-ff3c-4a30-ac0d-08421eed8979/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/3721ff61-ff3c-4a30-ac0d-08421eed8979/tasks/75a3ed68-dc0d-431b-8323-a1444e34c784,
+      query parameters ={},
+      body= {"id":"75a3ed68-dc0d-431b-8323-a1444e34c784","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"3721ff61-ff3c-4a30-ac0d-08421eed8979","columnId":null}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/3721ff61-ff3c-4a30-ac0d-08421eed8979/tasks/75a3ed68-dc0d-431b-8323-a1444e34c784,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/3721ff61-ff3c-4a30-ac0d-08421eed8979/tasks/eca7c4b0-66b3-4a30-ab6a-b7a924bb5c42,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/3721ff61-ff3c-4a30-ac0d-08421eed8979/tasks/eca7c4b0-66b3-4a30-ab6a-b7a924bb5c42,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/3721ff61-ff3c-4a30-ac0d-08421eed8979/tasks/eca7c4b0-66b3-4a30-ab6a-b7a924bb5c42,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:36:29 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/3721ff61-ff3c-4a30-ac0d-08421eed8979,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:36:29 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:37:07 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:37:36 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:39:02 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:40:49 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:40:49 PM] error: Internal Server Error. StatusCode 500.
+[10/24/2020, 10:40:49 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:40:49 PM] error: Internal Server Error. StatusCode 500.
+[10/24/2020, 10:40:49 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:40:49 PM] error: Internal Server Error. StatusCode 500.
+[10/24/2020, 10:40:49 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:40:49 PM] error: Internal Server Error. StatusCode 500.
+[10/24/2020, 10:40:49 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/users/undefined,
+      query parameters ={},
+      body= {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:40:49 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:40:49 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:40:49 PM] error: Internal Server Error. StatusCode 500.
+[10/24/2020, 10:40:49 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/undefined,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:40:49 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:40:49 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:40:49 PM] error: Internal Server Error. StatusCode 500.
+[10/24/2020, 10:40:50 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:40:50 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:40:50 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:40:50 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/ceb4db9d-fef5-47b2-924e-a61e85e758bb,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:40:50 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:40:50 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/a04f5d56-2e77-4e94-b32a-12e8cb166d25,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:40:50 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:40:50 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:40:50 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/3b1d4e05-9316-421a-93f1-215657e30c61,
+      query parameters ={},
+      body= {"id":"3b1d4e05-9316-421a-93f1-215657e30c61","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:40:50 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/3b1d4e05-9316-421a-93f1-215657e30c61,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:40:50 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/3b1d4e05-9316-421a-93f1-215657e30c61,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:40:50 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:40:50 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:40:51 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/1ec72b8e-8c06-4e68-9b34-5ff66f9cd5cd,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:40:51 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:40:51 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:40:51 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/f96e3205-28bb-4567-a5f5-a80196a7b6e7/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"f96e3205-28bb-4567-a5f5-a80196a7b6e7","userId":null,"columnId":null}
+     
+[10/24/2020, 10:40:51 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:40:51 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/f96e3205-28bb-4567-a5f5-a80196a7b6e7/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"f96e3205-28bb-4567-a5f5-a80196a7b6e7","userId":null,"columnId":null}
+     
+[10/24/2020, 10:40:51 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/f96e3205-28bb-4567-a5f5-a80196a7b6e7/tasks,
+      query parameters ={},
+      body= {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"f96e3205-28bb-4567-a5f5-a80196a7b6e7","userId":null,"columnId":null}
+     
+[10/24/2020, 10:40:51 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/f96e3205-28bb-4567-a5f5-a80196a7b6e7/tasks,
+      query parameters ={},
+      body= {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"f96e3205-28bb-4567-a5f5-a80196a7b6e7","userId":null,"columnId":null}
+     
+[10/24/2020, 10:40:51 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/f96e3205-28bb-4567-a5f5-a80196a7b6e7/tasks,
+      query parameters ={},
+      body= {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"f96e3205-28bb-4567-a5f5-a80196a7b6e7","userId":null,"columnId":null}
+     
+[10/24/2020, 10:40:51 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:40:51 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:40:51 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:40:51 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:40:51 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/3dc57fe8-bcb3-48ad-b024-204ae4dd72a2,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:40:51 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:40:51 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:40:51 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/c03155bb-37db-449a-aa09-4681489709e8/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/24/2020, 10:40:51 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:40:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/c03155bb-37db-449a-aa09-4681489709e8/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:40:51 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:40:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/c03155bb-37db-449a-aa09-4681489709e8/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:40:51 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:40:51 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/c03155bb-37db-449a-aa09-4681489709e8/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/24/2020, 10:40:51 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:40:51 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/c03155bb-37db-449a-aa09-4681489709e8/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/24/2020, 10:40:51 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:40:51 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/undefined/tasks/undefined,
+      query parameters ={},
+      body= {"title":"Autotest updated task"}
+     
+[10/24/2020, 10:40:51 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:40:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/c03155bb-37db-449a-aa09-4681489709e8/tasks/undefined,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:40:51 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:40:51 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/c03155bb-37db-449a-aa09-4681489709e8,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:40:51 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:44:54 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:44:55 PM] error: Internal Server Error. StatusCode 500.
+[10/24/2020, 10:44:55 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:44:55 PM] error: Internal Server Error. StatusCode 500.
+[10/24/2020, 10:44:55 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:44:55 PM] error: Internal Server Error. StatusCode 500.
+[10/24/2020, 10:44:55 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:44:55 PM] error: Internal Server Error. StatusCode 500.
+[10/24/2020, 10:44:55 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/users/undefined,
+      query parameters ={},
+      body= {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:44:55 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:44:55 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:44:55 PM] error: Internal Server Error. StatusCode 500.
+[10/24/2020, 10:44:55 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/undefined,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:44:55 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:44:55 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:44:55 PM] error: Internal Server Error. StatusCode 500.
+[10/24/2020, 10:44:55 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:44:55 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:44:55 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:44:55 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/094f01ee-9088-4fed-897f-98ad7f1433a9,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:44:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:44:56 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/d10f028e-2df2-422c-98ec-5e10517ffab4,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:44:56 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:44:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:44:56 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/b33b8eb2-a8ec-4644-847f-61fe06bc5acc,
+      query parameters ={},
+      body= {"id":"b33b8eb2-a8ec-4644-847f-61fe06bc5acc","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:44:56 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/b33b8eb2-a8ec-4644-847f-61fe06bc5acc,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:44:56 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/b33b8eb2-a8ec-4644-847f-61fe06bc5acc,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:44:56 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:44:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:44:56 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/b4fffcfd-cfde-4576-a570-caf0c6939e0a,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:44:56 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:44:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:44:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/60b46a9a-565f-421f-8c5f-9144c14344ce/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"60b46a9a-565f-421f-8c5f-9144c14344ce","userId":null,"columnId":null}
+     
+[10/24/2020, 10:44:56 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:44:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/60b46a9a-565f-421f-8c5f-9144c14344ce/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"60b46a9a-565f-421f-8c5f-9144c14344ce","userId":null,"columnId":null}
+     
+[10/24/2020, 10:44:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/60b46a9a-565f-421f-8c5f-9144c14344ce/tasks,
+      query parameters ={},
+      body= {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"60b46a9a-565f-421f-8c5f-9144c14344ce","userId":null,"columnId":null}
+     
+[10/24/2020, 10:44:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/60b46a9a-565f-421f-8c5f-9144c14344ce/tasks,
+      query parameters ={},
+      body= {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"60b46a9a-565f-421f-8c5f-9144c14344ce","userId":null,"columnId":null}
+     
+[10/24/2020, 10:44:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/60b46a9a-565f-421f-8c5f-9144c14344ce/tasks,
+      query parameters ={},
+      body= {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"60b46a9a-565f-421f-8c5f-9144c14344ce","userId":null,"columnId":null}
+     
+[10/24/2020, 10:44:56 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:44:56 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:44:56 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:44:56 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:44:56 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/c8c5a446-fbd1-47d4-89a9-8e1f85ebfae2,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:44:56 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:44:57 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:44:57 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/3046a402-43cd-4aa5-bbe2-d6535133a8a6/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/24/2020, 10:44:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:44:57 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/3046a402-43cd-4aa5-bbe2-d6535133a8a6/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:44:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:44:57 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/3046a402-43cd-4aa5-bbe2-d6535133a8a6/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:44:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:44:57 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/3046a402-43cd-4aa5-bbe2-d6535133a8a6/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/24/2020, 10:44:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:44:57 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/3046a402-43cd-4aa5-bbe2-d6535133a8a6/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/24/2020, 10:44:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:44:57 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/undefined/tasks/undefined,
+      query parameters ={},
+      body= {"title":"Autotest updated task"}
+     
+[10/24/2020, 10:44:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:44:57 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/3046a402-43cd-4aa5-bbe2-d6535133a8a6/tasks/undefined,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:44:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:44:57 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/3046a402-43cd-4aa5-bbe2-d6535133a8a6,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:44:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:45:45 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:45:45 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:45:45 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:45:45 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:45:45 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:45:45 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/favicon-16x16.png,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:45:52 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:45:52 PM] error: Internal Server Error. StatusCode 500.
+[10/24/2020, 10:47:34 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:47:34 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:47:34 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/189cbed6-fa78-47f6-a29b-5e504532bc2e,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:47:34 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/189cbed6-fa78-47f6-a29b-5e504532bc2e,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:47:34 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:47:34 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/42c28110-8337-4aaf-89de-d2a8b0e00847,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:47:34 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:47:34 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/users/53694b3e-3434-4ad5-b3aa-65cae90b28e3,
+      query parameters ={},
+      body= {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"53694b3e-3434-4ad5-b3aa-65cae90b28e3"}
+     
+[10/24/2020, 10:47:34 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/53694b3e-3434-4ad5-b3aa-65cae90b28e3,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:47:35 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/53694b3e-3434-4ad5-b3aa-65cae90b28e3,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:47:35 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:47:35 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/96b4963c-1f2e-4039-98ab-7c8d4931941a,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:47:35 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:47:35 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:47:35 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/6dad1539-b57b-41dd-a553-a4782328de51/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"cf6cdd9d-be27-47e7-90ec-bc4d7365ff15","boardId":"6dad1539-b57b-41dd-a553-a4782328de51"}
+     
+[10/24/2020, 10:47:35 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/6dad1539-b57b-41dd-a553-a4782328de51/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"cf6cdd9d-be27-47e7-90ec-bc4d7365ff15","boardId":"6dad1539-b57b-41dd-a553-a4782328de51"}
+     
+[10/24/2020, 10:47:35 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:47:35 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:47:35 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:47:35 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:47:35 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:47:36 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/5bea9ae8-eb2a-47da-92c4-a400fbcf7fa4,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:47:36 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:47:36 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/5c5ca832-7c70-4f13-828c-92ed8d0daaee,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:47:36 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:47:36 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:47:36 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/991a3b2b-4fb4-4f8f-a2a8-fd9c006511d9,
+      query parameters ={},
+      body= {"id":"991a3b2b-4fb4-4f8f-a2a8-fd9c006511d9","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:47:36 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/991a3b2b-4fb4-4f8f-a2a8-fd9c006511d9,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:47:36 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/991a3b2b-4fb4-4f8f-a2a8-fd9c006511d9,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:47:36 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:47:36 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:47:36 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/b210ec18-1778-49f8-b116-524b38599163,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:47:36 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:47:36 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:47:36 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/5b791947-a1f7-4505-8341-ad88aa0d5766/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"5b791947-a1f7-4505-8341-ad88aa0d5766","userId":null,"columnId":null}
+     
+[10/24/2020, 10:47:36 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:47:36 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/5b791947-a1f7-4505-8341-ad88aa0d5766/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"5b791947-a1f7-4505-8341-ad88aa0d5766","userId":null,"columnId":null}
+     
+[10/24/2020, 10:47:36 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/5b791947-a1f7-4505-8341-ad88aa0d5766/tasks,
+      query parameters ={},
+      body= {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"5b791947-a1f7-4505-8341-ad88aa0d5766","userId":null,"columnId":null}
+     
+[10/24/2020, 10:47:36 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/5b791947-a1f7-4505-8341-ad88aa0d5766/tasks,
+      query parameters ={},
+      body= {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"5b791947-a1f7-4505-8341-ad88aa0d5766","userId":null,"columnId":null}
+     
+[10/24/2020, 10:47:36 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/5b791947-a1f7-4505-8341-ad88aa0d5766/tasks,
+      query parameters ={},
+      body= {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"5b791947-a1f7-4505-8341-ad88aa0d5766","userId":null,"columnId":null}
+     
+[10/24/2020, 10:47:36 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:47:36 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:47:36 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:47:36 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:47:36 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/4c279189-0e77-4981-947a-98203746a543,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:47:36 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:47:37 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:47:37 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/4ae6b5e7-883b-48de-92bf-618a9bc48cef/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/24/2020, 10:47:37 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:47:37 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4ae6b5e7-883b-48de-92bf-618a9bc48cef/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:47:37 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:47:37 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4ae6b5e7-883b-48de-92bf-618a9bc48cef/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:47:37 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:47:37 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/4ae6b5e7-883b-48de-92bf-618a9bc48cef/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/24/2020, 10:47:37 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:47:37 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/4ae6b5e7-883b-48de-92bf-618a9bc48cef/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/24/2020, 10:47:37 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:47:37 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/undefined/tasks/undefined,
+      query parameters ={},
+      body= {"title":"Autotest updated task"}
+     
+[10/24/2020, 10:47:37 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:47:37 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4ae6b5e7-883b-48de-92bf-618a9bc48cef/tasks/undefined,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:47:37 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:47:37 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/4ae6b5e7-883b-48de-92bf-618a9bc48cef,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:47:37 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:18 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:50:18 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:50:18 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/2f1542a3-c082-4d44-8cf5-630199547dea,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:50:18 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/2f1542a3-c082-4d44-8cf5-630199547dea,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:50:18 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:18 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:50:18 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/b2e8a668-8e95-4a6e-ba33-f98de3b6c50d,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:50:19 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:19 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:50:19 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/users/b3df973f-3890-4b1e-a244-54e5a04a369b,
+      query parameters ={},
+      body= {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"b3df973f-3890-4b1e-a244-54e5a04a369b"}
+     
+[10/24/2020, 10:50:19 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/b3df973f-3890-4b1e-a244-54e5a04a369b,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:50:19 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/b3df973f-3890-4b1e-a244-54e5a04a369b,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:50:19 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:19 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:50:19 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/6317b13d-5c6c-4de7-b857-e884e3a1618a,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:50:19 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:19 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/24/2020, 10:50:19 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:50:19 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/7cce3210-48c2-42d7-845f-0cd86bd849bc/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"d08f475a-45cc-40be-9c1d-dc810b25c7bd","boardId":"7cce3210-48c2-42d7-845f-0cd86bd849bc"}
+     
+[10/24/2020, 10:50:19 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/7cce3210-48c2-42d7-845f-0cd86bd849bc/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"d08f475a-45cc-40be-9c1d-dc810b25c7bd","boardId":"7cce3210-48c2-42d7-845f-0cd86bd849bc"}
+     
+[10/24/2020, 10:50:19 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:19 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:19 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:50:19 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:50:20 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:50:20 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/08926c55-d403-4d17-928e-bb783cefd9c9,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:50:20 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:50:20 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/5e9ce5e8-6541-4038-a3a4-999508fc51f5,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:50:20 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:20 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:50:20 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/bd8c1752-6ba1-4c13-8b1b-204d4a1ed757,
+      query parameters ={},
+      body= {"id":"bd8c1752-6ba1-4c13-8b1b-204d4a1ed757","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:50:20 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/bd8c1752-6ba1-4c13-8b1b-204d4a1ed757,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:50:20 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/bd8c1752-6ba1-4c13-8b1b-204d4a1ed757,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:50:20 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:20 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:50:20 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/102aac6d-5a0f-47f6-b32b-2fd1c7bdebb0,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:50:20 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:20 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:50:20 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/efd61def-2741-4c2f-bc5a-f250741bc420/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"efd61def-2741-4c2f-bc5a-f250741bc420","userId":null,"columnId":null}
+     
+[10/24/2020, 10:50:20 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:20 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/efd61def-2741-4c2f-bc5a-f250741bc420/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"efd61def-2741-4c2f-bc5a-f250741bc420","userId":null,"columnId":null}
+     
+[10/24/2020, 10:50:20 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/efd61def-2741-4c2f-bc5a-f250741bc420/tasks,
+      query parameters ={},
+      body= {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"efd61def-2741-4c2f-bc5a-f250741bc420","userId":null,"columnId":null}
+     
+[10/24/2020, 10:50:20 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/efd61def-2741-4c2f-bc5a-f250741bc420/tasks,
+      query parameters ={},
+      body= {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"efd61def-2741-4c2f-bc5a-f250741bc420","userId":null,"columnId":null}
+     
+[10/24/2020, 10:50:20 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/efd61def-2741-4c2f-bc5a-f250741bc420/tasks,
+      query parameters ={},
+      body= {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"efd61def-2741-4c2f-bc5a-f250741bc420","userId":null,"columnId":null}
+     
+[10/24/2020, 10:50:20 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:20 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:20 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:20 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:20 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/5945484a-3f30-4a7f-8c99-4120cef252da,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:50:20 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:21 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/24/2020, 10:50:21 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/e16246ee-54fb-482c-9dd7-5d084164bf6a/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/24/2020, 10:50:21 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:21 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/e16246ee-54fb-482c-9dd7-5d084164bf6a/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:50:21 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:21 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/e16246ee-54fb-482c-9dd7-5d084164bf6a/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:50:21 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:21 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/e16246ee-54fb-482c-9dd7-5d084164bf6a/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/24/2020, 10:50:21 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:21 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/e16246ee-54fb-482c-9dd7-5d084164bf6a/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/24/2020, 10:50:21 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:21 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/undefined/tasks/undefined,
+      query parameters ={},
+      body= {"title":"Autotest updated task"}
+     
+[10/24/2020, 10:50:21 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:21 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/e16246ee-54fb-482c-9dd7-5d084164bf6a/tasks/undefined,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:50:21 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:21 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/e16246ee-54fb-482c-9dd7-5d084164bf6a,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:50:21 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/24/2020, 10:50:46 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:51:00 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/24/2020, 10:51:24 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"wwwwwwwwwwww","columns":[{"title":"eeeeeeeeeee","order":22}]}
+     

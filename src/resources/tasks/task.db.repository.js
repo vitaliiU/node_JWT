@@ -1,7 +1,7 @@
 // const createError = require('http-errors');
-// const DB = require('../../common/inMemoryDB');
 
-const User = require('./user.model');
+// const DB = require('../../common/inMemoryDB');
+const User = require('./task.model');
 
 const getAll = async () => {
   return User.find({});
