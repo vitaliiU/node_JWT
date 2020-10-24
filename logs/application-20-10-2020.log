@@ -1,0 +1,38 @@
+[10/20/2020, 3:33:13 PM] error: Unhandled rejection detected: GopStop!!!!!
+[10/20/2020, 3:46:12 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}
+     
+[10/20/2020, 3:46:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[10/20/2020, 3:46:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}
+     
+[10/20/2020, 3:46:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}
+     
+[10/20/2020, 3:46:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}
+     
+[10/20/2020, 3:46:24 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/20/2020, 3:46:24 PM] error: Unhandled rejection detected: 

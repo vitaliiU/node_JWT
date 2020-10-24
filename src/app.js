@@ -56,7 +56,7 @@ app.use((err, req, res, next) => {
 });
 
 // throw Error('GopStop!!!!!');
-// Promise.reject(Error('GopStop!!!!!'));
+// Promise.reject(new Error('GopStop!!!!!'));
 
 //--
 module.exports = app;
