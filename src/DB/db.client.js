@@ -1,15 +1,14 @@
 // getting-started.js
 const mongoose = require('mongoose');
-// const MONGO_CONNECTION_STRING = require('dotenv');
+const config = require('../common/config');
 
-const User = require('../resources/users/user.model');
+// const User = require('../resources/users/user.model');
 
 const connectToDB = cb => {
-  mongoose.connect(process.env.MONGO_CONNECTION_STRING, {
+  mongoose.connect(config.MONGO_CONNECTION_STRING, {
     useNewUrlParser: true,
     useUnifiedTopology: true
   });
-  //   mongoose.connect(MONGO_CONNECTION_STRING, { useNewUrlParser: true });
 
   const db = mongoose.connection;
   db.on('error', console.error.bind(console, 'connection error:'));

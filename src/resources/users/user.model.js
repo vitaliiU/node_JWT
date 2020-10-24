@@ -1,3 +1,4 @@
+const { object } = require('joi');
 const mongoose = require('mongoose');
 const uuid = require('uuid');
 
@@ -15,8 +16,11 @@ const userSchema = new mongoose.Schema(
 );
 
 userSchema.statics.toResponse = user => {
-  const { id, name, login } = user;
-  return { id, name, login };
+  if (!user.result) {
+    const { id, name, login } = user;
+    return { id, name, login };
+  }
+  return user;
 };
 
 userSchema.statics.fromRequest = body => {
