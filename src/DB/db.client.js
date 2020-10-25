@@ -4,6 +4,7 @@ const config = require('../common/config');
 
 const User = require('../resources/users/user.model');
 const Board = require('../resources/boards/board.model');
+const Task = require('../resources/tasks/task.model');
 
 const connectToDB = cb => {
   mongoose.connect(config.MONGO_CONNECTION_STRING, {
@@ -16,15 +17,15 @@ const connectToDB = cb => {
   db.once('open', () => {
     console.log("we're connected!");
     db.dropDatabase();
-    // ______________________________________DefaultUser____________________________
+    // ______________________________________DefaultUserTest____________________________
     User.insertMany([
-      { name: 'user1', login: 'admin', password: 'admin' },
-      { name: 'user2', login: 'login2', password: 'login2222' }
+      { name: 'userTest1', login: 'admin', password: 'admin' },
+      { name: 'userTest2', login: 'login2', password: 'login2222' }
     ]);
-    // ______________________________________DefaultBoard____________________________
+    // ______________________________________DefaultBoardTest____________________________
     Board.insertMany([
       {
-        title: 'board1',
+        title: 'boardTest1',
         columns: [
           {
             title: 'column1',
@@ -37,7 +38,7 @@ const connectToDB = cb => {
         ]
       },
       {
-        title: 'board2',
+        title: 'boardTest2',
         columns: [
           {
             title: 'column3',
@@ -48,6 +49,25 @@ const connectToDB = cb => {
             order: 4
           }
         ]
+      }
+    ]);
+    // ______________________________________DefaultTaskTest_______________________________
+    Task.insertMany([
+      {
+        title: 'taskTest1',
+        order: 'order1',
+        description: 'description1',
+        userId: 'c1ab81cc-ae7f-48f6-b025-b24019fd7fbf',
+        boardId: 'bfe972f4-cae8-4012-b4e8-b82daeb4fb2d',
+        columnId: 'v1ab81cc-ae7f-48f6-b025-b24019fd7frr'
+      },
+      {
+        title: 'taskTest2',
+        order: 'order2',
+        description: 'description2',
+        userId: 'h1ab81cc-ae7f-48f6-b025-b24019fd7fbl',
+        boardId: 'yfe972f4-cae8-4012-b4e8-b82daeb4fb2u',
+        columnId: 'i1ab81cc-ae7f-48f6-b025-b24019fd7frs'
       }
     ]);
     cb();

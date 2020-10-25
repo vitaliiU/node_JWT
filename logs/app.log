@@ -4086,3 +4086,593 @@ ReferenceError: User is not defined
       query parameters ={},
       body= {}
      
+[10/25/2020, 10:15:22 AM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 10:15:38 AM] info: 
+      method= GET,
+      url= http://localhost:4000/users/edaeb3ec-3919-4c03-aa56-6b0a7124bcdf,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 10:15:44 AM] info: 
+      method= GET,
+      url= http://localhost:4000/users/ed5aeb3ec-3919-4c03-aa56-6b0a7124bcdf,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 10:33:05 AM] error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/index.js:537:13)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.model.js:63:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.db.repository.js:4:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.service.js:1:19)
+[10/25/2020, 10:35:11 AM] error: uncaughtException: Task is not a constructor
+TypeError: Task is not a constructor
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/common/inMemoryDBTask.js:5:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.memory.repository.js:1:16)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.service.js:1:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/25/2020, 10:39:12 AM] error: uncaughtException: userSchema is not defined
+ReferenceError: userSchema is not defined
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.model.js:58:1)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.db.repository.js:4:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.service.js:1:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/25/2020, 10:41:13 AM] error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/index.js:537:13)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.model.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.db.repository.js:4:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.service.js:1:19)
+[10/25/2020, 10:41:29 AM] error: uncaughtException: Identifier 'Task' has already been declared
+/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.model.js:34
+class Task {
+^^^^^^^^^^^^
+
+SyntaxError: Identifier 'Task' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.db.repository.js:4:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.service.js:1:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/25/2020, 10:46:10 AM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 10:46:29 AM] info: 
+      method= GET,
+      url= http://localhost:4000/users/4599666d-1a44-47b0-8c90-bbc5659fcdd4,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 10:46:29 AM] error: Internal Server Error. StatusCode 500.
+[10/25/2020, 11:29:26 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 11:30:23 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/e677adfb-dd4d-4e80-8a4a-ed80020271b0/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 11:30:23 AM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/25/2020, 11:32:03 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/e677adfb-dd4d-4e80-8a4a-ed80020271b0/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 11:33:11 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/e677adfb-dd4d-4e80-8a4a-ed80020271b0/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 11:33:11 AM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/25/2020, 11:35:46 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 11:35:58 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/c77118a1-a652-4005-bad9-ced5ac9c1253/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 11:39:24 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 11:39:40 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/7651a5a7-8c26-44b0-b23f-c3e24acd638d/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 11:49:25 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 11:49:38 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/f27ac3af-06f6-4dbd-8a76-cc5cf300ecbb/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:16:00 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:16:16 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/40244941-9311-44d3-983b-84c5f3f802fa/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:24:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:25:01 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/6e0f3018-7f5c-4376-8ac6-1d7d97d80ec1/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:25:54 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/6e0f3018-7f5c-4376-8ac6-1d7d97d80ec1/tasks/18d7d5e9-1967-4341-985e-1b683b405190,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:27:53 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/7a3d8e9d-f016-4f7c-afea-85afccfc6e92/tasks/0ae3a96a-324c-4a5a-aa9c-f70e077ab1d0,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:33:06 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/49f668d1-91bc-499e-a87c-f2f54f1e78c5/tasks/15e4a296-1be8-4969-9e9f-2b711614a304,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:34:10 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/63b9bd4a-2c33-471b-810a-24add194a2d6/tasks/15e4a296-1be8-4969-9e9f-2b711614a304,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:35:32 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/b378e697-53eb-4010-b73b-2e672bc2b0d5/tasks/538a49ae-4ac9-4d83-8eb2-89d3b9822a52,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:37:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d5340c32-fa22-451a-9d96-f621acf2db9f/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:38:26 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/d5340c32-fa22-451a-9d96-f621acf2db9f/tasks,
+      query parameters ={},
+      body= {"title":"rrrrrrrrrrrrrr","order":0,"description":"yyyyyyyy","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/25/2020, 12:38:54 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d5340c32-fa22-451a-9d96-f621acf2db9f/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:39:34 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d5340c32-fa22-451a-9d96-f621acf2db9f/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:45 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:45 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/25/2020, 12:42:45 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/111278bc-7024-466f-bc32-f65f4d231239,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:45 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/111278bc-7024-466f-bc32-f65f4d231239,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:45 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/25/2020, 12:42:45 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/25/2020, 12:42:45 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/d53c5596-0606-4694-8448-d2772b43be6e,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:45 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/25/2020, 12:42:45 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/25/2020, 12:42:45 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/users/5b060951-6f6e-49eb-9abd-bfac6f3e59fd,
+      query parameters ={},
+      body= {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"5b060951-6f6e-49eb-9abd-bfac6f3e59fd"}
+     
+[10/25/2020, 12:42:45 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/5b060951-6f6e-49eb-9abd-bfac6f3e59fd,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:45 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/5b060951-6f6e-49eb-9abd-bfac6f3e59fd,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:45 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/25/2020, 12:42:45 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/25/2020, 12:42:46 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/3b4bd048-1ed8-4bf0-8b5f-08998e853975,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:46 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/25/2020, 12:42:46 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/25/2020, 12:42:46 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/25/2020, 12:42:46 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/d5a91bf0-71f9-4e1d-aff6-412908bfe97d/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"b7120a24-e145-486d-b40d-c07f348001ea","boardId":"d5a91bf0-71f9-4e1d-aff6-412908bfe97d"}
+     
+[10/25/2020, 12:42:46 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/d5a91bf0-71f9-4e1d-aff6-412908bfe97d/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"b7120a24-e145-486d-b40d-c07f348001ea","boardId":"d5a91bf0-71f9-4e1d-aff6-412908bfe97d"}
+     
+[10/25/2020, 12:42:46 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/b7120a24-e145-486d-b40d-c07f348001ea,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:46 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/25/2020, 12:42:46 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/25/2020, 12:42:46 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:46 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:47 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/e9238a72-26b0-4501-b062-e2edda0eb42d,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:47 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/25/2020, 12:42:47 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/1af07da8-eb5b-4ccb-9b51-a80eb75b69ac,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:47 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/25/2020, 12:42:47 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/049c1da1-83f6-4cfb-a897-380df1c12c0b,
+      query parameters ={},
+      body= {"id":"049c1da1-83f6-4cfb-a897-380df1c12c0b","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/25/2020, 12:42:47 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/049c1da1-83f6-4cfb-a897-380df1c12c0b,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:47 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/049c1da1-83f6-4cfb-a897-380df1c12c0b,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:47 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/25/2020, 12:42:47 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/822cec6d-c653-4877-8b3c-ddde6bb9efb3,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:47 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/822cec6d-c653-4877-8b3c-ddde6bb9efb3,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:47 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/25/2020, 12:42:47 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/25/2020, 12:42:47 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/2715c318-8237-4ee9-8c24-e064b5fccb62/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"2715c318-8237-4ee9-8c24-e064b5fccb62","userId":null,"columnId":null}
+     
+[10/25/2020, 12:42:48 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/2715c318-8237-4ee9-8c24-e064b5fccb62/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"2715c318-8237-4ee9-8c24-e064b5fccb62","userId":null,"columnId":null}
+     
+[10/25/2020, 12:42:48 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/2715c318-8237-4ee9-8c24-e064b5fccb62/tasks,
+      query parameters ={},
+      body= {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"2715c318-8237-4ee9-8c24-e064b5fccb62","userId":null,"columnId":null}
+     
+[10/25/2020, 12:42:48 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/2715c318-8237-4ee9-8c24-e064b5fccb62/tasks,
+      query parameters ={},
+      body= {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"2715c318-8237-4ee9-8c24-e064b5fccb62","userId":null,"columnId":null}
+     
+[10/25/2020, 12:42:48 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/2715c318-8237-4ee9-8c24-e064b5fccb62/tasks,
+      query parameters ={},
+      body= {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"2715c318-8237-4ee9-8c24-e064b5fccb62","userId":null,"columnId":null}
+     
+[10/25/2020, 12:42:48 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/2715c318-8237-4ee9-8c24-e064b5fccb62/tasks/99350aa7-3c5c-4d60-aa84-b286c1aa937d,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:48 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/2715c318-8237-4ee9-8c24-e064b5fccb62/tasks/eaea4eba-afd1-4791-9d27-6801f0cf2413,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:48 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/2715c318-8237-4ee9-8c24-e064b5fccb62/tasks/6d0c47d7-bcfa-49db-b605-b342dc13245d,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:48 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/2715c318-8237-4ee9-8c24-e064b5fccb62/tasks/baf22231-b8a4-4ba4-baca-0d7c6ad7a811,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:48 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/2715c318-8237-4ee9-8c24-e064b5fccb62/tasks/3f9650fc-93c2-4126-9ccc-d5bf016aef0d,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:48 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/c4e33ffd-e87c-4ed1-8066-0eb8982f8d47,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:48 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/25/2020, 12:42:48 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/8bd9100b-76c0-4f18-98c2-138b631cba0c/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/25/2020, 12:42:49 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/8bd9100b-76c0-4f18-98c2-138b631cba0c/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:49 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/8bd9100b-76c0-4f18-98c2-138b631cba0c/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:49 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/8bd9100b-76c0-4f18-98c2-138b631cba0c/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/25/2020, 12:42:49 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/8bd9100b-76c0-4f18-98c2-138b631cba0c/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/25/2020, 12:42:49 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/8bd9100b-76c0-4f18-98c2-138b631cba0c/tasks/2adcfd41-a1ce-49f1-8735-1b0f88922f54,
+      query parameters ={},
+      body= {"id":"2adcfd41-a1ce-49f1-8735-1b0f88922f54","title":"Autotest updated task","order":"0","description":"Lorem ipsum","userId":null,"boardId":"8bd9100b-76c0-4f18-98c2-138b631cba0c","columnId":null}
+     
+[10/25/2020, 12:42:49 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/8bd9100b-76c0-4f18-98c2-138b631cba0c/tasks/2adcfd41-a1ce-49f1-8735-1b0f88922f54,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:49 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/8bd9100b-76c0-4f18-98c2-138b631cba0c/tasks/069a2685-862c-4baf-bb01-88dece0a79b6,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:49 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/8bd9100b-76c0-4f18-98c2-138b631cba0c/tasks/069a2685-862c-4baf-bb01-88dece0a79b6,
+      query parameters ={},
+      body= {}
+     
+[10/25/2020, 12:42:49 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/25/2020, 12:42:49 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/8bd9100b-76c0-4f18-98c2-138b631cba0c,
+      query parameters ={},
+      body= {}
+     

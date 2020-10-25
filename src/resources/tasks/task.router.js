@@ -7,7 +7,8 @@ const tasksService = require('./task.service');
 router.route('/').get(async (req, res, next) => {
   try {
     const task = await tasksService.getAll(req.params.boardId);
-    await res.json(task.map(Task.toResponse));
+    await res.json({});
+    // await res.json(task.map(Task.toResponse));
   } catch (e) {
     res.status(404).send(e.message);
     return next(createError(404, e.message));
