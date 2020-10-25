@@ -26,8 +26,10 @@ router.route('/').post(async (req, res) => {
 
 router.route('/:id').put(async (req, res, next) => {
   try {
-    const board = await boardsService.update(req.params.id, req.body);
-    await res.json(Board.toResponse(board));
+    await boardsService.update(req.params.id, req.body);
+    res.status(200).send(Board.toResponse({ result: 'Update successfully' }));
+
+    // await res.json(Board.toResponse(board));
   } catch (e) {
     res.status(404).send(e.message);
     return next(createError(404, e.message));
@@ -36,8 +38,13 @@ router.route('/:id').put(async (req, res, next) => {
 
 router.route('/:id').delete(async (req, res, next) => {
   try {
-    const boards = await boardsService.removeBoard(req.params.id);
-    await res.json(boards.map(Board.toResponse));
+    const boardDeleted = await boardsService.removeBoard(req.params.id);
+    if (boardDeleted === 1) {
+      res.json(Board.toResponse({ result: 'Deleted successfully' }));
+    } else {
+      res.json(Board.toResponse({ result: 'Not Deleted' }));
+    }
+    // await res.json(boards.map(Board.toResponse));
   } catch (e) {
     res.status(404).send(e.message);
     return next(createError(404, e.message));

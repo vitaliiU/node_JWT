@@ -61,7 +61,6 @@ router.post(
 router.route('/:id').put(async (req, res, next) => {
   try {
     await usersService.update(req.params.id, req.body);
-
     res.status(200).send(User.toResponse({ result: 'Update successfully' }));
     // await res.json(User.toResponse([4, 5, 6, 7]));
   } catch (e) {
@@ -72,8 +71,8 @@ router.route('/:id').put(async (req, res, next) => {
 
 router.route('/:id').delete(async (req, res, next) => {
   try {
-    const userModel = await usersService.removeUser(req.params.id);
-    if (userModel === 1) {
+    const userDeleted = await usersService.removeUser(req.params.id);
+    if (userDeleted === 1) {
       res.json(User.toResponse({ result: 'Deleted successfully' }));
     } else {
       res.json(User.toResponse({ result: 'Not Deleted' }));
