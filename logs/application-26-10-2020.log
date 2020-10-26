@@ -1,0 +1,511 @@
+[10/26/2020, 2:59:16 AM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 2:59:17 AM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 2:59:17 AM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 2:59:17 AM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 2:59:17 AM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 2:59:18 AM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/favicon-16x16.png,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:00:29 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:01:00 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/00788e7e-b54e-4821-ad3c-b905be757d8c/tasks,
+      query parameters ={},
+      body= {"title":"cccccccccccccccccc","order":55,"description":"vvvvvvvvvvvvvv","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 3:02:02 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/00788e7e-b54e-4821-ad3c-b905be757d8c/tasks/5f1dbaae-2119-4d64-acd8-545c2dbf3474,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:03:18 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:03:28 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:04:35 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/00788e7e-b54e-4821-ad3c-b905be757d8c/tasks/5f1dbaae-2119-4d64-acd8-545c2dbf3474,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:05:22 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/00788e7e-b54e-4821-ad3c-b905be757d8c/tasks/5f1dbaae-2119-4d64-acd8-545c2dbf3475,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:05:35 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/00788e7e-b54e-4821-ad3c-b905be757d8d/tasks/5f1dbaae-2119-4d64-acd8-545c2dbf3475,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:06:46 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/00788e7e-b54e-4821-ad3c-b905be757d8d/tasks/5f1dbaae-2119-4d64-acd8-545c2dbf3475,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:07:04 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/00788e7e-b54e-4821-ad3c-b905be757d8d/tasks/5f1dbaae-2119-4d64-acd8-545c2dbf3475,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:08:35 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:08:51 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/f141b1c8-115f-412f-ac1b-1fa5642e32f7/tasks,
+      query parameters ={},
+      body= {"title":"cccccccccccccccccc","order":55,"description":"vvvvvvvvvvvvvv","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 3:10:03 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/f141b1c8-115f-412f-ac1b-1fa5642e32f7/tasks/ba9dc9a5-8bfb-4342-b739-d3474f2d3785,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:14:01 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/84759efd-06d9-4b89-8c4f-a8267535da46/tasks,
+      query parameters ={},
+      body= {"title":"cccccccccccccccccc","order":55,"description":"vvvvvvvvvvvvvv","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 3:14:15 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/84759efd-06d9-4b89-8c4f-a8267535da46/tasks/yfe972f4-cae8-4012-b4e8-b82daeb4fb2u,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:15:30 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:15:55 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/aff6d914-6cf8-4f71-9ee8-d7b98af7a78d/tasks,
+      query parameters ={},
+      body= {"title":"cccccccccccccccccc","order":55,"description":"vvvvvvvvvvvvvv","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 3:16:20 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/aff6d914-6cf8-4f71-9ee8-d7b98af7a78d/tasks/6bcd715c-2a88-4e39-966a-9e60d27c2d58,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:24:07 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:24:23 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/9f931817-2518-4990-9f50-0e5e5c385c8a/tasks,
+      query parameters ={},
+      body= {"title":"cccccccccccccccccc","order":55,"description":"vvvvvvvvvvvvvv","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 3:24:34 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/9f931817-2518-4990-9f50-0e5e5c385c8a/tasks,
+      query parameters ={},
+      body= {"title":"ddddddddddddd","order":55,"description":"ffffffffffffff","userId":"string","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 3:24:44 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/9f931817-2518-4990-9f50-0e5e5c385c8a/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:25:25 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/9f931817-2518-4990-9f50-0e5e5c385c8a/tasks/1f625419-76da-4f5d-9142-ee8b561942da,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:27:10 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/9f931817-2518-4990-9f50-0e5e5c385c8a/tasks/1f625419-76da-4f5d-9142-ee8b561942ds,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:36 AM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:36 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/26/2020, 3:31:36 AM] info: 
+      method= GET,
+      url= http://localhost:4000/users/864837c6-dace-4ffa-84c2-5c5cdfea8b6e,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:37 AM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/864837c6-dace-4ffa-84c2-5c5cdfea8b6e,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:37 AM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/26/2020, 3:31:37 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/26/2020, 3:31:37 AM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/a6785b2b-c286-4cdf-a156-363041f77ace,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:37 AM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/26/2020, 3:31:37 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/26/2020, 3:31:37 AM] info: 
+      method= PUT,
+      url= http://localhost:4000/users/76decad6-bf21-4aa8-9740-db546b0aae36,
+      query parameters ={},
+      body= {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"76decad6-bf21-4aa8-9740-db546b0aae36"}
+     
+[10/26/2020, 3:31:37 AM] info: 
+      method= GET,
+      url= http://localhost:4000/users/76decad6-bf21-4aa8-9740-db546b0aae36,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:37 AM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/76decad6-bf21-4aa8-9740-db546b0aae36,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:37 AM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/26/2020, 3:31:37 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/26/2020, 3:31:37 AM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/784eb022-98fe-4e29-9094-65df4b7404a4,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:37 AM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/26/2020, 3:31:37 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/26/2020, 3:31:37 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 3:31:37 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/6d7c307d-be15-49b1-975f-411756a24742/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"08987680-091f-4b92-a90d-a1984b786ebe","boardId":"6d7c307d-be15-49b1-975f-411756a24742"}
+     
+[10/26/2020, 3:31:37 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/6d7c307d-be15-49b1-975f-411756a24742/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"08987680-091f-4b92-a90d-a1984b786ebe","boardId":"6d7c307d-be15-49b1-975f-411756a24742"}
+     
+[10/26/2020, 3:31:37 AM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/08987680-091f-4b92-a90d-a1984b786ebe,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:37 AM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/26/2020, 3:31:38 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 3:31:38 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:38 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:38 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/a3edf07a-2da5-4938-b9ab-7ffeb75d20c4,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:38 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 3:31:38 AM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/c6d67fff-8bbe-4359-9759-e921a4d5fc43,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:38 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 3:31:38 AM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/3a75e971-c5f7-4988-9293-5d8e5d28a84a,
+      query parameters ={},
+      body= {"id":"3a75e971-c5f7-4988-9293-5d8e5d28a84a","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 3:31:38 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/3a75e971-c5f7-4988-9293-5d8e5d28a84a,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:39 AM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/3a75e971-c5f7-4988-9293-5d8e5d28a84a,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:39 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 3:31:39 AM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/5661754f-c00a-492f-99a8-19a4ff08dc36,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:39 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/5661754f-c00a-492f-99a8-19a4ff08dc36,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:39 AM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/26/2020, 3:31:39 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 3:31:39 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/68f736f2-a490-4dc7-a492-5337927b221c/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"68f736f2-a490-4dc7-a492-5337927b221c","userId":null,"columnId":null}
+     
+[10/26/2020, 3:31:39 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/68f736f2-a490-4dc7-a492-5337927b221c/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"68f736f2-a490-4dc7-a492-5337927b221c","userId":null,"columnId":null}
+     
+[10/26/2020, 3:31:39 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/68f736f2-a490-4dc7-a492-5337927b221c/tasks,
+      query parameters ={},
+      body= {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"68f736f2-a490-4dc7-a492-5337927b221c","userId":null,"columnId":null}
+     
+[10/26/2020, 3:31:39 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/68f736f2-a490-4dc7-a492-5337927b221c/tasks,
+      query parameters ={},
+      body= {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"68f736f2-a490-4dc7-a492-5337927b221c","userId":null,"columnId":null}
+     
+[10/26/2020, 3:31:39 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/68f736f2-a490-4dc7-a492-5337927b221c/tasks,
+      query parameters ={},
+      body= {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"68f736f2-a490-4dc7-a492-5337927b221c","userId":null,"columnId":null}
+     
+[10/26/2020, 3:31:39 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/68f736f2-a490-4dc7-a492-5337927b221c/tasks/a7ad711d-7cce-4f9f-bead-99a12d395fe5,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:39 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/68f736f2-a490-4dc7-a492-5337927b221c/tasks/81f36abf-8c8b-472e-83f6-1c7195546bd7,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:39 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/68f736f2-a490-4dc7-a492-5337927b221c/tasks/74b5aa70-cfe6-449c-9678-ef137ed6c920,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:39 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/68f736f2-a490-4dc7-a492-5337927b221c/tasks/239a1021-e310-4af6-b6bd-70a2b5c2c936,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:39 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/68f736f2-a490-4dc7-a492-5337927b221c/tasks/979e2979-23d3-4487-b22b-fa8852ef3c9f,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:39 AM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/f671126b-9b5c-4032-9e53-ffe760ad0cba,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:40 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 3:31:40 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/61d7afe8-a07b-4cd4-90e3-109fcd94e440/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/26/2020, 3:31:40 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/61d7afe8-a07b-4cd4-90e3-109fcd94e440/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:40 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/61d7afe8-a07b-4cd4-90e3-109fcd94e440/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:40 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/61d7afe8-a07b-4cd4-90e3-109fcd94e440/tasks/bb0ff35f-b313-49a7-9117-a520fa35afaa,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:40 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/61d7afe8-a07b-4cd4-90e3-109fcd94e440/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/26/2020, 3:31:41 AM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/61d7afe8-a07b-4cd4-90e3-109fcd94e440/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/26/2020, 3:31:41 AM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/61d7afe8-a07b-4cd4-90e3-109fcd94e440/tasks/4eb45865-da0a-42b6-9a3a-63db09b4fa4a,
+      query parameters ={},
+      body= {"id":"4eb45865-da0a-42b6-9a3a-63db09b4fa4a","title":"Autotest updated task","order":"0","description":"Lorem ipsum","userId":null,"boardId":"61d7afe8-a07b-4cd4-90e3-109fcd94e440","columnId":null}
+     
+[10/26/2020, 3:31:41 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/61d7afe8-a07b-4cd4-90e3-109fcd94e440/tasks/4eb45865-da0a-42b6-9a3a-63db09b4fa4a,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:41 AM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/61d7afe8-a07b-4cd4-90e3-109fcd94e440/tasks/bb0ff35f-b313-49a7-9117-a520fa35afaa,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:41 AM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/61d7afe8-a07b-4cd4-90e3-109fcd94e440/tasks/bb0ff35f-b313-49a7-9117-a520fa35afaa,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 3:31:41 AM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[10/26/2020, 3:31:41 AM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/61d7afe8-a07b-4cd4-90e3-109fcd94e440,
+      query parameters ={},
+      body= {}
+     

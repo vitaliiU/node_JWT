@@ -27,9 +27,10 @@ const get = async (boardId, taskId) => {
   }
   try {
     const taskFilter = await Task.find({
-      boardId,
-      id: taskId
+      _id: taskId,
+      boardId
     });
+    console.log(taskFilter);
     return taskFilter;
   } catch (error) {
     return createError(

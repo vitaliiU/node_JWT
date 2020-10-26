@@ -7,7 +7,7 @@ const tasksService = require('./task.service');
 router.route('/').get(async (req, res, next) => {
   try {
     const task = await tasksService.getAll(req.params.boardId);
-    await res.json({});
+    await res.status(200).json(task.map(Task.toResponse));
     // await res.json(task.map(Task.toResponse));
   } catch (e) {
     res.status(404).send(e.message);
@@ -18,7 +18,8 @@ router.route('/').get(async (req, res, next) => {
 router.route('/:taskId').get(async (req, res, next) => {
   try {
     const task = await tasksService.get(req.params.boardId, req.params.taskId);
-    await res.json(Task.toResponse(task));
+    await res.status(200).json(task.map(Task.toResponse));
+    // await res.json(Task.toResponse(task));
   } catch (e) {
     res.status(404).send(e.message);
     return next(createError(404, e.message));
