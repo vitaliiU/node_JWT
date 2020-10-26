@@ -18,7 +18,8 @@ router.route('/').get(async (req, res, next) => {
 router.route('/:taskId').get(async (req, res, next) => {
   try {
     const task = await tasksService.get(req.params.boardId, req.params.taskId);
-    await res.status(200).json(task.map(Task.toResponse));
+    await res.status(200).send(Task.toResponse(task));
+
     // await res.json(Task.toResponse(task));
   } catch (e) {
     res.status(404).send(e.message);
@@ -40,12 +41,8 @@ router.route('/').post(async (req, res, next) => {
 
 router.route('/:taskId').put(async (req, res, next) => {
   try {
-    const task = await tasksService.update(
-      req.params.boardId,
-      req.params.taskId,
-      req.body
-    );
-    await res.json(Task.toResponse(task));
+    await tasksService.update(req.params.boardId, req.params.taskId, req.body);
+    res.status(200).send(Task.toResponse({ result: 'Update successfully' }));
   } catch (e) {
     res.status(404).send(e.message);
     return next(createError(404, e.message));
@@ -58,7 +55,11 @@ router.route('/:taskId').delete(async (req, res, next) => {
       req.params.boardId,
       req.params.taskId
     );
-    await res.json(tasks.map(Task.toResponse));
+    if (tasks === 1) {
+      res.status(200).send(Task.toResponse({ result: 'Deleted successfully' }));
+    } else {
+      res.status(404).send(Task.toResponse({ result: 'Not Deleted' }));
+    }
   } catch (e) {
     res.status(404).send(e.message);
     return next(createError(404, e.message));

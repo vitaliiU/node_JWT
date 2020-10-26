@@ -44,12 +44,34 @@ const create = async task => {
   return Task.create(task);
 };
 
-const update = async (id, body) => {
-  return Task.updateOne({ _id: id }, body);
+const update = async (boardId, taskId, body) => {
+  return Task.updateOne({ _id: taskId, boardId }, body);
 };
 
-const removeTask = async id => {
-  return (await Task.deleteOne({ _id: id })).deletedCount;
+const removeTask = async (boardId, taskId) => {
+  return await Task.deleteOne({ _id: taskId, boardId }).deletedCount;
 };
 
-module.exports = { getAll, get, create, update, removeTask };
+const removeTasksByDeleteBoard = async boardId => {
+  return await Task.deleteMany({ boardId }).deletedCount;
+};
+
+const nullTasksUserId = async userdId => {
+  await Task.updateMany(
+    { userdId },
+    {
+      $set: { userdId: null }
+    }
+  );
+  return 'updated success';
+};
+
+module.exports = {
+  getAll,
+  get,
+  create,
+  update,
+  removeTask,
+  removeTasksByDeleteBoard,
+  nullTasksUserId
+};

@@ -20,7 +20,7 @@ const update = async (id, body) => {
 };
 
 const removeBoard = async id => {
-  return (await Board.deleteOne({ _id: id })).deletedCount;
+  return await Board.deleteOne({ _id: id }).deletedCount;
 };
 
 module.exports = { getAll, get, create, update, removeBoard };

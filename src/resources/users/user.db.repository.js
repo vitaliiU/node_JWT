@@ -20,7 +20,8 @@ const update = async (id, body) => {
 };
 
 const removeUser = async id => {
-  return (await User.deleteOne({ _id: id })).deletedCount;
+  console.log(55555554444444443333333333);
+  return await User.deleteOne({ _id: id }).deletedCount;
 };
 
 module.exports = { getAll, get, create, update, removeUser };

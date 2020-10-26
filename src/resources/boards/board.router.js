@@ -14,7 +14,7 @@ router.route('/:id').get(async (req, res, next) => {
     const board = await boardsService.get(req.params.id);
     await res.json(Board.toResponse(board));
   } catch (e) {
-    res.status(404).send(e.message);
+    // res.status(404).send(e.message);
     return next(createError(404, e.message));
   }
 });
@@ -31,7 +31,7 @@ router.route('/:id').put(async (req, res, next) => {
 
     // await res.json(Board.toResponse(board));
   } catch (e) {
-    res.status(404).send(e.message);
+    // res.status(404).send(e.message);
     return next(createError(404, e.message));
   }
 });
@@ -40,13 +40,15 @@ router.route('/:id').delete(async (req, res, next) => {
   try {
     const boardDeleted = await boardsService.removeBoard(req.params.id);
     if (boardDeleted === 1) {
-      res.json(Board.toResponse({ result: 'Deleted successfully' }));
+      res
+        .status(200)
+        .send(Board.toResponse({ result: 'Deleted successfully' }));
     } else {
-      res.json(Board.toResponse({ result: 'Not Deleted' }));
+      res.status(404).send(Board.toResponse({ result: 'Not Deleted' }));
     }
     // await res.json(boards.map(Board.toResponse));
   } catch (e) {
-    res.status(404).send(e.message);
+    // res.status(404).send(e.message);
     return next(createError(404, e.message));
   }
 });
