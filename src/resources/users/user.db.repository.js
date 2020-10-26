@@ -6,7 +6,7 @@ const getAll = async () => {
   try {
     return User.find({});
   } catch (e) {
-    throw createError(500, e.message);
+    throw createError(404, e.message);
   }
 };
 

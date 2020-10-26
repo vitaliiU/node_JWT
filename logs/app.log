@@ -14966,3 +14966,2121 @@ SyntaxError: Identifier 'removeBoard' has already been declared
       query parameters ={},
       body= {}
      
+[10/26/2020, 9:41:38 PM] error: uncaughtException: Cannot find module './user.service'
+Require stack:
+- /home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.router.js
+- /home/node/Desktop/NodeJS/node-js-2/src/app.js
+- /home/node/Desktop/NodeJS/node-js-2/src/server.js
+Error: Cannot find module './user.service'
+Require stack:
+- /home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.router.js
+- /home/node/Desktop/NodeJS/node-js-2/src/app.js
+- /home/node/Desktop/NodeJS/node-js-2/src/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.router.js:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:9:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+[10/26/2020, 9:41:41 PM] error: uncaughtException: Cannot find module './user.service'
+Require stack:
+- /home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.router.js
+- /home/node/Desktop/NodeJS/node-js-2/src/app.js
+- /home/node/Desktop/NodeJS/node-js-2/src/server.js
+Error: Cannot find module './user.service'
+Require stack:
+- /home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.router.js
+- /home/node/Desktop/NodeJS/node-js-2/src/app.js
+- /home/node/Desktop/NodeJS/node-js-2/src/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.router.js:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:9:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+[10/26/2020, 9:41:54 PM] error: uncaughtException: Identifier 'tasksService' has already been declared
+/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.router.js:7
+const tasksService = require('./user.service');
+      ^
+
+SyntaxError: Identifier 'tasksService' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:9:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/26/2020, 9:45:15 PM] error: uncaughtException: Unexpected token '}'
+/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.router.js:45
+  } catch (e) {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:9:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/26/2020, 9:46:27 PM] error: uncaughtException: user is not defined
+ReferenceError: user is not defined
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.router.js:53:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:9:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/26/2020, 9:47:26 PM] error: uncaughtException: user is not defined
+ReferenceError: user is not defined
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.router.js:53:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:9:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/26/2020, 9:55:17 PM] error: uncaughtException: Identifier 'getAll' has already been declared
+/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.db.repository.js:15
+const getAll = async id => {
+      ^
+
+SyntaxError: Identifier 'getAll' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.service.js:1:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:6:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/26/2020, 9:55:54 PM] error: uncaughtException: Identifier 'getAll' has already been declared
+/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.db.repository.js:24
+const getAll = async id => {
+      ^
+
+SyntaxError: Identifier 'getAll' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.service.js:1:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:6:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/26/2020, 9:58:08 PM] error: uncaughtException: Identifier 'getAll' has already been declared
+/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.db.repository.js:28
+const getAll = async id => {
+      ^
+
+SyntaxError: Identifier 'getAll' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.service.js:1:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:6:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/26/2020, 9:58:58 PM] error: uncaughtException: Identifier 'getAll' has already been declared
+/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.db.repository.js:31
+const getAll = async id => {
+      ^
+
+SyntaxError: Identifier 'getAll' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.service.js:1:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:6:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/26/2020, 9:59:11 PM] error: uncaughtException: Identifier 'getAll' has already been declared
+/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.db.repository.js:31
+const getAll = async id => {
+      ^
+
+SyntaxError: Identifier 'getAll' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.service.js:1:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:6:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/26/2020, 10:00:54 PM] error: uncaughtException: Identifier 'get' has already been declared
+/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.db.repository.js:55
+const get = async (boardId, taskId) => {
+      ^
+
+SyntaxError: Identifier 'get' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.service.js:1:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:6:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/26/2020, 10:01:51 PM] error: uncaughtException: Identifier 'get' has already been declared
+/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.db.repository.js:55
+const get = async (boardId, taskId) => {
+      ^
+
+SyntaxError: Identifier 'get' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.service.js:1:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:6:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/26/2020, 10:03:22 PM] error: uncaughtException: Identifier 'get' has already been declared
+/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.db.repository.js:59
+const get = async (boardId, taskId) => {
+      ^
+
+SyntaxError: Identifier 'get' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.service.js:1:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:6:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/26/2020, 10:05:18 PM] error: uncaughtException: Identifier 'get' has already been declared
+/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.db.repository.js:62
+const get = async (boardId, taskId) => {
+      ^
+
+SyntaxError: Identifier 'get' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.service.js:1:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:6:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/26/2020, 10:06:18 PM] error: uncaughtException: Identifier 'get' has already been declared
+/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.db.repository.js:62
+const get = async (boardId, taskId) => {
+      ^
+
+SyntaxError: Identifier 'get' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.service.js:1:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:6:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/26/2020, 10:15:44 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:16:39 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:16:58 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/b375075c-0fad-4de5-a316-3bcc9393efff/tasks,
+      query parameters ={},
+      body= {"title":"wwwwwwwwwwwwwwwww","order":0,"description":"string","userId":"4f16b299-8f1c-48b2-a80f-d2e15f1454ff","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 10:17:09 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/b375075c-0fad-4de5-a316-3bcc9393efff/tasks,
+      query parameters ={},
+      body= {"title":"eeeeeeeeeeeeeeeeeeeeeee","order":0,"description":"string","userId":"4f16b299-8f1c-48b2-a80f-d2e15f1454ff","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 10:17:28 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/b375075c-0fad-4de5-a316-3bcc9393efff/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:17:28 PM] error: Client Error. StatusCode 404. Client Error. Board with id: undefined was not found
+[10/26/2020, 10:19:25 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:19:54 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:20:19 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/067a02ee-321f-4730-b094-ae64af8ac22c/tasks,
+      query parameters ={},
+      body= {"title":"eeeeeeeeeeeeeeeeeeeeeee","order":0,"description":"string","userId":"d75115d2-6ebd-4b22-9954-85d2cf9d37ad","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 10:20:28 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/067a02ee-321f-4730-b094-ae64af8ac22c/tasks,
+      query parameters ={},
+      body= {"title":"rrrrrrrrrrrrrrr","order":0,"description":"string","userId":"d75115d2-6ebd-4b22-9954-85d2cf9d37ad","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 10:20:40 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/067a02ee-321f-4730-b094-ae64af8ac22c/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:21:06 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/077a02ee-321f-4730-b094-ae64af8ac22c/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:21:06 PM] error: Client Error. StatusCode 404. Client Error. Board with id: 077a02ee-321f-4730-b094-ae64af8ac22c was not found
+[10/26/2020, 10:21:13 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/067a02ee-321f-4730-b094-ae64af8ac22c/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:21:24 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:21:24 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:21:24 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:21:24 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:21:24 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:21:24 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/favicon-16x16.png,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:21:52 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/067a02ee-321f-4730-b094-ae64af8ac22c/tasks/0573d710-fe4c-4405-8736-5c81055b6841,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:22:34 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/067a02ee-321f-4730-b094-ae64af8ac22c/tasks/0573d710-fe4c-4405-8736-5c81055b6841,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:26:41 PM] error: uncaughtException: id is not defined
+ReferenceError: id is not defined
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.router.js:74:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:9:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/26/2020, 10:27:24 PM] error: uncaughtException: id is not defined
+ReferenceError: id is not defined
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.router.js:74:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:9:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/26/2020, 10:27:37 PM] error: uncaughtException: id is not defined
+ReferenceError: id is not defined
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/tasks/task.router.js:74:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:9:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/26/2020, 10:28:14 PM] error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1447:7)
+    at Function.listen (/home/node/Desktop/NodeJS/node-js-2/node_modules/express/lib/application.js:618:24)
+    at /home/node/Desktop/NodeJS/node-js-2/src/server.js:6:7
+    at NativeConnection.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/DB/db.client.js:73:5)
+    at Object.onceWrapper (events.js:421:28)
+    at NativeConnection.emit (events.js:315:20)
+    at _setClient (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:947:8)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:794:7
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/utils.js:674:5
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/mongo_client.js:225:7
+    at connectCallback (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:366:5)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:602:5
+    at connectHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:297:43)
+    at cb (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:681:26)
+[10/26/2020, 10:29:50 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:30:14 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:30:38 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/49fb0d91-b388-49e0-99f3-afb34891677f/tasks,
+      query parameters ={},
+      body= {"title":"rrrrrrrrrrrrrrr","order":0,"description":"string","userId":"f6c0f7ed-90e5-4ea9-a013-77c2e61dd267","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 10:31:10 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/49fb0d91-b388-49e0-99f3-afb34891677f/tasks,
+      query parameters ={},
+      body= {"title":"nnnnnnnnnnnnnnnnnnnnnn","order":0,"description":"string","userId":"f6c0f7ed-90e5-4ea9-a013-77c2e61dd267","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 10:31:35 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/49fb0d91-b388-49e0-99f3-afb34891677f/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:32:03 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/49fb0d91-b388-49e0-99f3-afb34891677f/tasks/b335363b-61bc-4a06-a615-23887f0275cd,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:34:38 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:35:00 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:35:27 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/1f36697d-8a09-4880-81a4-90dfb02b97ed/tasks,
+      query parameters ={},
+      body= {"title":"wwwwwwwwwwwwwww","order":0,"description":"string","userId":"bea12db2-fff1-485e-bf45-0a47e66a62a9","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 10:35:33 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/1f36697d-8a09-4880-81a4-90dfb02b97ed/tasks,
+      query parameters ={},
+      body= {"title":"eeeeeeeeeeeeeeeee","order":0,"description":"string","userId":"bea12db2-fff1-485e-bf45-0a47e66a62a9","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 10:36:16 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/1f36697d-8a09-4880-81a4-90dfb02b97ed/tasks/bea12db2-fff1-485e-bf45-0a47e66a62a9,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:43:01 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:43:28 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:43:46 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/4ac7aa83-a869-4bad-ae05-6a8d1246bb47/tasks,
+      query parameters ={},
+      body= {"title":"eeeeeeeeeeeeeeeee","order":0,"description":"string","userId":"6846c453-ae56-4b59-b16d-eb3ba7218ff2","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 10:43:54 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/4ac7aa83-a869-4bad-ae05-6a8d1246bb47/tasks,
+      query parameters ={},
+      body= {"title":"rrrrrrrrrrrrrr","order":0,"description":"string","userId":"6846c453-ae56-4b59-b16d-eb3ba7218ff2","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 10:44:29 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4ac7aa83-a869-4bad-ae05-6a8d1246bb47/tasks/6846c453-ae56-4b59-b16d-eb3ba7218ff2,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:45:56 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4ac7aa83-a869-4bad-ae05-6a8d1246bb47/tasks/6846c453-ae56-4b59-b16d-eb3ba7218ff2,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:45:56 PM] error: Client Error. StatusCode 404. Client Error. Board with id: 4ac7aa83-a869-4bad-ae05-6a8d1246bb47 was not found
+[10/26/2020, 10:46:26 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4ac7aa83-a869-4bad-ae05-6a8d1246bb47/tasks/6846c453-ae56-4b59-b16d-eb3ba7218ff2,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:46:26 PM] error: Client Error. StatusCode 404. Client Error. Board with id: 4ac7aa83-a869-4bad-ae05-6a8d1246bb47 was not found
+[10/26/2020, 10:48:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4ac7aa83-a869-4bad-ae05-6a8d1246bb47/tasks/6846c453-ae56-4b59-b16d-eb3ba7218ff2,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:48:51 PM] error: Client Error. StatusCode 404. Client Error. Board with id: 4ac7aa83-a869-4bad-ae05-6a8d1246bb47 was not found
+[10/26/2020, 10:50:07 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4ac7aa83-a869-4bad-ae05-6a8d1246bb47/tasks/6846c453-ae56-4b59-b16d-eb3ba7218ff2,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:50:07 PM] error: Client Error. StatusCode 404. Client Error. Board with id: 4ac7aa83-a869-4bad-ae05-6a8d1246bb47 was not found
+[10/26/2020, 10:51:45 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4ac7aa83-a869-4bad-ae05-6a8d1246bb47/tasks/6846c453-ae56-4b59-b16d-eb3ba7218ff2,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:51:46 PM] error: Client Error. StatusCode 404. Client Error. Board with id: 4ac7aa83-a869-4bad-ae05-6a8d1246bb47 was not found
+[10/26/2020, 10:54:46 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4ac7aa83-a869-4bad-ae05-6a8d1246bb47/tasks/6846c453-ae56-4b59-b16d-eb3ba7218ff2,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:55:37 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4ac7aa83-a869-4bad-ae05-6a8d1246bb47/tasks/6846c453-ae56-4b59-b16d-eb3ba7218ff2,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:55:54 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4ac7aa83-a869-4bad-ae05-6a8d1246bb47/tasks/6846c453-ae56-4b59-b16d-eb3ba7218ff2,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:55:54 PM] error: Client Error. StatusCode 404. Client Error. Board with id: 4ac7aa83-a869-4bad-ae05-6a8d1246bb47 was not found
+[10/26/2020, 10:56:33 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:57:00 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:57:24 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/c58efe04-b4aa-4faa-9293-fdf40aad46fa/tasks,
+      query parameters ={},
+      body= {"title":"rrrrrrrrrrrrrr","order":0,"description":"string","userId":"7419e80c-3948-4291-b44b-4194f48e3962","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 10:57:35 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/c58efe04-b4aa-4faa-9293-fdf40aad46fa/tasks,
+      query parameters ={},
+      body= {"title":"hhhhhhhhhhhh","order":0,"description":"string","userId":"7419e80c-3948-4291-b44b-4194f48e3962","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 10:58:04 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/c58efe04-b4aa-4faa-9293-fdf40aad46fa/tasks/7419e80c-3948-4291-b44b-4194f48e3962,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:50 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:50 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/26/2020, 10:59:50 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/b76100ba-1a40-4f47-b303-2ebde9114910,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:50 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/b76100ba-1a40-4f47-b303-2ebde9114910,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:50 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/26/2020, 10:59:50 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/f94aee80-91ff-435c-b18b-3ec166dde91c,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:50 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/26/2020, 10:59:51 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/users/6def4188-ddcd-4e1a-be0a-3f950b3bdf42,
+      query parameters ={},
+      body= {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"6def4188-ddcd-4e1a-be0a-3f950b3bdf42"}
+     
+[10/26/2020, 10:59:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/6def4188-ddcd-4e1a-be0a-3f950b3bdf42,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:51 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/6def4188-ddcd-4e1a-be0a-3f950b3bdf42,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:51 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/26/2020, 10:59:51 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/9a522c34-0592-4da7-bf8d-94e36333d600,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:51 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/26/2020, 10:59:51 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 10:59:51 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/6bd4105c-0242-4002-970a-b5cc57c807e4/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"e3454071-5146-4e4c-9750-5fad6189bbce","boardId":"6bd4105c-0242-4002-970a-b5cc57c807e4"}
+     
+[10/26/2020, 10:59:51 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/6bd4105c-0242-4002-970a-b5cc57c807e4/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"e3454071-5146-4e4c-9750-5fad6189bbce","boardId":"6bd4105c-0242-4002-970a-b5cc57c807e4"}
+     
+[10/26/2020, 10:59:51 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/e3454071-5146-4e4c-9750-5fad6189bbce,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:52 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/6bd4105c-0242-4002-970a-b5cc57c807e4/tasks/dc971c7a-e649-4a3a-bebc-8913e1baaa82,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:52 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 10:59:52 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:52 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:52 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/2fba7010-32b2-4622-ac49-c5ff1c993e60,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:53 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 10:59:53 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/9c2e79f1-9a20-4f30-8beb-1e35b36431f1,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:53 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 10:59:53 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/d9e419a9-5ea6-4ad2-8718-c4ad49a928a1,
+      query parameters ={},
+      body= {"id":"d9e419a9-5ea6-4ad2-8718-c4ad49a928a1","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 10:59:53 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d9e419a9-5ea6-4ad2-8718-c4ad49a928a1,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:53 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/d9e419a9-5ea6-4ad2-8718-c4ad49a928a1,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:53 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 10:59:53 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/4f323e89-0a02-41de-837a-f318bc53b9b8,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:53 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/4f323e89-0a02-41de-837a-f318bc53b9b8,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:53 PM] error: Client Error. StatusCode 404. Client Error. Board with id: 4f323e89-0a02-41de-837a-f318bc53b9b8 was not found
+[10/26/2020, 10:59:53 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 10:59:54 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/aa36f20e-42a9-4a97-9e54-28dacb2b06c5/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"aa36f20e-42a9-4a97-9e54-28dacb2b06c5","userId":null,"columnId":null}
+     
+[10/26/2020, 10:59:54 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/aa36f20e-42a9-4a97-9e54-28dacb2b06c5/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"aa36f20e-42a9-4a97-9e54-28dacb2b06c5","userId":null,"columnId":null}
+     
+[10/26/2020, 10:59:54 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/aa36f20e-42a9-4a97-9e54-28dacb2b06c5/tasks,
+      query parameters ={},
+      body= {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"aa36f20e-42a9-4a97-9e54-28dacb2b06c5","userId":null,"columnId":null}
+     
+[10/26/2020, 10:59:54 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/aa36f20e-42a9-4a97-9e54-28dacb2b06c5/tasks,
+      query parameters ={},
+      body= {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"aa36f20e-42a9-4a97-9e54-28dacb2b06c5","userId":null,"columnId":null}
+     
+[10/26/2020, 10:59:54 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/aa36f20e-42a9-4a97-9e54-28dacb2b06c5/tasks,
+      query parameters ={},
+      body= {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"aa36f20e-42a9-4a97-9e54-28dacb2b06c5","userId":null,"columnId":null}
+     
+[10/26/2020, 10:59:54 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/aa36f20e-42a9-4a97-9e54-28dacb2b06c5/tasks/9bce6c14-18d3-4295-a96f-8a0d0593dd99,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:54 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/aa36f20e-42a9-4a97-9e54-28dacb2b06c5/tasks/04ce6375-dfa2-4e3f-9892-4884d0ad8633,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:54 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/aa36f20e-42a9-4a97-9e54-28dacb2b06c5/tasks/210f07f1-4ea5-4f32-86eb-0e419564d1d3,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:54 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/aa36f20e-42a9-4a97-9e54-28dacb2b06c5/tasks/bcf3ab5c-8b18-4b12-b072-96d87debeba0,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:54 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/aa36f20e-42a9-4a97-9e54-28dacb2b06c5/tasks/cbc7054d-e93c-41e3-98fd-f30d062ec25e,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:54 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/022c068e-61cd-417a-b611-a171b8b27206,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:54 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 10:59:54 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/058326f7-62de-4aa3-b599-58d7744130cc/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/26/2020, 10:59:54 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/058326f7-62de-4aa3-b599-58d7744130cc/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:55 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/058326f7-62de-4aa3-b599-58d7744130cc/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:55 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/058326f7-62de-4aa3-b599-58d7744130cc/tasks/e175a2ab-64e6-4b64-a367-df4b885b4dfd,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:55 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/058326f7-62de-4aa3-b599-58d7744130cc/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/26/2020, 10:59:55 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/058326f7-62de-4aa3-b599-58d7744130cc/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/26/2020, 10:59:55 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/058326f7-62de-4aa3-b599-58d7744130cc/tasks/867e5338-f45a-4915-8bf7-d769a95aac08,
+      query parameters ={},
+      body= {"id":"867e5338-f45a-4915-8bf7-d769a95aac08","title":"Autotest updated task","order":"0","description":"Lorem ipsum","userId":null,"boardId":"058326f7-62de-4aa3-b599-58d7744130cc","columnId":null}
+     
+[10/26/2020, 10:59:55 PM] error: Client Error. StatusCode 404. Performing an update on the path '_id' would modify the immutable field '_id'
+[10/26/2020, 10:59:55 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/058326f7-62de-4aa3-b599-58d7744130cc/tasks/e175a2ab-64e6-4b64-a367-df4b885b4dfd,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:55 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/058326f7-62de-4aa3-b599-58d7744130cc/tasks/e175a2ab-64e6-4b64-a367-df4b885b4dfd,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 10:59:55 PM] error: Internal Server Error. StatusCode 500.
+[10/26/2020, 10:59:55 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/058326f7-62de-4aa3-b599-58d7744130cc,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:02:40 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/c58efe04-b4aa-4faa-9293-fdf40aad46fa/tasks/7419e80c-3948-4291-b44b-4194f48e3962,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:02:40 PM] error: Client Error. StatusCode 404. Client Error. Board with id: c58efe04-b4aa-4faa-9293-fdf40aad46fa was not found
+[10/26/2020, 11:03:23 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:03:43 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:04:20 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/6a901b48-80ba-4153-9677-cfef2110b0fb/tasks,
+      query parameters ={},
+      body= {"title":"hhhhhhhhhhhh","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:04:26 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/6a901b48-80ba-4153-9677-cfef2110b0fb/tasks,
+      query parameters ={},
+      body= {"title":"wwwwwwwwwwww","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:05:04 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/6a901b48-80ba-4153-9677-cfef2110b0fb/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:05:20 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/6a901b48-80ba-4153-9677-cfef2110b0fb/tasks/4c6baf0d-851d-476f-961e-5a31e9653c62,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:09:23 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:09:41 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/27fb60b2-9704-4425-9892-6fe6ea0b8b37/tasks,
+      query parameters ={},
+      body= {"title":"wwwwwwwwwwww","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:09:42 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/27fb60b2-9704-4425-9892-6fe6ea0b8b37/tasks,
+      query parameters ={},
+      body= {"title":"wwwwwwwwwwww","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:09:57 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/27fb60b2-9704-4425-9892-6fe6ea0b8b37/tasks,
+      query parameters ={},
+      body= {"title":"ddddddddd","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:10:11 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/27fb60b2-9704-4425-9892-6fe6ea0b8b37/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:10:40 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/27fb60b2-9704-4425-9892-6fe6ea0b8b37/tasks/8c5e2464-1742-408e-a634-035e26887140,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:12:08 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:12:28 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/70d41c83-dcca-485b-8629-795724c7473c/tasks,
+      query parameters ={},
+      body= {"title":"wwwwwwww","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:12:36 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/70d41c83-dcca-485b-8629-795724c7473c/tasks,
+      query parameters ={},
+      body= {"title":"eeeeeeeee","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:12:42 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/70d41c83-dcca-485b-8629-795724c7473c/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:13:08 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/70d41c83-dcca-485b-8629-795724c7473c/tasks/774feecd-2ac2-46bf-abfa-097fe574c331,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:13:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/71d41c83-dcca-485b-8629-795724c7473c/tasks/774feecd-2ac2-46bf-abfa-097fe574c331,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:13:27 PM] error: Client Error. StatusCode 404. Client Error. Board with id: 71d41c83-dcca-485b-8629-795724c7473c was not found
+[10/26/2020, 11:13:36 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/70d41c83-dcca-485b-8629-795724c7473c/tasks/774feecd-2ac2-46bf-abfa-097fe574c331,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:13:42 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/70d41c83-dcca-485b-8629-795724c7473c/tasks/784feecd-2ac2-46bf-abfa-097fe574c331,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:17:30 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:17:49 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/df89b5ef-b02a-4ef3-b02c-5115204ff583/tasks,
+      query parameters ={},
+      body= {"title":"vvvvvvvvvvvv","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:17:57 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/df89b5ef-b02a-4ef3-b02c-5115204ff583/tasks,
+      query parameters ={},
+      body= {"title":"bbbbbbbbb","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:18:03 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/df89b5ef-b02a-4ef3-b02c-5115204ff583/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:18:27 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/df89b5ef-b02a-4ef3-b02c-5115204ff583/tasks/0d3b1df4-45af-4239-a16c-5e001289c248,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:18:35 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/df89b5ef-b02a-4ef3-b02c-5115204ff584/tasks/0d3b1df4-45af-4239-a16c-5e001289c248,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:18:35 PM] error: Client Error. StatusCode 404. Client Error. Board with id: df89b5ef-b02a-4ef3-b02c-5115204ff584 was not found
+[10/26/2020, 11:18:41 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/df89b5ef-b02a-4ef3-b02c-5115204ff583/tasks/0d3b1df4-45af-4239-a16c-5e001289c248,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:18:45 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/df89b5ef-b02a-4ef3-b02c-5115204ff583/tasks/0d3b1df4-45af-4239-a16c-5e001289c249,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:18:45 PM] error: Client Error. StatusCode 404. Client Error. Task with id: df89b5ef-b02a-4ef3-b02c-5115204ff583 was not found
+[10/26/2020, 11:18:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/df89b5ef-b02a-4ef3-b02c-5115204ff583/tasks/0d3b1df4-45af-4239-a16c-5e001289c248,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:20:15 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/df89b5ef-b02a-4ef3-b02c-5115204ff583/tasks/0d3b1df4-45af-4239-a16c-5e001289c248,
+      query parameters ={},
+      body= {"title":"iiiiiiiiiiiiiiiii","order":0,"description":"string","userId":"5555555555555555","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:20:15 PM] error: Client Error. StatusCode 404. Performing an update on the path '_id' would modify the immutable field '_id'
+[10/26/2020, 11:28:05 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:28:27 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/59c1f88d-3181-4f2e-a226-a3e3da741f06/tasks,
+      query parameters ={},
+      body= {"title":"bbbbbbbbb","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:28:33 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/59c1f88d-3181-4f2e-a226-a3e3da741f06/tasks,
+      query parameters ={},
+      body= {"title":"xxxxxxxxxxx","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:28:41 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/59c1f88d-3181-4f2e-a226-a3e3da741f06/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:29:22 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/59c1f88d-3181-4f2e-a226-a3e3da741f06/tasks/093314db-0b04-4a2d-a36c-465637707dc0,
+      query parameters ={},
+      body= {"title":"iiiiiiiiiiiiiiiii","order":0,"description":"string","userId":"5555555555555555","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:29:22 PM] error: Client Error. StatusCode 404. Client Error. Task with id: undefined was not found
+[10/26/2020, 11:31:12 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:31:29 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/c11421f1-86fa-46e7-9019-504aaf992e51/tasks,
+      query parameters ={},
+      body= {"title":"xxxxxxxxxxx","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:31:35 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/c11421f1-86fa-46e7-9019-504aaf992e51/tasks,
+      query parameters ={},
+      body= {"title":"zzzzzzzzzzzzz","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:31:42 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/c11421f1-86fa-46e7-9019-504aaf992e51/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:32:14 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/c11421f1-86fa-46e7-9019-504aaf992e51/tasks/b94504b7-f5df-44d0-93ae-e822ac46317c,
+      query parameters ={},
+      body= {"title":"iiiiiiiiiiiiiiiii","order":0,"description":"string","userId":"5555555555555555","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:32:29 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/c11421f1-86fa-46e7-9019-504aaf992e51/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:33:03 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/string/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:33:03 PM] error: Client Error. StatusCode 404. Client Error. Board with id: string was not found
+[10/26/2020, 11:36:39 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:36:52 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/ccc6bc99-7042-4010-9fc2-0b04c0fc2dff/tasks,
+      query parameters ={},
+      body= {"title":"zzzzzzzzzzzzz","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:36:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/ccc6bc99-7042-4010-9fc2-0b04c0fc2dff/tasks,
+      query parameters ={},
+      body= {"title":"xxxxxxxxxx","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:37:01 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/ccc6bc99-7042-4010-9fc2-0b04c0fc2dff/tasks,
+      query parameters ={},
+      body= {"title":"cccccccccccc","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:37:09 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/ccc6bc99-7042-4010-9fc2-0b04c0fc2dff/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:37:47 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/ccc6bc99-7042-4010-9fc2-0b04c0fc2dff/tasks/d578872e-e594-4ff2-90dd-a5941a56bb79,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:37:47 PM] error: Internal Server Error. StatusCode 500.
+[10/26/2020, 11:38:24 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:38:37 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/98aa8c33-96d4-4888-b1af-708c3cec5b37/tasks,
+      query parameters ={},
+      body= {"title":"cccccccccccc","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:38:42 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/98aa8c33-96d4-4888-b1af-708c3cec5b37/tasks,
+      query parameters ={},
+      body= {"title":"vvvvvvvvv","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:38:47 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/98aa8c33-96d4-4888-b1af-708c3cec5b37/tasks,
+      query parameters ={},
+      body= {"title":"bbbbbbbbb","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:38:54 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/98aa8c33-96d4-4888-b1af-708c3cec5b37/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:39:29 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/98aa8c33-96d4-4888-b1af-708c3cec5b37/tasks/292eae8d-5384-4483-a5cb-e77cf7070cff,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:39:29 PM] error: Client Error. StatusCode 404. Client Error. Task with id: 98aa8c33-96d4-4888-b1af-708c3cec5b37 was not found
+[10/26/2020, 11:42:43 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:43:03 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/11794c96-65c9-4a83-8f00-e029e3fd9ece/tasks,
+      query parameters ={},
+      body= {"title":"bbbbbbbbb","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:43:10 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/11794c96-65c9-4a83-8f00-e029e3fd9ece/tasks,
+      query parameters ={},
+      body= {"title":"nnnnnnnnn","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:43:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/11794c96-65c9-4a83-8f00-e029e3fd9ece/tasks,
+      query parameters ={},
+      body= {"title":"mmmmmmmmmmm","order":0,"description":"string","userId":"e701bf25-2c2b-4c49-803c-8b1a5aa3e048","boardId":"string","columnId":"string"}
+     
+[10/26/2020, 11:43:20 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/11794c96-65c9-4a83-8f00-e029e3fd9ece/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:43:50 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/11794c96-65c9-4a83-8f00-e029e3fd9ece/tasks/e094c83b-26b9-4c84-ab56-2c8249fe2610,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:44:27 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/12794c96-65c9-4a83-8f00-e029e3fd9ece/tasks/e094c83b-26b9-4c84-ab56-2c8249fe2610,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:44:27 PM] error: Client Error. StatusCode 404. Client Error. Task with boardId: 12794c96-65c9-4a83-8f00-e029e3fd9ece && taskId: e094c83b-26b9-4c84-ab56-2c8249fe2610 was not found
+[10/26/2020, 11:44:32 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/11794c96-65c9-4a83-8f00-e029e3fd9ece/tasks/e094c83b-26b9-4c84-ab56-2c8249fe2610,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:44:32 PM] error: Client Error. StatusCode 404. Client Error. Task with boardId: 11794c96-65c9-4a83-8f00-e029e3fd9ece && taskId: e094c83b-26b9-4c84-ab56-2c8249fe2610 was not found
+[10/26/2020, 11:45:01 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:01 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/26/2020, 11:45:01 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/54c27884-48bb-4882-bace-47b31cc12862,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:01 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/54c27884-48bb-4882-bace-47b31cc12862,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:01 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/26/2020, 11:45:01 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/146a1514-755f-48a0-9bd9-8b38e2dda1c1,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:02 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/26/2020, 11:45:02 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/users/333a5a29-70df-40ee-b2e4-40d60946acad,
+      query parameters ={},
+      body= {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"333a5a29-70df-40ee-b2e4-40d60946acad"}
+     
+[10/26/2020, 11:45:02 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/333a5a29-70df-40ee-b2e4-40d60946acad,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:02 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/333a5a29-70df-40ee-b2e4-40d60946acad,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:02 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/26/2020, 11:45:02 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/05637668-35d2-4816-a828-3dae94417fd3,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:02 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/26/2020, 11:45:02 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 11:45:02 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/92574391-465b-4c55-8718-7106191ccc73/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"eb01cad8-0add-49f6-bd9b-69b1fa979e82","boardId":"92574391-465b-4c55-8718-7106191ccc73"}
+     
+[10/26/2020, 11:45:02 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/92574391-465b-4c55-8718-7106191ccc73/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"eb01cad8-0add-49f6-bd9b-69b1fa979e82","boardId":"92574391-465b-4c55-8718-7106191ccc73"}
+     
+[10/26/2020, 11:45:03 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/eb01cad8-0add-49f6-bd9b-69b1fa979e82,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:03 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/92574391-465b-4c55-8718-7106191ccc73/tasks/75d37f98-bc12-4732-9e62-8914ea3f1f77,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:03 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 11:45:03 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:04 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:04 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/11794c96-65c9-4a83-8f00-e029e3fd9ece,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:04 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 11:45:04 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/38415785-493f-4ab5-b254-98fcbc90996a,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:04 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 11:45:04 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/b185b8c9-e1dc-46f6-94b5-652fe84cae7d,
+      query parameters ={},
+      body= {"id":"b185b8c9-e1dc-46f6-94b5-652fe84cae7d","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 11:45:04 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/b185b8c9-e1dc-46f6-94b5-652fe84cae7d,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:04 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/b185b8c9-e1dc-46f6-94b5-652fe84cae7d,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:04 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 11:45:04 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/e5cebcde-c534-42d6-a3e7-aa5646dd5a83,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:05 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/e5cebcde-c534-42d6-a3e7-aa5646dd5a83,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:05 PM] error: Client Error. StatusCode 404. Client Error. Board with id: e5cebcde-c534-42d6-a3e7-aa5646dd5a83 was not found
+[10/26/2020, 11:45:05 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 11:45:05 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/a5dc374c-37c7-4c2b-afb0-14c0fddca2e6/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"a5dc374c-37c7-4c2b-afb0-14c0fddca2e6","userId":null,"columnId":null}
+     
+[10/26/2020, 11:45:05 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/a5dc374c-37c7-4c2b-afb0-14c0fddca2e6/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"a5dc374c-37c7-4c2b-afb0-14c0fddca2e6","userId":null,"columnId":null}
+     
+[10/26/2020, 11:45:05 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/a5dc374c-37c7-4c2b-afb0-14c0fddca2e6/tasks,
+      query parameters ={},
+      body= {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"a5dc374c-37c7-4c2b-afb0-14c0fddca2e6","userId":null,"columnId":null}
+     
+[10/26/2020, 11:45:05 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/a5dc374c-37c7-4c2b-afb0-14c0fddca2e6/tasks,
+      query parameters ={},
+      body= {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"a5dc374c-37c7-4c2b-afb0-14c0fddca2e6","userId":null,"columnId":null}
+     
+[10/26/2020, 11:45:05 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/a5dc374c-37c7-4c2b-afb0-14c0fddca2e6/tasks,
+      query parameters ={},
+      body= {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"a5dc374c-37c7-4c2b-afb0-14c0fddca2e6","userId":null,"columnId":null}
+     
+[10/26/2020, 11:45:05 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/a5dc374c-37c7-4c2b-afb0-14c0fddca2e6/tasks/463d374a-7080-4aff-b27c-83b25253df39,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:05 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/a5dc374c-37c7-4c2b-afb0-14c0fddca2e6/tasks/09ff5eba-1b20-4cc0-b112-db905304e49e,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:05 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/a5dc374c-37c7-4c2b-afb0-14c0fddca2e6/tasks/ae4bef48-07eb-4a0e-8f74-be529a2afd87,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:05 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/a5dc374c-37c7-4c2b-afb0-14c0fddca2e6/tasks/004d321d-4e08-4101-aa4f-3bbb5961a339,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:05 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/a5dc374c-37c7-4c2b-afb0-14c0fddca2e6/tasks/313728aa-754b-4f57-b29f-39a716262fb7,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:05 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/41b84972-1e53-4dd2-823a-1517a6b05f52,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:06 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 11:45:06 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/de4bb95d-a3f9-4c00-940d-0cb06919eb32/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/26/2020, 11:45:06 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/de4bb95d-a3f9-4c00-940d-0cb06919eb32/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:06 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/de4bb95d-a3f9-4c00-940d-0cb06919eb32/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:06 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/de4bb95d-a3f9-4c00-940d-0cb06919eb32/tasks/62fa1b1d-f922-4d64-9ee4-85d54e335b67,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:06 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/de4bb95d-a3f9-4c00-940d-0cb06919eb32/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/26/2020, 11:45:06 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/de4bb95d-a3f9-4c00-940d-0cb06919eb32/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/26/2020, 11:45:07 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/de4bb95d-a3f9-4c00-940d-0cb06919eb32/tasks/0fef8492-4b83-4ea3-b0ef-46df70cf539b,
+      query parameters ={},
+      body= {"id":"0fef8492-4b83-4ea3-b0ef-46df70cf539b","title":"Autotest updated task","order":"0","description":"Lorem ipsum","userId":null,"boardId":"de4bb95d-a3f9-4c00-940d-0cb06919eb32","columnId":null}
+     
+[10/26/2020, 11:45:07 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/de4bb95d-a3f9-4c00-940d-0cb06919eb32/tasks/0fef8492-4b83-4ea3-b0ef-46df70cf539b,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:07 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/de4bb95d-a3f9-4c00-940d-0cb06919eb32/tasks/62fa1b1d-f922-4d64-9ee4-85d54e335b67,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:07 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/de4bb95d-a3f9-4c00-940d-0cb06919eb32/tasks/62fa1b1d-f922-4d64-9ee4-85d54e335b67,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:07 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/de4bb95d-a3f9-4c00-940d-0cb06919eb32/tasks/62fa1b1d-f922-4d64-9ee4-85d54e335b67,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:45:07 PM] error: Client Error. StatusCode 404. Client Error. Task with id: de4bb95d-a3f9-4c00-940d-0cb06919eb32 was not found
+[10/26/2020, 11:45:07 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/de4bb95d-a3f9-4c00-940d-0cb06919eb32,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:52 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:52 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/26/2020, 11:48:52 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/2625c9c2-9a86-47b9-9115-f05c7570bee0,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:52 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/2625c9c2-9a86-47b9-9115-f05c7570bee0,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:52 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/26/2020, 11:48:52 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/3d368398-c480-40bd-aa37-c715b4218299,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:52 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/26/2020, 11:48:52 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/users/8e71e002-1858-4c5a-8d83-4d62ac4473d5,
+      query parameters ={},
+      body= {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"8e71e002-1858-4c5a-8d83-4d62ac4473d5"}
+     
+[10/26/2020, 11:48:53 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/8e71e002-1858-4c5a-8d83-4d62ac4473d5,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:53 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/8e71e002-1858-4c5a-8d83-4d62ac4473d5,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:53 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/26/2020, 11:48:53 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/94eaee27-e145-46ec-9263-b43b79c2b91b,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:53 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+     
+[10/26/2020, 11:48:53 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 11:48:53 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/6ef87dac-c94e-4e0d-be3b-af85cd5e8377/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"086c3ad2-4fc9-4c62-90f0-422691df5881","boardId":"6ef87dac-c94e-4e0d-be3b-af85cd5e8377"}
+     
+[10/26/2020, 11:48:53 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/6ef87dac-c94e-4e0d-be3b-af85cd5e8377/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"086c3ad2-4fc9-4c62-90f0-422691df5881","boardId":"6ef87dac-c94e-4e0d-be3b-af85cd5e8377"}
+     
+[10/26/2020, 11:48:53 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/086c3ad2-4fc9-4c62-90f0-422691df5881,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:53 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/6ef87dac-c94e-4e0d-be3b-af85cd5e8377/tasks/19b28253-14d0-45c8-b9b9-c210d5d8f0bb,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:54 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 11:48:54 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:54 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:54 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/1154d411-ceab-4fa7-bc48-29552c5eb1ea,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:54 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 11:48:55 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/28eda972-8cf3-4d7e-9c76-bd9bb70cb4e5,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:55 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 11:48:55 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/e4ab3afb-15e6-4cd6-9097-e70151d5ac48,
+      query parameters ={},
+      body= {"id":"e4ab3afb-15e6-4cd6-9097-e70151d5ac48","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 11:48:55 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/e4ab3afb-15e6-4cd6-9097-e70151d5ac48,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:55 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/e4ab3afb-15e6-4cd6-9097-e70151d5ac48,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:55 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 11:48:55 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/1587c531-eca0-418c-9bca-5384f02a3780,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:55 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/1587c531-eca0-418c-9bca-5384f02a3780,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:55 PM] error: Client Error. StatusCode 404. Client Error. Board with id: 1587c531-eca0-418c-9bca-5384f02a3780 was not found
+[10/26/2020, 11:48:55 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 11:48:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/2b8ccecb-b2e5-463f-be00-0d6dda0cc4ee/tasks,
+      query parameters ={},
+      body= {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"2b8ccecb-b2e5-463f-be00-0d6dda0cc4ee","userId":null,"columnId":null}
+     
+[10/26/2020, 11:48:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/2b8ccecb-b2e5-463f-be00-0d6dda0cc4ee/tasks,
+      query parameters ={},
+      body= {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"2b8ccecb-b2e5-463f-be00-0d6dda0cc4ee","userId":null,"columnId":null}
+     
+[10/26/2020, 11:48:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/2b8ccecb-b2e5-463f-be00-0d6dda0cc4ee/tasks,
+      query parameters ={},
+      body= {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"2b8ccecb-b2e5-463f-be00-0d6dda0cc4ee","userId":null,"columnId":null}
+     
+[10/26/2020, 11:48:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/2b8ccecb-b2e5-463f-be00-0d6dda0cc4ee/tasks,
+      query parameters ={},
+      body= {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"2b8ccecb-b2e5-463f-be00-0d6dda0cc4ee","userId":null,"columnId":null}
+     
+[10/26/2020, 11:48:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/2b8ccecb-b2e5-463f-be00-0d6dda0cc4ee/tasks,
+      query parameters ={},
+      body= {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"2b8ccecb-b2e5-463f-be00-0d6dda0cc4ee","userId":null,"columnId":null}
+     
+[10/26/2020, 11:48:56 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/2b8ccecb-b2e5-463f-be00-0d6dda0cc4ee/tasks/d89ad36c-f957-43f7-9cc6-cfc8e043377c,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:56 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/2b8ccecb-b2e5-463f-be00-0d6dda0cc4ee/tasks/f4b41b7a-1b96-447e-b062-979935934754,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:56 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/2b8ccecb-b2e5-463f-be00-0d6dda0cc4ee/tasks/bf1ae6e7-584b-4d1e-9e16-4e9ea39a3459,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:56 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/2b8ccecb-b2e5-463f-be00-0d6dda0cc4ee/tasks/f84ecd60-b312-4289-9600-1e2b4ec0b5e9,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:56 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/2b8ccecb-b2e5-463f-be00-0d6dda0cc4ee/tasks/a5d1b6bb-c542-4282-bcca-0e6d396887a3,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:56 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/3a611261-f420-4676-974a-a896d1621cec,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+     
+[10/26/2020, 11:48:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/d77119b1-77ee-4798-81ab-269c5f327541/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/26/2020, 11:48:57 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d77119b1-77ee-4798-81ab-269c5f327541/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:57 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d77119b1-77ee-4798-81ab-269c5f327541/tasks,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:57 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d77119b1-77ee-4798-81ab-269c5f327541/tasks/4e7f164f-1411-4dd5-874f-5c6fb17d4571,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:57 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/d77119b1-77ee-4798-81ab-269c5f327541/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/26/2020, 11:48:57 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/d77119b1-77ee-4798-81ab-269c5f327541/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+     
+[10/26/2020, 11:48:57 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/d77119b1-77ee-4798-81ab-269c5f327541/tasks/a7ae4b75-f44c-4a27-ae6e-89d8a8f51869,
+      query parameters ={},
+      body= {"id":"a7ae4b75-f44c-4a27-ae6e-89d8a8f51869","title":"Autotest updated task","order":"0","description":"Lorem ipsum","userId":null,"boardId":"d77119b1-77ee-4798-81ab-269c5f327541","columnId":null}
+     
+[10/26/2020, 11:48:57 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d77119b1-77ee-4798-81ab-269c5f327541/tasks/a7ae4b75-f44c-4a27-ae6e-89d8a8f51869,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:58 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d77119b1-77ee-4798-81ab-269c5f327541/tasks/4e7f164f-1411-4dd5-874f-5c6fb17d4571,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:58 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/d77119b1-77ee-4798-81ab-269c5f327541/tasks/4e7f164f-1411-4dd5-874f-5c6fb17d4571,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:58 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/d77119b1-77ee-4798-81ab-269c5f327541/tasks/4e7f164f-1411-4dd5-874f-5c6fb17d4571,
+      query parameters ={},
+      body= {}
+     
+[10/26/2020, 11:48:58 PM] error: Client Error. StatusCode 404. Client Error. Task with id: d77119b1-77ee-4798-81ab-269c5f327541 was not found
+[10/26/2020, 11:48:58 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/d77119b1-77ee-4798-81ab-269c5f327541,
+      query parameters ={},
+      body= {}
+     
