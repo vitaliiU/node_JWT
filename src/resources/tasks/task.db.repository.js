@@ -49,20 +49,42 @@ const update = async (boardId, taskId, body) => {
 };
 
 const removeTask = async (boardId, taskId) => {
-  return await Task.deleteOne({ _id: taskId, boardId }).deletedCount;
+  return (await Task.deleteOne({ _id: taskId, boardId })).deletedCount;
 };
 
 const removeTasksByDeleteBoard = async boardId => {
-  return await Task.deleteMany({ boardId }).deletedCount;
+  return (await Task.deleteMany({ boardId })).deletedCount;
 };
 
-const nullTasksUserId = async userdId => {
-  await Task.updateMany(
-    { userdId },
-    {
-      $set: { userdId: null }
-    }
-  );
+const nullTasksUserId = async userId_ => {
+  try {
+    console.log(typeof userId_);
+    // const order_ = 'order2';
+    await Task.updateMany(
+      { userId: userId_ },
+      {
+        userId: null
+        // description: 'description2222'
+      }
+    );
+    // const order_ = 'order2';
+    // await Task.updateMany(
+    //   { order: order_ },
+    //   {
+    //     order: null
+    //     // description: 'description2222'
+    //   }
+    // );
+  } catch (e) {
+    print(e);
+  }
+
+  // await Task.updateMany(
+  //   { userdId },
+  //   {
+  //     $set: { userdId: null }
+  //   }
+  // );
   return 'updated success';
 };
 
