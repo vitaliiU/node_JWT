@@ -32,8 +32,8 @@ router.get(
     // console.log(req.params.boardId);
     // console.log(req.params.id);
     const taskModel = await tasksService.get(req.params.boardId, req.params.id);
-    await res.status(200).json(taskModel.map(Task.toResponse));
-    // await res.status(200).send(Task.toResponse(taskModel));
+    // await res.status(200).json(taskModel.map(Task.toResponse));
+    await res.status(200).send(Task.toResponse(taskModel));
   })
 );
 

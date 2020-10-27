@@ -41,7 +41,7 @@ const getAll = async id => {
 // };
 
 const get = async (boardId, taskId) => {
-  console.log(taskId);
+  // console.log(taskId);
   try {
     const checkResponseBoard = await Board.findById(boardId);
     if (!checkResponseBoard) {
@@ -59,7 +59,7 @@ const get = async (boardId, taskId) => {
       _id: taskId,
       boardId
     });
-    return ResponseTask;
+    return ResponseTask[0];
   } catch (e) {
     throw createError(404, e.message);
   }
@@ -91,7 +91,9 @@ const get = async (boardId, taskId) => {
 
 const create = async user => {
   try {
-    return Task.create(user);
+    const d = await Task.create(user);
+    console.log(d);
+    return d;
   } catch (e) {
     throw createError(404, e.message);
   }

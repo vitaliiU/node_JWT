@@ -4,7 +4,7 @@ const uuid = require('uuid');
 const taskSchema = new mongoose.Schema(
   {
     title: String,
-    order: String,
+    order: Number,
     description: String,
     userId: String,
     boardId: String,
