@@ -5,6 +5,7 @@ const taskSchema = new mongoose.Schema(
   {
     title: String,
     order: Number,
+    // order: String,
     description: String,
     userId: String,
     boardId: String,

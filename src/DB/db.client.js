@@ -55,7 +55,7 @@ const connectToDB = cb => {
     Task.insertMany([
       {
         title: 'taskTest1',
-        order: 'order1',
+        order: 1,
         description: 'description1',
         userId: 'c1ab81cc-ae7f-48f6-b025-b24019fd7fbf',
         boardId: 'bfe972f4-cae8-4012-b4e8-b82daeb4fb2d',
@@ -63,7 +63,7 @@ const connectToDB = cb => {
       },
       {
         title: 'taskTest2',
-        order: 'order2',
+        order: 2,
         description: 'description2',
         userId: 'h1ab81cc-ae7f-48f6-b025-b24019fd7fbl',
         boardId: 'yfe972f4-cae8-4012-b4e8-b82daeb4fb2u',
