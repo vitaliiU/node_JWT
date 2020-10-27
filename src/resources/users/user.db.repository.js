@@ -1,5 +1,4 @@
 const createError = require('http-errors');
-// const DB = require('../../common/inMemoryDB');
 const User = require('./user.model');
 
 const getAll = async () => {
