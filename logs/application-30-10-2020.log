@@ -1,0 +1,260 @@
+[10/30/2020, 9:27:48 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 9:27:48 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 9:27:48 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 9:27:48 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 9:27:48 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 9:27:49 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/favicon-16x16.png,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 9:37:22 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwwwww","login":"eeeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 9:38:10 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwwwww","login":"eeeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 9:46:46 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwwwww","login":"eeeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 9:48:45 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwwwww","login":"eeeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 9:50:35 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwwwww","login":"eeeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 9:51:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwwwww","login":"eeeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 9:54:23 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwwwww","login":"eeeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 9:56:21 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwwwww","login":"eeeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 10:00:02 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 10:00:04 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/favicon-16x16.png,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 10:00:25 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwww","login":"eeeeeeeee","password":"WWww@@22"}
+     
+[10/30/2020, 10:04:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 10:04:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 10:04:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 10:04:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 10:04:52 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 10:04:52 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/favicon-16x16.png,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 11:01:52 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwww","login":"eeeeeeeee","password":"WWww@@22"}
+     
+[10/30/2020, 11:07:38 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwww","login":"eeeeeeeee","password":"WWww@@22"}
+     
+[10/30/2020, 11:07:38 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:10:18 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwww","login":"eeeeeeeee","password":"WWww@@22"}
+     
+[10/30/2020, 11:10:18 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:11:11 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwww","login":"eeeeeeeee","password":"WWww@@22"}
+     
+[10/30/2020, 11:11:59 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwww","login":"eeeeeeeee","password":"WWww@@22"}
+     
+[10/30/2020, 11:24:35 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwww","login":"eeeeeeeee","password":"WWww@@22"}
+     
+[10/30/2020, 11:30:50 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 11:30:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 11:30:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 11:30:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 11:30:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 11:30:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/favicon-16x16.png,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 11:31:17 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:36:20 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:36:58 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:40:54 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:41:19 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:41:48 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:42:05 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:42:34 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:44:09 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:44:57 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:47:19 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:47:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 11:50:46 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 11:50:50 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:51:24 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwww","login":"eeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 11:52:19 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwww","login":"eeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 11:55:11 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwww","login":"eeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 11:56:38 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwww","login":"eeeeeeeeee","password":"WWww22@@"}
+     

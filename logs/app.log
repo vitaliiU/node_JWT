@@ -33943,3 +33943,426 @@ Error: listen EADDRINUSE: address already in use :::4000
       query parameters ={},
       body= {}
      
+[10/30/2020, 9:25:12 PM] error: uncaughtException: Missing initializer in const declaration
+/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:10
+const myPlaintextPassword;
+      ^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:7:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/30/2020, 9:26:13 PM] error: uncaughtException: Missing initializer in const declaration
+/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:10
+const myPlaintextPassword;
+      ^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:7:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/30/2020, 9:26:47 PM] error: uncaughtException: Missing initializer in const declaration
+/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:32
+    const myPlaintextPassword;
+          ^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:7:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/30/2020, 9:27:48 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 9:27:48 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 9:27:48 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 9:27:48 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 9:27:48 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 9:27:49 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/favicon-16x16.png,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 9:37:22 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwwwww","login":"eeeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 9:38:10 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwwwww","login":"eeeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 9:46:46 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwwwww","login":"eeeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 9:48:45 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwwwww","login":"eeeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 9:50:35 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwwwww","login":"eeeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 9:51:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwwwww","login":"eeeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 9:53:52 PM] error: uncaughtException: Malformed arrow function parameter list
+/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:33
+    await bcrypt.hash(myPlaintextPassword, saltRounds, await (err, hash) => {
+                                                       ^^^^^^^^^^^^^^^^
+
+SyntaxError: Malformed arrow function parameter list
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:7:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/30/2020, 9:54:23 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwwwww","login":"eeeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 9:55:45 PM] error: uncaughtException: Unexpected token ')'
+/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:43
+    );
+    ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:7:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/30/2020, 9:56:21 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwwwww","login":"eeeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 10:00:02 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 10:00:04 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/favicon-16x16.png,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 10:00:25 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwww","login":"eeeeeeeee","password":"WWww@@22"}
+     
+[10/30/2020, 10:04:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 10:04:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 10:04:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 10:04:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 10:04:52 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 10:04:52 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/favicon-16x16.png,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 11:01:52 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwww","login":"eeeeeeeee","password":"WWww@@22"}
+     
+[10/30/2020, 11:07:38 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwww","login":"eeeeeeeee","password":"WWww@@22"}
+     
+[10/30/2020, 11:07:38 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:10:18 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwww","login":"eeeeeeeee","password":"WWww@@22"}
+     
+[10/30/2020, 11:10:18 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:11:11 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwww","login":"eeeeeeeee","password":"WWww@@22"}
+     
+[10/30/2020, 11:11:11 PM] error: uncaughtException: Hash Error
+Error: Hash Error
+    at /home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.db.repository.js:37:13
+[10/30/2020, 11:11:59 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwww","login":"eeeeeeeee","password":"WWww@@22"}
+     
+[10/30/2020, 11:24:01 PM] error: uncaughtException: Unexpected token '}'
+/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.db.repository.js:41
+  } catch (e) {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.service.js:2:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:4:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/30/2020, 11:24:35 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwwww","login":"eeeeeeeee","password":"WWww@@22"}
+     
+[10/30/2020, 11:24:36 PM] error: uncaughtException: Hash Error
+Error: Hash Error
+    at /home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.db.repository.js:36:15
+[10/30/2020, 11:30:50 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 11:30:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 11:30:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 11:30:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 11:30:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 11:30:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/favicon-16x16.png,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 11:31:17 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:36:20 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:36:58 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:40:54 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:41:19 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:41:48 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:42:05 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:42:34 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:44:09 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:44:57 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:47:19 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:47:51 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 11:48:39 PM] error: uncaughtException: missing ) after argument list
+/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:49
+  });
+   ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:7:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/30/2020, 11:50:46 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}
+     
+[10/30/2020, 11:50:50 PM] error: Internal Server Error. StatusCode 500.
+[10/30/2020, 11:51:24 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwww","login":"eeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 11:52:19 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwww","login":"eeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 11:55:11 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwww","login":"eeeeeeeeee","password":"WWww22@@"}
+     
+[10/30/2020, 11:55:11 PM] error: uncaughtException: Hash Error
+Error: Hash Error
+    at /home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.db.repository.js:36:15
+[10/30/2020, 11:56:38 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwww","login":"eeeeeeeeee","password":"WWww22@@"}
+     
