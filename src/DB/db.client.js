@@ -1,6 +1,7 @@
 // getting-started.js
 const mongoose = require('mongoose');
 const config = require('../common/config');
+const bcrypt = require('bcrypt');
 
 const User = require('../resources/users/user.model');
 const Board = require('../resources/boards/board.model');
@@ -18,9 +19,21 @@ const connectToDB = cb => {
     console.log("we're connected!");
     db.dropDatabase();
     // ______________________________________DefaultUserTest____________________________
+    // User.createIndex({ login: 1 }, { unique: true });
+    // User.createIndexes([{ login: { unique: true } }]);
     User.insertMany([
-      { name: 'userTest1', login: 'admin', password: 'admin' },
-      { name: 'userTest2', login: 'login2', password: 'login2222' }
+      {
+        name: 'admin',
+        login: 'admin',
+        // eslint-disable-next-line no-sync
+        password: bcrypt.hashSync('admin', 10)
+      },
+      {
+        name: 'userTest1',
+        login: 'login1',
+        // eslint-disable-next-line no-sync
+        password: bcrypt.hashSync('login555', 10)
+      }
     ]);
     // ______________________________________DefaultBoardTest____________________________
     Board.insertMany([

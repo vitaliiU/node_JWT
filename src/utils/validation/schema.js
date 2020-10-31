@@ -29,6 +29,17 @@ const schema = {
       password: Joi.string().regex(
         /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d_@$!%*?&]{8,}$/
       )
+    }),
+  login: Joi.object()
+    .options({ abortEarly: false, allowUnknown: true })
+    .keys({
+      login: Joi.string()
+        .min(3)
+        .max(30)
+        .required(),
+      password: Joi.string().regex(
+        /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d_@$!%*?&]{8,}$/
+      )
     })
 };
 

@@ -34366,3 +34366,784 @@ Error: Hash Error
       query parameters ={},
       body= {"name":"wwww","login":"eeeeeeeeee","password":"WWww22@@"}
      
+[10/31/2020, 12:18:26 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"wwww","login":"eeeeeeeeee","password":"WWww22@@"}
+     
+[10/31/2020, 12:24:28 PM] error: Unhandled rejection detected: querySrv ESERVFAIL _mongodb._tcp.rest.dsac3.mongodb.net
+[10/31/2020, 12:36:18 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}
+     
+[10/31/2020, 12:36:18 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[10/31/2020, 12:36:18 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}
+     
+[10/31/2020, 12:36:18 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}
+     
+[10/31/2020, 12:36:18 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}
+     
+[10/31/2020, 12:36:19 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/favicon-16x16.png,
+      query parameters ={},
+      body= {}
+     
+[10/31/2020, 12:42:19 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"string","password":"string"}
+     
+[10/31/2020, 12:57:20 PM] error: uncaughtException: Cannot find module './resources/logins/login.router'
+Require stack:
+- /home/node/Desktop/NodeJS/node-js-2/src/app.js
+- /home/node/Desktop/NodeJS/node-js-2/src/server.js
+Error: Cannot find module './resources/logins/login.router'
+Require stack:
+- /home/node/Desktop/NodeJS/node-js-2/src/app.js
+- /home/node/Desktop/NodeJS/node-js-2/src/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:7:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+[10/31/2020, 12:57:53 PM] error: uncaughtException: Cannot find module './resources/logins/login.router'
+Require stack:
+- /home/node/Desktop/NodeJS/node-js-2/src/app.js
+- /home/node/Desktop/NodeJS/node-js-2/src/server.js
+Error: Cannot find module './resources/logins/login.router'
+Require stack:
+- /home/node/Desktop/NodeJS/node-js-2/src/app.js
+- /home/node/Desktop/NodeJS/node-js-2/src/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:7:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+[10/31/2020, 12:58:05 PM] error: uncaughtException: Cannot find module './resources/logins/login.router'
+Require stack:
+- /home/node/Desktop/NodeJS/node-js-2/src/app.js
+- /home/node/Desktop/NodeJS/node-js-2/src/server.js
+Error: Cannot find module './resources/logins/login.router'
+Require stack:
+- /home/node/Desktop/NodeJS/node-js-2/src/app.js
+- /home/node/Desktop/NodeJS/node-js-2/src/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:7:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+[10/31/2020, 12:58:43 PM] error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/index.js:537:13)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/user.model.js:29:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js:2:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:7:21)
+[10/31/2020, 12:58:51 PM] error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/index.js:537:13)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/user.model.js:29:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js:2:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:7:21)
+[10/31/2020, 12:58:59 PM] error: uncaughtException: Cannot find module './user.model'
+Require stack:
+- /home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js
+- /home/node/Desktop/NodeJS/node-js-2/src/app.js
+- /home/node/Desktop/NodeJS/node-js-2/src/server.js
+Error: Cannot find module './user.model'
+Require stack:
+- /home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js
+- /home/node/Desktop/NodeJS/node-js-2/src/app.js
+- /home/node/Desktop/NodeJS/node-js-2/src/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js:2:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:7:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+[10/31/2020, 12:59:09 PM] error: uncaughtException: Cannot find module './user.model'
+Require stack:
+- /home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js
+- /home/node/Desktop/NodeJS/node-js-2/src/app.js
+- /home/node/Desktop/NodeJS/node-js-2/src/server.js
+Error: Cannot find module './user.model'
+Require stack:
+- /home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js
+- /home/node/Desktop/NodeJS/node-js-2/src/app.js
+- /home/node/Desktop/NodeJS/node-js-2/src/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js:2:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:7:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+[10/31/2020, 4:10:28 PM] error: uncaughtException: Unexpected token 'const'
+/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.db.repository.js:3
+"login2222"const createError = require('http-errors');
+           ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.service.js:2:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js:4:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/31/2020, 4:11:28 PM] error: uncaughtException: Cannot find module './user.model'
+Require stack:
+- /home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.db.repository.js
+- /home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.service.js
+- /home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js
+- /home/node/Desktop/NodeJS/node-js-2/src/app.js
+- /home/node/Desktop/NodeJS/node-js-2/src/server.js
+Error: Cannot find module './user.model'
+Require stack:
+- /home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.db.repository.js
+- /home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.service.js
+- /home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js
+- /home/node/Desktop/NodeJS/node-js-2/src/app.js
+- /home/node/Desktop/NodeJS/node-js-2/src/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.db.repository.js:4:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.service.js:2:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+[10/31/2020, 4:12:17 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"string","password":"string"}
+     
+[10/31/2020, 4:12:57 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"rrrrrrrr","password":"EEee33@@"}
+     
+[10/31/2020, 4:13:24 PM] error: uncaughtException: missing ) after argument list
+/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js:9
+  console.log(4444444444444444)
+                              ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:7:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/31/2020, 4:13:40 PM] error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/home/node/Desktop/NodeJS/node-js-2/node_modules/express/lib/router/route.js:202:15)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js:8:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:7:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+[10/31/2020, 4:13:53 PM] error: uncaughtException: Unexpected token 'const'
+/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js:13
+    const loginJWT = await loginService.get(req.body);
+    ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:7:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/31/2020, 4:14:06 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"rrrrrrrr","password":"EEee33@@"}
+     
+[10/31/2020, 4:14:44 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"rrrrrrrr","password":"EEee33@@"}
+     
+[10/31/2020, 4:16:08 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"rrrrrrrr","password":"EEee33@@"}
+     
+[10/31/2020, 4:16:48 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"rrrrrrrr","password":"EEee33@@"}
+     
+[10/31/2020, 4:17:39 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"rrrrrrrr","password":"EEee33@@"}
+     
+[10/31/2020, 4:18:10 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"rrrrrrrr","password":"EEee33@@"}
+     
+[10/31/2020, 4:18:10 PM] error: Internal Server Error. StatusCode 500.
+[10/31/2020, 4:20:40 PM] error: uncaughtException: Unexpected token '.'
+/home/node/Desktop/NodeJS/node-js-2/src/utils/validation/schema.js:18
+  user: {Joi.object()
+            ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js:5:18)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:7:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/31/2020, 4:21:07 PM] error: uncaughtException: Unexpected token '.'
+/home/node/Desktop/NodeJS/node-js-2/src/utils/validation/schema.js:18
+  user: {Joi.object()
+            ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js:5:18)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:7:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/31/2020, 4:21:36 PM] error: uncaughtException: Unexpected token '.'
+/home/node/Desktop/NodeJS/node-js-2/src/utils/validation/schema.js:18
+  user: {Joi.object()
+            ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js:5:18)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:7:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/31/2020, 4:23:29 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"rrrrrrrr","password":"EEee33@@"}
+     
+[10/31/2020, 4:23:29 PM] error: Internal Server Error. StatusCode 500.
+[10/31/2020, 4:23:45 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"rrrrrrrr","password":"rr"}
+     
+[10/31/2020, 4:23:55 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"rrrrrrrr","password":"EEee33@@"}
+     
+[10/31/2020, 4:23:55 PM] error: Internal Server Error. StatusCode 500.
+[10/31/2020, 4:34:39 PM] error: uncaughtException: get is not defined
+ReferenceError: get is not defined
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.db.repository.js:12:28)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.service.js:2:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js:4:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/31/2020, 5:09:05 PM] error: uncaughtException: myPlaintextPassword is not defined
+ReferenceError: myPlaintextPassword is not defined
+    at NativeConnection.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/DB/db.client.js:23:34)
+    at Object.onceWrapper (events.js:421:28)
+    at NativeConnection.emit (events.js:315:20)
+    at _setClient (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:947:8)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:794:7
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/utils.js:674:5
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/mongo_client.js:225:7
+    at connectCallback (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:366:5)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:602:5
+    at connectHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:297:43)
+    at cb (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:681:26)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/connection_pool.js:350:13
+    at handleOperationResult (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/server.js:558:5)
+    at MessageStream.messageHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/connection.js:277:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+[10/31/2020, 5:09:19 PM] error: uncaughtException: myPlaintextPassword is not defined
+ReferenceError: myPlaintextPassword is not defined
+    at NativeConnection.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/DB/db.client.js:22:34)
+    at Object.onceWrapper (events.js:421:28)
+    at NativeConnection.emit (events.js:315:20)
+    at _setClient (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:947:8)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:794:7
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/utils.js:674:5
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/mongo_client.js:225:7
+    at connectCallback (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:366:5)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:602:5
+    at connectHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:297:43)
+    at cb (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:681:26)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/connection_pool.js:350:13
+    at handleOperationResult (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/server.js:558:5)
+    at MessageStream.messageHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/connection.js:277:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+[10/31/2020, 5:09:30 PM] error: uncaughtException: myPlaintextPassword is not defined
+ReferenceError: myPlaintextPassword is not defined
+    at NativeConnection.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/DB/db.client.js:22:34)
+    at Object.onceWrapper (events.js:421:28)
+    at NativeConnection.emit (events.js:315:20)
+    at _setClient (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:947:8)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:794:7
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/utils.js:674:5
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/mongo_client.js:225:7
+    at connectCallback (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:366:5)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:602:5
+    at connectHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:297:43)
+    at cb (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:681:26)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/connection_pool.js:350:13
+    at handleOperationResult (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/server.js:558:5)
+    at MessageStream.messageHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/connection.js:277:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+[10/31/2020, 5:10:20 PM] error: uncaughtException: myPlaintextPassword is not defined
+ReferenceError: myPlaintextPassword is not defined
+    at NativeConnection.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/DB/db.client.js:22:34)
+    at Object.onceWrapper (events.js:421:28)
+    at NativeConnection.emit (events.js:315:20)
+    at _setClient (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:947:8)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:794:7
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/utils.js:674:5
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/mongo_client.js:225:7
+    at connectCallback (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:366:5)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:602:5
+    at connectHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:297:43)
+    at cb (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:681:26)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/connection_pool.js:350:13
+    at handleOperationResult (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/server.js:558:5)
+    at MessageStream.messageHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/connection.js:277:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+[10/31/2020, 5:10:30 PM] error: uncaughtException: myPlaintextPassword is not defined
+ReferenceError: myPlaintextPassword is not defined
+    at NativeConnection.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/DB/db.client.js:22:34)
+    at Object.onceWrapper (events.js:421:28)
+    at NativeConnection.emit (events.js:315:20)
+    at _setClient (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:947:8)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:794:7
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/utils.js:674:5
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/mongo_client.js:225:7
+    at connectCallback (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:366:5)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:602:5
+    at connectHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:297:43)
+    at cb (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:681:26)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/connection_pool.js:350:13
+    at handleOperationResult (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/server.js:558:5)
+    at MessageStream.messageHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/connection.js:277:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+[10/31/2020, 5:21:06 PM] error: uncaughtException: User.createIndex is not a function
+TypeError: User.createIndex is not a function
+    at NativeConnection.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/DB/db.client.js:22:10)
+    at Object.onceWrapper (events.js:421:28)
+    at NativeConnection.emit (events.js:315:20)
+    at _setClient (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:947:8)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:794:7
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/utils.js:674:5
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/mongo_client.js:225:7
+    at connectCallback (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:366:5)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:602:5
+    at connectHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:297:43)
+    at cb (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:681:26)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/connection_pool.js:350:13
+    at handleOperationResult (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/server.js:558:5)
+    at MessageStream.messageHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/connection.js:277:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+[10/31/2020, 5:23:21 PM] error: uncaughtException: User.createIndex is not a function
+TypeError: User.createIndex is not a function
+    at NativeConnection.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/DB/db.client.js:37:10)
+    at Object.onceWrapper (events.js:421:28)
+    at NativeConnection.emit (events.js:315:20)
+    at _setClient (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:947:8)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:794:7
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/utils.js:674:5
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/mongo_client.js:225:7
+    at connectCallback (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:366:5)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:602:5
+    at connectHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:297:43)
+    at cb (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:681:26)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/connection_pool.js:350:13
+    at handleOperationResult (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/server.js:558:5)
+    at MessageStream.messageHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/connection.js:277:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+[10/31/2020, 6:29:54 PM] error: uncaughtException: User.createIndex is not a function
+TypeError: User.createIndex is not a function
+    at NativeConnection.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/DB/db.client.js:22:10)
+    at Object.onceWrapper (events.js:421:28)
+    at NativeConnection.emit (events.js:315:20)
+    at _setClient (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:947:8)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:794:7
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/utils.js:674:5
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/mongo_client.js:225:7
+    at connectCallback (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:366:5)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:602:5
+    at connectHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:297:43)
+    at cb (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:681:26)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/connection_pool.js:350:13
+    at handleOperationResult (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/server.js:558:5)
+    at MessageStream.messageHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/connection.js:277:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+[10/31/2020, 6:30:30 PM] error: uncaughtException: User.createIndex is not a function
+TypeError: User.createIndex is not a function
+    at NativeConnection.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/DB/db.client.js:22:10)
+    at Object.onceWrapper (events.js:421:28)
+    at NativeConnection.emit (events.js:315:20)
+    at _setClient (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:947:8)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongoose/lib/connection.js:794:7
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/utils.js:674:5
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/mongo_client.js:225:7
+    at connectCallback (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:366:5)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/operations/connect.js:602:5
+    at connectHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:297:43)
+    at cb (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/topology.js:681:26)
+    at /home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/connection_pool.js:350:13
+    at handleOperationResult (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/core/sdam/server.js:558:5)
+    at MessageStream.messageHandler (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/connection.js:277:5)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (/home/node/Desktop/NodeJS/node-js-2/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+[10/31/2020, 6:32:37 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}
+     
+[10/31/2020, 6:32:38 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[10/31/2020, 6:32:38 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}
+     
+[10/31/2020, 6:32:38 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}
+     
+[10/31/2020, 6:32:38 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}
+     
+[10/31/2020, 6:32:39 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/favicon-16x16.png,
+      query parameters ={},
+      body= {}
+     
+[10/31/2020, 6:32:58 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"admin","login":"admin","password":"@@22WWww"}
+     
+[10/31/2020, 7:14:48 PM] error: uncaughtException: Unexpected token '.'
+/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.service.js:8
+  payloadJWT={LoginUserId.}
+                         ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js:4:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:7:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[10/31/2020, 7:19:25 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"admin","login":"admin","password":"@@22WWww"}
+     
+[10/31/2020, 7:21:28 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"string"}
+     
+[10/31/2020, 7:21:39 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"@@22WWww"}
+     
+[10/31/2020, 7:21:39 PM] error: Internal Server Error. StatusCode 500.
+[10/31/2020, 7:22:43 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"@@22WWww"}
+     
+[10/31/2020, 7:22:43 PM] error: Internal Server Error. StatusCode 500.
+[10/31/2020, 7:23:05 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"@@22WWww"}
+     
+[10/31/2020, 7:23:05 PM] error: Internal Server Error. StatusCode 500.
+[10/31/2020, 7:24:02 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"@@22WWww"}
+     
+[10/31/2020, 7:25:14 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"@@22WWww"}
+     
+[10/31/2020, 7:25:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"@@22WWww"}
+     
+[10/31/2020, 7:25:56 PM] error: Internal Server Error. StatusCode 500.
+[10/31/2020, 7:26:47 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"@@22WWww"}
+     
+[10/31/2020, 7:26:47 PM] error: Internal Server Error. StatusCode 500.
+[10/31/2020, 7:27:21 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"@@22WWww"}
+     
+[10/31/2020, 7:27:21 PM] error: Internal Server Error. StatusCode 500.
+[10/31/2020, 7:27:47 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"@@22WWww"}
+     
+[10/31/2020, 7:27:47 PM] error: Internal Server Error. StatusCode 500.
+[10/31/2020, 7:34:00 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"@@22WWww"}
+     

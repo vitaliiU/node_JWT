@@ -35,6 +35,9 @@ const create = async user => {
       resolve('ok');
     });
     await promise;
+    //   user.password = await bcrypt.hash(myPlaintextPassword, saltRounds).then(function(hash) {
+    //     // Store hash in your password DB.
+    // });
     return User.create(user);
   } catch (e) {
     throw createError(404, e.message);

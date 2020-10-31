@@ -5,7 +5,6 @@ const userSchema = new mongoose.Schema(
   {
     name: String,
     login: String,
-    // login: { type: String, index: true, unique: true },
     password: String,
     _id: {
       type: String,
@@ -14,7 +13,6 @@ const userSchema = new mongoose.Schema(
   },
   { versionKey: false }
 );
-// userSchema.createIndexes([{ login: { unique: true } }]);
 
 userSchema.statics.toResponse = user => {
   if (!user.result) {

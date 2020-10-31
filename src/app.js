@@ -4,6 +4,7 @@ const path = require('path');
 const YAML = require('yamljs');
 const winston = require('../config/winston');
 
+const loginRouter = require('./resources/logins/login.router');
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
@@ -32,6 +33,7 @@ app.use('/', (req, res, next) => {
   next();
 });
 
+app.use('/login', loginRouter);
 app.use('/users', userRouter);
 app.use('/boards', boardRouter);
 boardRouter.use('/:boardId/tasks', taskRouter);
