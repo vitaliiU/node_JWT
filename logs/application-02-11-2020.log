@@ -1,0 +1,24 @@
+[11/2/2020, 1:00:02 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng"}    
+     
+[11/2/2020, 1:02:05 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng"}    
+     
+[11/2/2020, 1:03:01 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng"}    
+     
+[11/2/2020, 1:06:11 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"eeee","login":"rrrrr"}    
+     

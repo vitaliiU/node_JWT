@@ -1,4 +1,6 @@
 const router = require('express').Router();
+const createError = require('http-errors');
+
 // const User = require('./user.model');
 const wrapCatch = require('../../utils/wrapCatch');
 const loginService = require('./login.service');
@@ -8,9 +10,12 @@ const validator = require('../../utils/validation/validator');
 router.route('/').post(
   validator(login, 'body'),
   wrapCatch(async (req, res) => {
-    console.log(4444444444444444);
     const loginJWT = await loginService.get(req.body);
-    await res.status(200).send(loginJWT);
+    if (!loginJWT) {
+      throw createError(403, 'Wrong password');
+    } else {
+      res.status(200).send(loginJWT);
+    }
   })
 );
 

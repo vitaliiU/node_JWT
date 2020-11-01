@@ -35147,3 +35147,525 @@ SyntaxError: Unexpected token '.'
       query parameters ={},
       body= {"login":"admin","password":"@@22WWww"}
      
+[11/1/2020, 9:59:32 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}
+     
+[11/1/2020, 9:59:33 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}
+     
+[11/1/2020, 9:59:33 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}
+     
+[11/1/2020, 9:59:33 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}
+     
+[11/1/2020, 9:59:33 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}
+     
+[11/1/2020, 9:59:33 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/favicon-16x16.png,
+      query parameters ={},
+      body= {}
+     
+[11/1/2020, 10:06:04 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"wwwwwwwww","password":"@2WwWWww"}
+     
+[11/1/2020, 10:06:04 PM] error: Internal Server Error. StatusCode 500.
+[11/1/2020, 10:10:08 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"wwwwwwwww","password":"@2WwWWww"}
+     
+[11/1/2020, 10:10:08 PM] error: Internal Server Error. StatusCode 500.
+[11/1/2020, 10:10:26 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"@2WwWWww"}
+     
+[11/1/2020, 10:10:26 PM] error: Internal Server Error. StatusCode 500.
+[11/1/2020, 10:22:51 PM] error: uncaughtException: Missing initializer in const declaration
+/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.db.repository.js:7
+    const response[user] = await User.find({ login: body.login });
+          ^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.service.js:2:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js:4:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[11/1/2020, 10:23:18 PM] error: uncaughtException: Identifier 'response' has already been declared
+/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.db.repository.js:7
+    const response[user] = await User.find({ login: body.login });
+          ^
+
+SyntaxError: Identifier 'response' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.service.js:2:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js:4:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[11/1/2020, 10:23:23 PM] error: uncaughtException: Identifier 'response' has already been declared
+/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.db.repository.js:7
+    const response[user] = await User.find({ login: body.login });
+          ^
+
+SyntaxError: Identifier 'response' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.service.js:2:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js:4:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[11/1/2020, 10:29:13 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"@2WwWWww"}
+     
+[11/1/2020, 10:29:13 PM] error: Client Error. StatusCode 404. data and hash arguments required
+[11/1/2020, 10:31:44 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"@2WwWWww"}
+     
+[11/1/2020, 10:31:44 PM] error: Client Error. StatusCode 404. data and hash arguments required
+[11/1/2020, 10:32:58 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"@2WwWWww"}
+     
+[11/1/2020, 10:32:58 PM] error: Internal Server Error. StatusCode 500.
+[11/1/2020, 10:33:40 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"@2WwWWww"}
+     
+[11/1/2020, 10:33:40 PM] error: Internal Server Error. StatusCode 500.
+[11/1/2020, 10:44:17 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"admin"}
+     
+[11/1/2020, 11:40:31 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"22@@wwWW"}
+     
+[11/1/2020, 11:40:31 PM] error: Internal Server Error. StatusCode 500.
+[11/1/2020, 11:48:20 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"22@@wwWW"}
+     
+[11/1/2020, 11:49:03 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"22@@wwWW"}
+     
+[11/1/2020, 11:49:09 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"22@@wwWW5"}
+     
+[11/1/2020, 11:50:17 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"22@@wwWW5"}
+     
+[11/1/2020, 11:51:47 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"22@@wwWW5"}
+     
+[11/1/2020, 11:54:42 PM] error: uncaughtException: Unexpected token ')'
+/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.db.repository.js:12
+    const match =await bcrypt.compare(body.password, responseLoc.user.password))
+                                                                               ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.service.js:2:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js:6:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[11/1/2020, 11:54:57 PM] error: uncaughtException: Unexpected token '==='
+/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.db.repository.js:14
+      ( === true
+        ^^^
+
+SyntaxError: Unexpected token '==='
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.service.js:2:19)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/logins/login.router.js:6:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[11/1/2020, 11:55:34 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"22@@wwWW5"}
+     
+[11/1/2020, 11:56:17 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"22@@wwWW5"}
+     
+[11/1/2020, 11:56:39 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"22@@wwWW"}
+     
+[11/1/2020, 11:58:42 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"22@@wwWW"}
+     
+[11/1/2020, 11:58:48 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"22@@wwWW5"}
+     
+[11/1/2020, 11:58:49 PM] error: Client Error. StatusCode 404. Wrong login/password combination
+[11/1/2020, 11:58:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"22@@wwWW"}
+     
+[11/1/2020, 11:59:03 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin5","password":"22@@wwWW"}
+     
+[11/1/2020, 11:59:03 PM] error: Client Error. StatusCode 404. Cannot read property 'password' of undefined
+[11/2/2020, 12:00:47 AM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin5","password":"22@@wwWW"}
+     
+[11/2/2020, 12:00:47 AM] error: Client Error. StatusCode 404. Wrong login
+[11/2/2020, 12:00:55 AM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"22@@wwWW"}
+     
+[11/2/2020, 12:01:00 AM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin","password":"22@@wwWW5"}
+     
+[11/2/2020, 12:01:00 AM] error: Client Error. StatusCode 404. Wrong password
+[11/2/2020, 12:08:37 AM] error: uncaughtException: Unexpected token 'else'
+/home/node/Desktop/NodeJS/node-js-2/src/common/log.js:23
+  } else if (err.status === 404) {
+    ^^^^
+
+SyntaxError: Unexpected token 'else'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:11:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[11/2/2020, 12:11:03 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng","password":"22@@wwWW"}
+     
+[11/2/2020, 12:12:13 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng","password":"*****"}
+     
+[11/2/2020, 12:15:58 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng"}
+     
+[11/2/2020, 12:15:58 AM] error: Client Error. StatusCode 404. data and salt arguments required
+[11/2/2020, 12:17:18 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng"}
+     
+[11/2/2020, 12:17:18 AM] error: Client Error. StatusCode 404. data and salt arguments required
+[11/2/2020, 12:19:29 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng"}
+     
+[11/2/2020, 12:22:07 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng"}
+     
+[11/2/2020, 12:22:07 AM] error: Client Error. StatusCode 404. data and salt arguments required
+[11/2/2020, 12:22:52 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng"}
+     
+[11/2/2020, 12:22:52 AM] error: Client Error. StatusCode 404. data and salt arguments required
+[11/2/2020, 12:26:07 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng","password":"22@@wwWW"}
+     
+[11/2/2020, 12:29:32 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng","password":"22@@wwWW"}
+     
+[11/2/2020, 12:31:25 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng","password":"22@@wwWW"}
+     
+     
+[11/2/2020, 12:32:40 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng","password":"22@@wwWW"}
+     
+     
+[11/2/2020, 12:33:41 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng","password":"22@@wwWW"}
+     
+     
+[11/2/2020, 12:34:37 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng","password":"22@@wwWW"}
+     
+     
+[11/2/2020, 12:35:31 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng","password":"22@@wwWW"}
+     
+     
+[11/2/2020, 12:36:13 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng","password":"22@@wwWW"}
+     
+     
+[11/2/2020, 12:45:26 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= [object Object]
+     
+     
+[11/2/2020, 12:46:49 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= 
+     
+     
+[11/2/2020, 12:47:31 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= 
+     
+     
+[11/2/2020, 12:48:20 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= [object Object]
+     
+     
+[11/2/2020, 12:49:40 AM] error: uncaughtException: Unexpected token 'for'
+/home/node/Desktop/NodeJS/node-js-2/src/common/log.js:10
+   await for (const property in body) {
+         ^^^
+
+SyntaxError: Unexpected token 'for'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:11:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/server.js:3:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[11/2/2020, 12:53:20 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= [object Object]     
+     
+[11/2/2020, 12:54:04 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng"}    
+     
+[11/2/2020, 12:57:51 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng"}    
+     
+[11/2/2020, 12:58:04 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng"}    
+     
+[11/2/2020, 1:00:02 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng"}    
+     
+[11/2/2020, 1:02:05 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng"}    
+     
+[11/2/2020, 1:03:01 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"strieeeng"}    
+     
+[11/2/2020, 1:06:11 AM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"eeee","login":"rrrrr"}    
+     

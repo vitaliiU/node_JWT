@@ -25,20 +25,11 @@ const get = async id => {
 
 const create = async user => {
   try {
+    const userLoc = user;
     const saltRounds = 10;
-    const myPlaintextPassword = user.password;
-    const promise = new Promise(resolve => {
-      // eslint-disable-next-line no-sync
-      const hash = bcrypt.hashSync(myPlaintextPassword, saltRounds);
-      user.password = hash;
-      console.log(user.password);
-      resolve('ok');
-    });
-    await promise;
-    //   user.password = await bcrypt.hash(myPlaintextPassword, saltRounds).then(function(hash) {
-    //     // Store hash in your password DB.
-    // });
-    return User.create(user);
+    const myPlaintextPassword = userLoc.password;
+    userLoc.password = await bcrypt.hash(myPlaintextPassword, saltRounds);
+    return User.create(userLoc);
   } catch (e) {
     throw createError(404, e.message);
   }
