@@ -35669,3 +35669,851 @@ SyntaxError: Unexpected token 'for'
       query parameters ={},
       body= {"name":"eeee","login":"rrrrr"}    
      
+[11/2/2020, 11:46:55 AM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 11:46:56 AM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 11:46:56 AM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 11:46:56 AM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 11:46:56 AM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 11:46:56 AM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/favicon-16x16.png,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 5:14:30 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin"}    
+     
+[11/2/2020, 5:16:20 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin"}    
+     
+[11/2/2020, 5:16:58 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin"}    
+     
+[11/2/2020, 5:17:31 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin"}    
+     
+[11/2/2020, 5:18:39 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 5:18:40 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 5:20:10 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 5:20:10 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 5:20:37 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin"}    
+     
+[11/2/2020, 5:20:55 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 5:23:29 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 5:24:17 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 5:24:17 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 5:24:34 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin"}    
+     
+[11/2/2020, 5:24:55 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 5:26:43 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 5:26:52 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 5:27:02 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin"}    
+     
+[11/2/2020, 5:29:04 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin"}    
+     
+[11/2/2020, 5:41:25 PM] error: uncaughtException: await is only valid in async function
+/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.service.js:9
+  userLoc.password = await bcrypt.hash(myPlaintextPassword, saltRounds);
+                     ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:4:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:8:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[11/2/2020, 5:41:46 PM] error: uncaughtException: await is only valid in async function
+/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.service.js:12
+  userLoc.password = await bcrypt.hash(myPlaintextPassword, saltRounds);
+                     ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:4:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:8:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[11/2/2020, 5:41:56 PM] error: uncaughtException: await is only valid in async function
+/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.service.js:11
+  userLoc.password = await bcrypt.hash(myPlaintextPassword, saltRounds);
+                     ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:4:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:8:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[11/2/2020, 5:42:49 PM] error: uncaughtException: await is only valid in async function
+/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.service.js:14
+  userLoc.password = await bcrypt.hash(myPlaintextPassword, saltRounds);
+                     ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:4:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:8:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[11/2/2020, 5:43:22 PM] error: uncaughtException: await is only valid in async function
+/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.service.js:14
+  userLoc.password = await bcrypt.hash(myPlaintextPassword, saltRounds);
+                     ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/resources/users/user.router.js:4:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/node/Desktop/NodeJS/node-js-2/src/app.js:8:20)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[11/2/2020, 5:45:16 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"www"}    
+     
+[11/2/2020, 5:45:36 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin"}    
+     
+[11/2/2020, 5:45:53 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"www"}    
+     
+[11/2/2020, 6:40:08 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:08 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user"}    
+     
+[11/2/2020, 6:40:08 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user"}    
+     
+[11/2/2020, 6:40:08 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user"}    
+     
+[11/2/2020, 6:40:08 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/users/undefined,
+      query parameters ={},
+      body= {"name":"Autotest updated TEST_USER","login":"test_user"}    
+     
+[11/2/2020, 6:40:08 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user"}    
+     
+[11/2/2020, 6:40:08 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/undefined,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:08 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user"}    
+     
+[11/2/2020, 6:40:09 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}    
+     
+[11/2/2020, 6:40:09 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:09 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:09 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}    
+     
+[11/2/2020, 6:40:09 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}    
+     
+[11/2/2020, 6:40:09 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/undefined,
+      query parameters ={},
+      body= {"title":"Autotest updated board"}    
+     
+[11/2/2020, 6:40:09 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}    
+     
+[11/2/2020, 6:40:09 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}    
+     
+[11/2/2020, 6:40:09 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/undefined,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:09 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}    
+     
+[11/2/2020, 6:40:09 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/undefined/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}    
+     
+[11/2/2020, 6:40:10 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/undefined/tasks,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:10 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/undefined/tasks,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:10 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/undefined/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}    
+     
+[11/2/2020, 6:40:10 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/undefined/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}    
+     
+[11/2/2020, 6:40:10 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/undefined/tasks/undefined,
+      query parameters ={},
+      body= {"title":"Autotest updated task"}    
+     
+[11/2/2020, 6:40:10 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/undefined/tasks/undefined,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:10 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/undefined,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:55 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin"}    
+     
+[11/2/2020, 6:40:56 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user"}    
+     
+[11/2/2020, 6:40:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user"}    
+     
+[11/2/2020, 6:40:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user"}    
+     
+[11/2/2020, 6:40:56 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:56 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/users/undefined,
+      query parameters ={},
+      body= {"name":"Autotest updated TEST_USER","login":"test_user"}    
+     
+[11/2/2020, 6:40:56 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user"}    
+     
+[11/2/2020, 6:40:56 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/undefined,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:56 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user"}    
+     
+[11/2/2020, 6:40:56 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin"}    
+     
+[11/2/2020, 6:40:56 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:57 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}    
+     
+[11/2/2020, 6:40:57 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/undefined/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}    
+     
+[11/2/2020, 6:40:57 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/undefined/tasks,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:57 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/undefined/tasks,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:57 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/undefined/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}    
+     
+[11/2/2020, 6:40:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:57 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/undefined/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}    
+     
+[11/2/2020, 6:40:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:57 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/undefined/tasks/undefined,
+      query parameters ={},
+      body= {"title":"Autotest updated task"}    
+     
+[11/2/2020, 6:40:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:57 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/undefined/tasks/undefined,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:57 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/undefined,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:57 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:58 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin"}    
+     
+[11/2/2020, 6:40:58 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}    
+     
+[11/2/2020, 6:40:58 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:58 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:58 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}    
+     
+[11/2/2020, 6:40:58 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}    
+     
+[11/2/2020, 6:40:58 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/undefined,
+      query parameters ={},
+      body= {"title":"Autotest updated board"}    
+     
+[11/2/2020, 6:40:58 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:58 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:58 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}    
+     
+[11/2/2020, 6:40:58 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:58 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:58 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:58 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:58 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}    
+     
+[11/2/2020, 6:40:58 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/undefined,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:58 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:58 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:58 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 6:40:58 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/12345/tasks,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:58 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/12345/tasks/12345,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:58 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards/12345/tasks,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}    
+     
+[11/2/2020, 6:40:58 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/12345/tasks/12345,
+      query parameters ={},
+      body= {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}    
+     
+[11/2/2020, 6:40:58 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/12345/tasks/12345,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:59 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:59 PM] info: 
+      method= GET,
+      url= http://localhost:4000/boards/12345,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:59 PM] info: 
+      method= POST,
+      url= http://localhost:4000/boards,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}    
+     
+[11/2/2020, 6:40:59 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/boards/12345,
+      query parameters ={},
+      body= {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}    
+     
+[11/2/2020, 6:40:59 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/boards/12345,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:59 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:59 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users/123,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 6:40:59 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user"}    
+     
+[11/2/2020, 6:40:59 PM] info: 
+      method= PUT,
+      url= http://localhost:4000/users/12345,
+      query parameters ={},
+      body= {"name":"TEST_USER","login":"test_user"}    
+     
+[11/2/2020, 6:40:59 PM] info: 
+      method= DELETE,
+      url= http://localhost:4000/users/12345,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 7:05:55 PM] info: 
+      method= POST,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {"name":"www","login":"www"}    
+     
+[11/2/2020, 7:05:55 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 7:06:13 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin"}    
+     
+[11/2/2020, 7:06:18 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin"}    
+     
+[11/2/2020, 7:06:18 PM] error: Client Error. StatusCode 403. Wrong loging or password
+[11/2/2020, 7:06:24 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin"}    
+     
+[11/2/2020, 7:06:29 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin5"}    
+     
+[11/2/2020, 7:06:29 PM] error: Internal Server Error. StatusCode 500.
+[11/2/2020, 7:08:21 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin"}    
+     
+[11/2/2020, 7:08:41 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin5"}    
+     
+[11/2/2020, 7:08:41 PM] error: Internal Server Error. StatusCode 500.
+[11/2/2020, 7:17:00 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 7:17:01 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui.css,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 7:17:01 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-bundle.js,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 7:17:01 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-standalone-preset.js,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 7:17:01 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/swagger-ui-init.js,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 7:17:02 PM] info: 
+      method= GET,
+      url= http://localhost:4000/doc/favicon-16x16.png,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 7:17:26 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin"}    
+     
+[11/2/2020, 7:17:31 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin"}    
+     
+[11/2/2020, 7:17:32 PM] error: Client Error. StatusCode 403. Wrong loging or password
+[11/2/2020, 7:17:39 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin"}    
+     
+[11/2/2020, 7:17:42 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin5"}    
+     
+[11/2/2020, 7:17:42 PM] error: Client Error. StatusCode 403. Wrong loging or password
+[11/2/2020, 7:17:47 PM] info: 
+      method= POST,
+      url= http://localhost:4000/login,
+      query parameters ={},
+      body= {"login":"admin"}    
+     
+[11/2/2020, 7:18:01 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 7:18:11 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 7:18:29 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}    
+     
+[11/2/2020, 7:18:29 PM] error: Unhandled rejection detected: Cannot set headers after they are sent to the client
+[11/2/2020, 7:18:45 PM] info: 
+      method= GET,
+      url= http://localhost:4000/users,
+      query parameters ={},
+      body= {}    
+     

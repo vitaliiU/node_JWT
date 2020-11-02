@@ -26,7 +26,7 @@ const connectToDB = cb => {
         name: 'admin',
         login: 'admin',
         // eslint-disable-next-line no-sync
-        password: bcrypt.hashSync('22@@wwWW', 10)
+        password: bcrypt.hashSync('admin', 10)
       },
       {
         name: 'userTest1',

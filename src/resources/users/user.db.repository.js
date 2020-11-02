@@ -1,5 +1,5 @@
 const createError = require('http-errors');
-const bcrypt = require('bcrypt');
+// const bcrypt = require('bcrypt');
 
 const User = require('./user.model');
 
@@ -25,11 +25,11 @@ const get = async id => {
 
 const create = async user => {
   try {
-    const userLoc = user;
-    const saltRounds = 10;
-    const myPlaintextPassword = userLoc.password;
-    userLoc.password = await bcrypt.hash(myPlaintextPassword, saltRounds);
-    return User.create(userLoc);
+    // const userLoc = user;
+    // const saltRounds = 10;
+    // const myPlaintextPassword = userLoc.password;
+    // userLoc.password = await bcrypt.hash(myPlaintextPassword, saltRounds);
+    return User.create(user);
   } catch (e) {
     throw createError(404, e.message);
   }

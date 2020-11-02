@@ -8,6 +8,7 @@ const loginRouter = require('./resources/logins/login.router');
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
+const checkToken = require('../src/utils/auth/checkToken');
 const log = require('./common/log');
 
 const app = express();
@@ -23,8 +24,9 @@ app.use((req, res, next) => {
 });
 
 app.use('/doc', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
-
-app.use('/', (req, res, next) => {
+// possible add midlewaer several in the path!!!!!!!!!!!!
+// app.use('/users', checkToken, usersRouter);
+app.use('/', checkToken, (req, res, next) => {
   // throw new Error();
   if (req.originalUrl === '/') {
     res.send('Service is running!');
