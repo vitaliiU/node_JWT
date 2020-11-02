@@ -23,10 +23,13 @@ app.use((req, res, next) => {
   next();
 });
 
+app.use('/', checkToken);
+
 app.use('/doc', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 // possible add midlewaer several in the path!!!!!!!!!!!!
 // app.use('/users', checkToken, usersRouter);
-app.use('/', checkToken, (req, res, next) => {
+
+app.use('/', (req, res, next) => {
   // throw new Error();
   if (req.originalUrl === '/') {
     res.send('Service is running!');

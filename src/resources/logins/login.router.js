@@ -14,6 +14,8 @@ router.route('/').post(
     if (!loginJWT) {
       throw createError(403, 'Wrong loging or password');
     } else {
+      console.log('!!!!!!!!SEND JWT FROM ROUTER TO TESTS !!!!!!!!!!!!');
+      console.log(loginJWT);
       res.status(200).send(loginJWT);
     }
   })
