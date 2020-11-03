@@ -26,6 +26,9 @@ module.exports.errHand = async (err, res) => {
     winston.error(
       'Client Error. Status Code 470. Error was generated on client side via URL.'
     );
+  } else if (err.status === 401) {
+    res.status(401).send(err.message);
+    winston.error(`Client Error. StatusCode ${err.status}. ${err.message}`);
   } else if (err.status === 403) {
     res.status(403).send(err.message);
     winston.error(`Client Error. StatusCode ${err.status}. ${err.message}`);

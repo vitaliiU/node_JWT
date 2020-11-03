@@ -3,7 +3,6 @@ const bcrypt = require('bcrypt');
 
 const loginRepo = require('./login.db.repository');
 const secretKey = require('../../common/config');
-// const { SALT_ROUND } = require('../../common/config');
 
 const get = async body => {
   const loginUser = await loginRepo.get(body);
