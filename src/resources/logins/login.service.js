@@ -20,7 +20,7 @@ const get = async body => {
     expiresIn: 60 * 60
   });
   if (match) {
-    return token;
+    return { token };
   }
   return null;
 };

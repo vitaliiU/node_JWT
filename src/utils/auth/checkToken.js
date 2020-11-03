@@ -12,14 +12,13 @@ module.exports = async (req, res, next) => {
       }
     } else {
       const temp = url.indexOf(element, 0);
-      console.log(temp);
       if (temp !== -1 && temp < 2) {
         pathIgnore = true;
       }
     }
   });
   // str.indexOf(substr, pos);
-  console.log(pathIgnore);
+  console.log(`*****************PATH_IGNORE --- ${pathIgnore}`);
   // console.log(path.indexOf('login', 0));
   if (pathIgnore) {
     return next();

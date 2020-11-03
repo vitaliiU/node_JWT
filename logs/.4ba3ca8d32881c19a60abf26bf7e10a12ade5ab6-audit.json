@@ -59,6 +59,11 @@
             "date": 1604268002017,
             "name": "/home/node/Desktop/NodeJS/node-js-2/logs/application-02-11-2020.log",
             "hash": "dc8b5d269bcdbd6e41a33da44eb442a2"
+        },
+        {
+            "date": 1604382451854,
+            "name": "/home/node/Desktop/NodeJS/node-js-2/logs/application-03-11-2020.log",
+            "hash": "4cbef17d54197cc23412cc764dcbdccb"
         }
     ]
 }

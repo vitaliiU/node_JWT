@@ -23,7 +23,9 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use('/', checkToken);
+app.use(checkToken, (req, res, next) => {
+  next();
+});
 
 app.use('/doc', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 // possible add midlewaer several in the path!!!!!!!!!!!!

@@ -20,16 +20,9 @@ const connectToDB = cb => {
     console.log("we're connected!");
     // db.dropDatabase();
 
-    // ______________________________________DefaultUserTest____________________________
-    // const passwordAdmin = async () => {
-    //   await bcrypt.hash('admin', SALT_ROUND);
-    // };
-    // const ww = passwordAdmin().then(result => {
-    //   return result;
-    // });
+    // ______________________________________DefaultUserTest____________________________;
 
-    // //////////////////////////////////////////////////////////////
-    // console.log(passwordAdmin);
+    // ////////////////////////////////////////////////////////////
     // User.insertMany([
     //   {
     //     name: 'admin',
@@ -47,7 +40,7 @@ const connectToDB = cb => {
     //     // password: 'admin'
     //   }
     // ]);
-    // ______________________________________DefaultBoardTest____________________________
+    // ______________________________________DefaultBoardTest____________________________;
     // Board.insertMany([
     //   {
     //     title: 'boardTest1',
